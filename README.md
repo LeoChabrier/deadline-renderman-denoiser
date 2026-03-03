@@ -39,7 +39,7 @@ All parameters exposed.
 
    In your Deadline monitor, go to _Tools > Power User Mode > Configure Scripts Menus > Import Menus_
    and import _menu/RenderManDenoiser.menu_ to see the submitter in Submit > 2D/Compositing in your _Deadline Monitor_.
-   Else it will appear directly into _Submit > Renderman Denoiser_
+   Else it will appear directly into _Submit > RendermanDenoiserSubmission_
 
 
 <p align="center">
