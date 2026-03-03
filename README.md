@@ -57,6 +57,8 @@ All parameters exposed.
 
    - Ensure to respect industry standard frame pattern expected by denoise_batch.exe (.####.exr)
 
+   - denoise_batch.exe is expecting lgt & lpe files to be in the same directory as the variance file is.
+
 <p align="center">
   <img width="460" height="300" src="images/image-1.png">
 </p>
