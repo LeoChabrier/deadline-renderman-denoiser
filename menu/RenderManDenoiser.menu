@@ -1,0 +1,3464 @@
+[
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithAppleRemoteDesktop",
+    "ScriptType": 10,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+P",
+    "DisplayName": "Connect With Apple Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Balancer_ConnectWithAppleRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRadmin",
+    "ScriptType": 10,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+R",
+    "DisplayName": "Connect With Radmin",
+    "SubMenus": [],
+    "Position": [
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Balancer_ConnectWithRadmin",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRemoteDesktop",
+    "ScriptType": 10,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+D",
+    "DisplayName": "Connect With Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Balancer_ConnectWithRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithVNC",
+    "ScriptType": 10,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+V",
+    "DisplayName": "Connect With VNC",
+    "SubMenus": [],
+    "Position": [
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Balancer_ConnectWithVNC",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "SendPopUpMessage",
+    "ScriptType": 10,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Send Pop Up Message",
+    "SubMenus": [],
+    "Position": [
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Balancer_SendPopUpMessage",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "CheckTemperatureSensors",
+    "ScriptType": 0,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Check Temperature Sensors",
+    "SubMenus": [
+      "Miscellaneous"
+    ],
+    "Position": [
+      2,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "General_CheckTemperatureSensors",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithAppleRemoteDesktop",
+    "ScriptType": 0,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Connect With Apple Remote Desktop",
+    "SubMenus": [
+      "Remote Control"
+    ],
+    "Position": [
+      3,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "General_ConnectWithAppleRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRadmin",
+    "ScriptType": 0,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Connect With Radmin",
+    "SubMenus": [
+      "Remote Control"
+    ],
+    "Position": [
+      3,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "General_ConnectWithRadmin",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRemoteDesktop",
+    "ScriptType": 0,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Connect With Remote Desktop",
+    "SubMenus": [
+      "Remote Control"
+    ],
+    "Position": [
+      3,
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "General_ConnectWithRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithVNC",
+    "ScriptType": 0,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Connect With VNC",
+    "SubMenus": [
+      "Remote Control"
+    ],
+    "Position": [
+      3,
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "General_ConnectWithVNC",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ScriptUIExample",
+    "ScriptType": 0,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Script UI Example",
+    "SubMenus": [
+      "Miscellaneous"
+    ],
+    "Position": [
+      2,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "General_ScriptUIExample",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "SendPopUpMessage",
+    "ScriptType": 0,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Send Pop Up Message",
+    "SubMenus": [
+      "Remote Control"
+    ],
+    "Position": [
+      3,
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "General_SendPopUpMessage",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "SpotEventConfigurationUtil",
+    "ScriptType": 0,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Spot Event Configuration Utility",
+    "SubMenus": [
+      "Configuration"
+    ],
+    "Position": [
+      0,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "General_SpotEventConfigurationUtil",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "TestIntegrationConnection",
+    "ScriptType": 0,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Test Integration Connection",
+    "SubMenus": [
+      "Integration"
+    ],
+    "Position": [
+      1,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "General_TestIntegrationConnection",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "BatchResubmit",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Batch Resubmit",
+    "SubMenus": [],
+    "Position": [
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Job_BatchResubmit",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "CleanupAltFrames",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Cleanup Alt Frames From 3ds Max",
+    "SubMenus": [
+      "Cleanup"
+    ],
+    "Position": [
+      0,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Job_CleanupAltFrames",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "CleanupNukeTmpFiles",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Cleanup Nuke Temp Files",
+    "SubMenus": [
+      "Cleanup"
+    ],
+    "Position": [
+      0,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_CleanupNukeTmpFiles",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "CopyJobID",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Copy Job ID",
+    "SubMenus": [],
+    "Position": [
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Job_CopyJobID",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "CopyJobName",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Copy Job Name",
+    "SubMenus": [],
+    "Position": [
+      5
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Job_CopyJobName",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "CreateFTrackVersion",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Create ftrack Version",
+    "SubMenus": [
+      "Integration"
+    ],
+    "Position": [
+      1,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_CreateFTrackVersion",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "CreateNimRender",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Create NIM Render",
+    "SubMenus": [
+      "Integration"
+    ],
+    "Position": [
+      1,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_CreateNimRender",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "CreateShotgunVersion",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Create Shotgun Version",
+    "SubMenus": [
+      "Integration"
+    ],
+    "Position": [
+      1,
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_CreateShotgunVersion",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "DJVSubmission",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "DJV",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      2,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_DJVSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "DraftSubmission",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Draft",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      2,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_DraftSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "DynamicDBR",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "DynamicDBR",
+    "SubMenus": [],
+    "Position": [
+      9
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_DynamicDBR",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "EmailUser",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Email User",
+    "SubMenus": [],
+    "Position": [
+      6
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Job_EmailUser",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "FusionQuicktimeSubmission",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Fusion Quicktime",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      2,
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_FusionQuicktimeSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "GetUnrealMoviePipelineManifest",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "GetUnrealMoviePipelineManifest",
+    "SubMenus": [],
+    "Position": [
+      10
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_GetUnrealMoviePipelineManifest",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "PriorityOffset",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Priority Offset",
+    "SubMenus": [],
+    "Position": [
+      7
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Job_PriorityOffset",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "QuicktimeSubmission",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Quicktime",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      2,
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_QuicktimeSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "RVIOSubmission",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "RVIO",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      2,
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_RVIOSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "TransferSubmission",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Transfer Job",
+    "SubMenus": [],
+    "Position": [
+      8
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_TransferSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "Vrimg2Exr",
+    "ScriptType": 2,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Vrimg2Exr",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      2,
+      5
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Job_Vrimg2Exr",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithAppleRemoteDesktop",
+    "ScriptType": 6,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+P",
+    "DisplayName": "Connect With Apple Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "JobReport_ConnectWithAppleRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRadmin",
+    "ScriptType": 6,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+R",
+    "DisplayName": "Connect With Radmin",
+    "SubMenus": [],
+    "Position": [
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "JobReport_ConnectWithRadmin",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRemoteDesktop",
+    "ScriptType": 6,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+D",
+    "DisplayName": "Connect With Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "JobReport_ConnectWithRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithVNC",
+    "ScriptType": 6,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+V",
+    "DisplayName": "Connect With VNC",
+    "SubMenus": [],
+    "Position": [
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "JobReport_ConnectWithVNC",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "SendPopUpMessage",
+    "ScriptType": 6,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Send Pop Up Message",
+    "SubMenus": [],
+    "Position": [
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "JobReport_SendPopUpMessage",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithAppleRemoteDesktop",
+    "ScriptType": 4,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+P",
+    "DisplayName": "Connect With Apple Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Pulse_ConnectWithAppleRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRadmin",
+    "ScriptType": 4,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+R",
+    "DisplayName": "Connect With Radmin",
+    "SubMenus": [],
+    "Position": [
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Pulse_ConnectWithRadmin",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRemoteDesktop",
+    "ScriptType": 4,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+D",
+    "DisplayName": "Connect With Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Pulse_ConnectWithRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithVNC",
+    "ScriptType": 4,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+V",
+    "DisplayName": "Connect With VNC",
+    "SubMenus": [],
+    "Position": [
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Pulse_ConnectWithVNC",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "SendPopUpMessage",
+    "ScriptType": 4,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Send Pop Up Message",
+    "SubMenus": [],
+    "Position": [
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Pulse_SendPopUpMessage",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithAppleRemoteDesktop",
+    "ScriptType": 3,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+P",
+    "DisplayName": "Connect With Apple Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Slave_ConnectWithAppleRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRadmin",
+    "ScriptType": 3,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+R",
+    "DisplayName": "Connect With Radmin",
+    "SubMenus": [],
+    "Position": [
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Slave_ConnectWithRadmin",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRemoteDesktop",
+    "ScriptType": 3,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+D",
+    "DisplayName": "Connect With Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Slave_ConnectWithRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithVNC",
+    "ScriptType": 3,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+V",
+    "DisplayName": "Connect With VNC",
+    "SubMenus": [],
+    "Position": [
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Slave_ConnectWithVNC",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "SendPopUpMessage",
+    "ScriptType": 3,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Send Pop Up Message",
+    "SubMenus": [],
+    "Position": [
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Slave_SendPopUpMessage",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "StartOrStopService",
+    "ScriptType": 3,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Start Or Stop Service",
+    "SubMenus": [],
+    "Position": [
+      5
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Slave_StartOrStopService",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithAppleRemoteDesktop",
+    "ScriptType": 7,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+P",
+    "DisplayName": "Connect With Apple Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "SlaveErrorReport_ConnectWithAppleRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRadmin",
+    "ScriptType": 7,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+R",
+    "DisplayName": "Connect With Radmin",
+    "SubMenus": [],
+    "Position": [
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "SlaveErrorReport_ConnectWithRadmin",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRemoteDesktop",
+    "ScriptType": 7,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+D",
+    "DisplayName": "Connect With Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "SlaveErrorReport_ConnectWithRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithVNC",
+    "ScriptType": 7,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+V",
+    "DisplayName": "Connect With VNC",
+    "SubMenus": [],
+    "Position": [
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "SlaveErrorReport_ConnectWithVNC",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "SendPopUpMessage",
+    "ScriptType": 7,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Send Pop Up Message",
+    "SubMenus": [],
+    "Position": [
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "SlaveErrorReport_SendPopUpMessage",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACVElEQVQokWWQzWpTURSF1z5775PbmzQV+hNTbcSJtVhoBCuKI7EqVXTmW/gIPoAzX8NBwQcQEefOKjpoHJj615I0pulfzr3nbAdVEPz4ZmutyaKnGxtV7ycrWS2r1LMJx5x7zStZ7v2E97N5njFnIpmId44dycHxscVIZt65zcGvF+/e4i/TefXZ2tqTa6uHIaSUkohn5kuPHhPMgZj5+ds3+Ifjr9++DIcPV9pElMwSDGZ8YX0dBiIyYIbc1suX6HT+2Gz2BoPW2cbS/LlQljCYGc/fuw8zIgC42Di79mB9p1rt9XrY3UW/j2Zz++Dg/vIVAgxmAE/fvUdmROSIQoyvP336OBig0UC1BnbodPqjUbPVWmzOlzECxLU7d8jMESnz5nb3w+cORBACjo5w5gwaDWxtjb2/vbpapkgE+RWjM3BZchifn5ntj0bfh0MQIUb8+IHdXdTrN1bax0VBZgRywzLulcWoKEYhGPP1xcUGMzY38f49ul1MTbWWl1eWLg8OD4/G48MQJI5P+s7FlJLZ3s7O1qtXf06dmkKziRhvtdsnRRHG4wnRUBRiISTQXoxlSic/f/qbN0/7YX8f29szCwsL5xd6w/1cNWlKMEGtBoBZSLjeau13u6cDX6/T3Fx7pa3VnEQly8R7rXixep2ZZ1XnJidrqrWrV6vqc9Wq11w1Y/EimVcV9USqKsiyCnOmClUTSczRUemoAAVAHJXOleQKR4k5sRNTrYg41XgagAoiISoISlQAAhtbcikVIgyIEzGW6JwB6VRDMvvfo7KMln4DchAg0CGxXUAAAAAASUVORK5CYII=",
+    "Name": "3dsCommandSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "3ds Command",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_3dsCommandSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACVElEQVQokWWQzWpTURSF1z5775PbmzQV+hNTbcSJtVhoBCuKI7EqVXTmW/gIPoAzX8NBwQcQEefOKjpoHJj615I0pulfzr3nbAdVEPz4ZmutyaKnGxtV7ycrWS2r1LMJx5x7zStZ7v2E97N5njFnIpmId44dycHxscVIZt65zcGvF+/e4i/TefXZ2tqTa6uHIaSUkohn5kuPHhPMgZj5+ds3+Ifjr9++DIcPV9pElMwSDGZ8YX0dBiIyYIbc1suX6HT+2Gz2BoPW2cbS/LlQljCYGc/fuw8zIgC42Di79mB9p1rt9XrY3UW/j2Zz++Dg/vIVAgxmAE/fvUdmROSIQoyvP336OBig0UC1BnbodPqjUbPVWmzOlzECxLU7d8jMESnz5nb3w+cORBACjo5w5gwaDWxtjb2/vbpapkgE+RWjM3BZchifn5ntj0bfh0MQIUb8+IHdXdTrN1bax0VBZgRywzLulcWoKEYhGPP1xcUGMzY38f49ul1MTbWWl1eWLg8OD4/G48MQJI5P+s7FlJLZ3s7O1qtXf06dmkKziRhvtdsnRRHG4wnRUBRiISTQXoxlSic/f/qbN0/7YX8f29szCwsL5xd6w/1cNWlKMEGtBoBZSLjeau13u6cDX6/T3Fx7pa3VnEQly8R7rXixep2ZZ1XnJidrqrWrV6vqc9Wq11w1Y/EimVcV9USqKsiyCnOmClUTSczRUemoAAVAHJXOleQKR4k5sRNTrYg41XgagAoiISoISlQAAhtbcikVIgyIEzGW6JwB6VRDMvvfo7KMln4DchAg0CGxXUAAAAAASUVORK5CYII=",
+    "Name": "3dsmaxSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "3dsmax",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_3dsmaxSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACV0lEQVQ4jY2ST0hUURTGf+e8N844M6YUEf1BlEQwagjsz0BQpkKEhO0iKqmoReuIIqhltap2QkXpoqx2KfSHLIKIQIQMIgwrKIQgSErTmvG9e1q891Rq04HLvfdwz/m++51PRu+YEUdyMotXkvvrvvCdLwJtXRt+hGFQEsGpqAEmSa2hhhNM1GFq5tSBqmjFg6sjWd8MwjAol2fLMwKhgANxES4CJgaegcfcbj5+SgHUDAQxiVAdmHOURXBOIAAJo8biACdR4wQgasBcUmx7sSP/pHes8ejeE0sFSxgZmJtXY16DmEG0ACs0bcwhUFy/tQokRnRilP18PpsynCYaRQxi+JiIbCq05C/3nPlau6IhU5VflDaQXe17ap73va97eG145fHDZ6uJKMkcg5iALl+2Kp3N5HXg6a2prxNfgm3FnTUGun/3scXnr5760XW6Y6KzfV+OBeFH8zUBdP2aYr4yk9PHPR9Wi8Daxuaq/sHbU0uql/knDl2oBhj7NBoAGrNIGJga6OZCW27wZf9M68G68ZsD3ZMbCy1Zw1JT0z/t0Yt7v7ccqP126uKRnwaCmZB8wZkJ4DU1NKdfvxsqe2SDkbdDpUxFThvrC5nuvnOTrZs7M89ufF5y6eTdqli7aACves12HF73PQiDUsAvzyM9q2homISUUh7pwDANKaVABFCPNKp+xf0rb7KxBpHDfCpd3F1AzCPjABVEU1Q6BwqGIQooFouIasrDR+YnapKYJbaJgSiImamCIlGtDF+fd1ZiSezf+8L8wlwCVA8U+f+YBsaBj38AilQjbwIx1wsAAAAASUVORK5CYII=",
+    "Name": "AfterEffectsSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "After Effects",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_AfterEffectsSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACJElEQVQ4jaWSTUuUURiGr3POe8Zx/Jp3PmDISEESnaAIJYIQoiRoUbv6HbYMWoTgL4j2/YOgXRii0K4Uwk2gRZgDTaPTOPPOjO/HOafF6EAbUXo29+KBi+e+7wf+c8SJyvTMy3dCpcdct7V6/H1l+bwArydzSoviohiYHghdvXmRC2RPDofUsRlIUcaIicJFAB5AqXQ3641dJpCbOL+SvzBg2J/PicEC9eZ6wxW7Pgs3i6ncUYncvtFO19tv2r/OBNjChO9SESru7g2adNlcnX3oXQueJ+VqkAnjt6U91gt7NIZCwtsBQ8WY3LOADcB5AHpwzI+lQaq4Ihi+bjs2q6zMxFpPe+0ofeMJK7NrfBhvcDD/gwdXfjM2pbn1OGZLAtS+bviNb9uQiIpUEuF0HqVC2Y13kpb4DGABkVBEkgkStqYss30LJur4Qo7iQjsppQKj89ZgUa5pJLVTvwZiDXpVsLpvWIeTGqVM53AW4V1aNIEkORJ527YYxGnPAChNtRnx6ZFiaQaG+4DExFkA4TqhkxFS60Jv4/5J3FrSmxFrxhLMSe73AcoTeaEhbH554UQLlZU5mZFIh1OuF7SAFAmjC8MstRK2Jeg+wESNcZdYlBz4qfQgztg8WJyzB9J3iy4iyoxwB4+6MQTFFPcOBbv9EKPO9rKkMSIyBx9N1T21R7VQpI5Cqse7He1NNmrkt3ZoZ/9Q7TR5XbGUXxnen/NZz56/Ml7l+hikE3QAAAAASUVORK5CYII=",
+    "Name": "AltusSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Altus",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_AltusSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACkUlEQVQ4jaWTvU9TURjGn3PuuR+9paUtrVAMlkZJadQYCCBKhIEIizExbERHNxMHWI0rYfAPcHAxxkEZHIxGjcY4mBAFIZFPJULlwxba2t7eW3rvPcdFGxKaOPBu75vn+S3P8wJHHFLrOD4+/iCd2ug3s5kIFI3roch2c7Tp9cTk5O3/AoYvD4n11RXkPA0w4l3QNhfh3VoQdaEIicdb95+/fKEd1NODS1dHp5ifn3cqpuGwUBMvXZ8Q5tUxoSiKKJUM58vsrHyh57yoCbjY2yuy2T03EAxJHkVi5XgHrfv8jHAmE+fEGeqVCfMHAkin07jU15f/55MAYHho6JFlWme9Xi9XFUXSdC9S/TfROvMUlfooSCCC5l9fwXwBons0B4DenkyytbW1dwwANI+n75iiQBAiyc4+doNxcM2HNuQhmZv4Ee9FOPUWrqQCEJQQApfzQQB3GACoqtooMwYXBHrFwGKsB43Zb4hSC1JuCcsnB2E3JxAytuFQhVBKYFlWCwAwANjNZAT5GwjlDlKdMfiL2/gY7ganDIIyLLMmnPo5jYrqA4WA7dioAoxiMe1yEZPsMozGNpQ9AaCQQT7aA+JWQMw8diLtCBUfg1uOgBAEBBtVAOf8g2mWY3Ip6/7qHmXaziraHt6C6/FD2jdhHD+N76P3kJProeS3uJA1qqrKm2qMn2ZmboC7KHKJFhIDQl98j5ILGEJCgekQm8tgRhaZc1d4uZBngpD87Nzc3UNNTCSSIlff4nj21sFsi4JQAhAQbotyQ4xXZJ2Gf6/ThZWVqu9QlbuSCZ4zLGK7rhBCEAAglAqVCBL0+6zphSX9oL7mM41cG7mfy+4OVCp2BIBQVHUr2BB+NTX1ZKyW/kjzB2fKEBSnXtUmAAAAAElFTkSuQmCC",
+    "Name": "AnimeStudioSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Anime Studio/Moho",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_AnimeStudioSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB7UlEQVQ4jaWTT0iTcRjHP+/2vr/fOypb8w+Wh5GVIHrRokmZh6wOQR26BdkCu2QYRh2CirzUIapbBdYlROtWUJHQpQ5dTGhs0mvLOXC1lsi0Od93Ym+/DpIrGMHqe3m+l++H5/nCoymlfEAYMClPNjCoA+G3N/rvfo2MlpXeuGMX2/sueXTAnJ+IkZ+KlwXImiaAqQNIITB9vrIAUkgAdAAhBKaUYAg0uVKFcmxwvxcTuoFZuwnluixl0ghhFAG6oSOEINh1ivojxwBwl5dJvXxK8t5NqvcdYtvxHrxS4tUNZiKjfHp4vwig4KDrBhuaW5mLvyd65QxbTp6lrvMgCx/GaT59gY9DA6SfDGMEqvG3tsGSUwQ4iQkWJy2sq+dRSkE+x5q6ILlEnM1Hu8laUT4PD6AKNvZ0gtyr56zd2vjbBsC6ljaaLt8CQPgDOF9SWNcv0j44QvzxEI4VKVmm55epat9PRX0D786dQPN48EqTQioJgL8lBNKHt7KG2nBvaUBg5x7mrChObIzx/j7WNzQR7Oph8sEdakIdHIhl2fsmiazw/wFYPWGs+zD8cAGYefaIF69HUEqh5b8xdfsawh+gkJ5G2fnSABZzq1YDWJhfmYA7m8GZzfy9g3+VDtiVoY6yg1W7OwFs7X/f+SdNhaa5/NkBEQAAAABJRU5ErkJggg==",
+    "Name": "ArionSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Arion",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_ArionSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABdklEQVQokWP8//8/AymACavomlWrjx87hl3Hf1Tw79+/7du2SYmJiwoKvXz58t+/f2gK0G1gZGScNmWKkbGxsLDw9KnTGBkZ8dnw79+/Bw8eiAgKbtqwsba6WlFO7j8GQHdSeWmpioLi////nz17JioguGrFSgIaZCWl2lpaIOyggABHWzt8GhYuWCAqKPTu3TsId/euXaKCQlevXEH2OuN/pHiwNDPX1NQ0t7C4euUKCwuLu4dHeWmZrZ3t5GlT0T3979+/06dOiwoKNTU0ykhKhgQG+nn7CPLyNTc2SYqK/fz5E4uTkhISzIyNL1++DBf5+/ffqZMnJUXFpk6eDBdExMOpEycFBYV0dHQQqYCJUU1dXVhY+OTJk1icdPXKVTlpaV0trTmzZ1+8cOH0qdNdHZ0KMrIGOrqfPn2C+xsllN6+fZuekiopKibExy/Ex68oK1dXU/v371+cofT//39IWnj+7BkzC4uYmBiyIDTt/CcxeQMAfa96L1fOVfQAAAAASUVORK5CYII=",
+    "Name": "ArnoldSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Arnold",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_ArnoldSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACZElEQVQokWWOS2sUURSEz6lzpx/TMaMJKGahGEEX6i9QURCJ2Qj+Bl0IouBfEFwEBJ+I4EIQxIVoJCgiOi4jDgmIiRGziIlizIyZmHn0TPf07XtcRN34URS1KKjixaVlIyLGiAiADTe+D2Z1jukvfxOMiAiEGcwCgNl4he7yclKrQZhI/xT1j2AAgQAAg5kZEF9mL1+auzImhlWJVEn13xLSdhvEwgATExUCvzr1/uezie+PH63OzYsnutFWZSUmQhrH8VrdWQsGmEl15vrVPmslbs/cuIaNU6qkRKSkCnFqu91WrdpdX0fB+14u116+GCyV+jf1Lz59sjJZMYFR9+8VQ9SJEts8bTQaX79+vHmtDwiNMcDPZuPN2GXXs6Sq1uZJmsUdsHNwDuq8MKyVX9Ur74znrSXJWpqGxehH+fX8+LjaPG21sk7H9XqAU6gTRt5sfrx/r5H1UmtzoBQEQ2HoAZXbt7JWC8xMxESAc+zUD8L5ifGVD++3FaOtYSgijihX9YrFH1OVz88n/GLESqwKVjUizW9Lnx4+ICJR7cZx3G6lcVuyLBIhoum7d9q1qgiIyIBh/GDl7aRdXNhc2jx48PCO8xe115MoaszOTJ09Xerv783O1KanhkdGNUmQNtcbXxa27Nl74OixTfU6/cdAmh4+d2Fw3/64Ws06HTlz6EgSt1NVt3OX+IEd3l3P8+avX/XV1TjplqK+geMnBk6eYuc0d+RyAyKIeESe7/eNjEoQmigiERQMK2XbhwrG+EniBQGYWdWozZlIGUbEMwU2xqgyEZRIxC9GbAxEKLPErKS/AdKMOq50HXIzAAAAAElFTkSuQmCC",
+    "Name": "AutoCADSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "AutoCAD",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_AutoCADSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABoElEQVQ4jcWSP0hbURSHv/MSRV/+NKKlVEFQ0na1k46Ko6sOHUq6tiBiC0IVUbB0EMVF6Kq4KsmqCAouCg0NSSlU2sZ/UAsBn6k0evPeuw6hvqiRjH7jvef8ON+5F+4bAThuj865ruwhdqI5m90H0N+ZqNK7J89YFIDfbdENEekGQJNytJ5sXvuRqBKwKU/pMQBEsMpm6vAJC/mZJpxsdQUDQLukrotJpLDeQO71E07ePkZty50B/tLUYonWlsYL+q+kvgVRk1F8EUXgxTF1vRdI8EaAoFOIRAS6AeoHYvhaWwBQWzsYkTDna3GKuXHUp31E4pgDOU+hnOC7UUJjQ0g4RODNK7R1Snh6HKlrJDQ2RDFzxEXS5CxRXzmgtvM5/5aW+TvxHoDi7mfs3Z88mJ/BPkhS27dKYPiAmq6Cp1CO2vmC+bLf26fPofh1GTM2xfl6P/429/YSyzmb/Yg+zWO0BlCZecyRX+D/gMo8wv2zUvkVrh2053GdYQxc7DQYJVXs9OCt5qsARxzLH7I3zdghxsPShdYV6z30jb9zb1wCn+qObyd6Q90AAAAASUVORK5CYII=",
+    "Name": "AutopanoVideoSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Autopano Video",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_AutopanoVideoSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB4ElEQVQ4jb2RS0hUURzGf3e8ZleLnoZENbnIR4lT0YiuJCRcRYvZGEEMtAgSgqIibIhcSFGRtBAqcRCFEBdtWkREFEGp0PSYHCIZwYlAU0aZQbxNc5x/i8M0XQbvsg/O4pzvcc7/fOAC6akTCQfETeNxI7+U+mDqGTJ43DXEFR/6zol0VcpaIQaA3D5cTNrJYrW3ESP41Pj3SI+wvRqyK46llIC1DbyNsPsIbN4DU+NF4zjSQH8ckoOGdlTrFRK2pS+3bMyJh6i3Q5hVtRidL4zCC/Lm4ZM6fVct2fZubjxP0xIaoyU0xvnRWZZbuzCr/bCUQIaD4giQcEBIRPSmyse7mRw9ozEWbJsF26b/SYzIzArsrNea2WjhDyQcEOJvUJlfmlzNYEmKsvQ0ZIAMrEt94sfPeYCCDvDkzdGtx4jXB0FyEB+naVOSgdAJmq1v+EsjPLp1llP7lmF6wtGSIVfL5evGNvZf0/VIt1coKYMtXjjaCTsatGF+El71QTaFSs4xuTfAoTO9hhEbuSMHOi7/bePjwAWpifZSXlkDpgnrNzhaUsk5fqe/U3FfN1hUI8DLobvi+TyCf/U9FSWmg3vNQXK+DtpOX1o7II/HD26KvbgEQEopAC5ev+fq+f/4A3a9xGhZiUGcAAAAAElFTkSuQmCC",
+    "Name": "BlenderSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Blender",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_BlenderSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "C14GeniusHoudini",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "C14GeniusHoudini",
+    "SubMenus": [],
+    "Position": [
+      7
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_C14GeniusHoudini",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADcElEQVQ4jW2TW0xbBQCGv/aUUgq0ZVCkKQ0WKJdtUBgiGB40MhZj4kwUdU+Ly/DBZcZIvEQfvEXjspllEp1GJdHNmbiLi7uogcUgoFtgC4pdoV0DjBaYbWlte2jpaXuOL5Kg8Xv+k/9/+D8V/0YA9AMDA9s6Ozt3lZaW1gNEo1HP98MjP7z+6oszQArI8T9oOzo6Kl0u14fpdHpV+Q9/hv9a6Xvr5Jt1zvusQP7mRgBtf39/4+Dg4GWbzfaQIAgFG4FsNoPXe4vRMXdRgWJ5QKW3P1La7hhZmPw1AuRUgNDc3GwZGx0bMhgNjQDBYIgzZ7/jwqUhPN4AispMy47dtDhbMBUrjC/4XUOf7u0WRTGsAgwut/vQtsbGZ2VZ4Z13j3D48DHWxBTFZW3UOjowGixI2SyCIOBsqiOVSVFUqbzxwcuPHdUcP3rcWWO3P5HNyTy97wVOnfwYNFZsjh4MJjtiMkcsEUBWsghqNYt+L2+/9jC7ulsPVqTfG9U0tTm7dTpd2aEjg1y8+BN5+WbyDY2gqyUYiSNnkyhyGoUsIIPkp6FhP4m1dbOlyr5Tba6scPhX4pw/P4y53IJanUehsRKro5Utd1Vj3FKOwWiiuFCHRolRVqIiL09LJBJFk6eq1mQBr/c2GUnBaLISDgXRCyK9e7qYdq1y55abZNSHFJ/DE1ymosaGJEnE4wmSCRH1HX/Ul5PBVFJGeXk1VlsX0dA808PncJgl6m066qsMoKwRiyzR2rqd9fU0oigyuzg/J1Q37JCbtjt3e2fn9UXFFZhK21lPG/lj6jKryzNkpRhu9wSz7usUFmk5cGA/spxjeWkp/POV8feFkSuXoo8/tc9qMhnuSSXBbK6iwroTRV2Lf/EGc77rxGJBBEFNb++j3NveTDi0ytXJ8S/Onv7qhAoQtrZ1WT/7/Jth381AXSpVTE6xEE/ILC3dIByaJpuJcbfdwoP3NxGJhHHPuGY/+ehYTyQSWVH989j8PXuf23rw+VfO5Napkda1ZDIy6XScTDaBSpVCq5WIrIbxeGZ9F06feNLt890EpA0Xcq7fJ6JTk9e+bWh2FpSYNA5dgaTTatPIsoiYCHF7fj42ce3ql1+fO/WMf3FxAZAANhZslquwr+8lZ1VNdU+hXm9fS4oEAoE5z29TwyO//DgNrG3W+W8S05WrxUF6+wAAAABJRU5ErkJggg==",
+    "Name": "CinebenchSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Cinebench",
+    "SubMenus": [
+      "Benchmark"
+    ],
+    "Position": [
+      3,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CinebenchSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADcElEQVQ4jW2TW0xbBQCGv/aUUgq0ZVCkKQ0WKJdtUBgiGB40MhZj4kwUdU+Ly/DBZcZIvEQfvEXjspllEp1GJdHNmbiLi7uogcUgoFtgC4pdoV0DjBaYbWlte2jpaXuOL5Kg8Xv+k/9/+D8V/0YA9AMDA9s6Ozt3lZaW1gNEo1HP98MjP7z+6oszQArI8T9oOzo6Kl0u14fpdHpV+Q9/hv9a6Xvr5Jt1zvusQP7mRgBtf39/4+Dg4GWbzfaQIAgFG4FsNoPXe4vRMXdRgWJ5QKW3P1La7hhZmPw1AuRUgNDc3GwZGx0bMhgNjQDBYIgzZ7/jwqUhPN4AispMy47dtDhbMBUrjC/4XUOf7u0WRTGsAgwut/vQtsbGZ2VZ4Z13j3D48DHWxBTFZW3UOjowGixI2SyCIOBsqiOVSVFUqbzxwcuPHdUcP3rcWWO3P5HNyTy97wVOnfwYNFZsjh4MJjtiMkcsEUBWsghqNYt+L2+/9jC7ulsPVqTfG9U0tTm7dTpd2aEjg1y8+BN5+WbyDY2gqyUYiSNnkyhyGoUsIIPkp6FhP4m1dbOlyr5Tba6scPhX4pw/P4y53IJanUehsRKro5Utd1Vj3FKOwWiiuFCHRolRVqIiL09LJBJFk6eq1mQBr/c2GUnBaLISDgXRCyK9e7qYdq1y55abZNSHFJ/DE1ymosaGJEnE4wmSCRH1HX/Ul5PBVFJGeXk1VlsX0dA808PncJgl6m066qsMoKwRiyzR2rqd9fU0oigyuzg/J1Q37JCbtjt3e2fn9UXFFZhK21lPG/lj6jKryzNkpRhu9wSz7usUFmk5cGA/spxjeWkp/POV8feFkSuXoo8/tc9qMhnuSSXBbK6iwroTRV2Lf/EGc77rxGJBBEFNb++j3NveTDi0ytXJ8S/Onv7qhAoQtrZ1WT/7/Jth381AXSpVTE6xEE/ILC3dIByaJpuJcbfdwoP3NxGJhHHPuGY/+ehYTyQSWVH989j8PXuf23rw+VfO5Napkda1ZDIy6XScTDaBSpVCq5WIrIbxeGZ9F06feNLt890EpA0Xcq7fJ6JTk9e+bWh2FpSYNA5dgaTTatPIsoiYCHF7fj42ce3ql1+fO/WMf3FxAZAANhZslquwr+8lZ1VNdU+hXm9fS4oEAoE5z29TwyO//DgNrG3W+W8S05WrxUF6+wAAAABJRU5ErkJggg==",
+    "Name": "Cinema4DSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Cinema 4D",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      5
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_Cinema4DSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACY0lEQVQ4jY2STYjVZRTGf+f93zt3zHHUEVzoJuZeP/IjBi1qk6tcRIoKuRBBXJkLaxWNlGVpTRMUkyAREW1qU7ZpJQyKLkQhHPwaVGhqsBYym0EZvXPn3vecx8XVCXIUDxw4HHgefufDeMbQrzsLJsZfRdoK9AMH7d2RL0vPJB7a+KZu/zUAvPioZ8EMwFMNNNTXF9hvQVQtQO32PYNhLF0ASE8S+9d9AxFcIlRViAhdlLMnNevLIscvHq2lcxLo8Cvd3tUYkUcNEgG3UH6rXI+rPq+8PafKTwRbzG3vYwQaWL0kd05fVFYtAsL97Y73Lz+vnGqtSjEsqU9isFQvdZcOXvkZwGbFgxsXNnPjD7CVwFTLWNH14ehE4+iamymlReVmpdc+Han/nzgB3D28pmdmpjEiZ6WCU5VDo92pGa81Plkr3FZFM/bNJZ416IDPw6Mqj9OdH49urh96oZ/QCXkgj8kK9eEnLTsBRCt24Lo378iN1+9/sHpAoUFlETkIj57pRsdLTzWQx/Wc4412rXXyQBHIhbII+G6yv3fhXAbtMzZau0qpXAJI7l+42Ppovw+fZ22Z4tzUe7V3vNS8klqdReEz5fnf3LrdHoH0Yw4fA3juq7ELhH0U7fn/y4h1cp2x6fJpIg9mig2zBCF+N5EnD/Su7zn+97UFQ39+dudA9bxMu038o0LzCTubFPexouUtXoaowUPOqf3VpSq0yOXLU7IOd6sXZg0lJPk2w3oh/YtivUybkHWBnVr87fjmEkDGTxLaAEY4GCKks7jGwFYILYFYLvS9BT+UK3a+69j4BMADFixVvNp62qQAAAAASUVORK5CYII=",
+    "Name": "ClarisseBUiLDERSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Clarisse BUiLDER",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      7
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_ClarisseBUiLDERSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACI0lEQVQokZWSTUhUURiG33PmnLlz7uiYOhH+EGoygkhCWBT0t5Q2jVDSJoJAIWgVhCG1kAhilgVCRVCbjCKIdrmsXSiUYQViCklOY9PcH+/f3HPvbXF1GCmCzurj8L7fd97nfOTB/Xv4n8N0w/y3wvYiVSF1Bq3ylzaMSSldH7k2Mjyo9rbxW0+1+JJZtv2nwbDkUA8ZOdGazaaQTKHq6prOkhwA0yo7JngByXB/4ky2t68VjG2WzbmF1dKGZZiEUhJnMGrqTTc80kNujHXRjKr/KL+cXcvuYgcHmk/ub3r2dhWMxxm0LbUX5Qf5xHgvePB8ZqFY9i7mO5/MbowXitpmyJNsK56mGwC8AMe76dXz/aFl35z+dOrYnrOj3ecuzX1YR0OMyNnmUXUtACwM7o4NENu8Pv35yoW+xmbV/FKaXzZUwaruToC2IwG0cI8oZOTa/J3LuZY0jUynMU3b1OpSxW9QeL0hIYQqpRRC6F+Lj997R/cmc/uapCtpSE8PZZZWtHW9ShFQBLbrSylJR3unEMJxnJXb/VOv1mbeGYuFAaVJJdu/a62by6va6MNijJEBSEReQ4q+eFM80Jp4JHFo8uPkcBbVKDbwdPJwVyrNYAQK4DAAAVFEZOdzjTZNfJvaDcCJCABXRiXTX/zuFF7/1NwwJkU62jvjTh0ZCkCG8GVgSeJJ2H4kIzACldctX6365StbFQHlEBxCIBF58dNrst/JMvJrZwF98AAAAABJRU5ErkJggg==",
+    "Name": "ClarisseSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Clarisse",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      6
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_ClarisseSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABIElEQVQ4jd2Rv0rDUBjFT8TMsXmCBKIgKNjSJ7BP03ZTl/pnEHQV3VudhG6ND9CApEMz1aFuvbRDpZKlDp8udzhOCTEmD6Bn+u75OL97Lhf4n/Icl/k562W1WRYEgN3tHWqtS8M/gp7j8mUyoYgwOUfjiJ7j8mngswyykSyeRyFOjo4RDIcAgMd+HwDQbLcgX5+4vL5KLypsEI0jaq0pIjztdCgitCwrbRPHMZVSVEqxEJSYozCkiFApxSAIqLXmKAxZr9ZYr9boOW4KAQAjDzFNE1rr1NuqVPCxXuPm7haHjQYO9vZxdnGO1eod993u7wZFP5I88aHXo+e4fFsuixvkw7PF3Mh6zXYLtm3DH/h4nU4xW8yNQkCZsq2y8D+ub7QWrZVyqWycAAAAAElFTkSuQmCC",
+    "Name": "CombustionSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Combustion",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CombustionSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA40lEQVQ4jaWPQWrDMBBFn1P7AFkmixJyARfkI3QjCHMMXalkkTMYREGbnqBY0BN021XIASbgLlIZu3FS7P6NNJr5f57gn8qapmnnmquqyjLn9m3ETDYbIrvdijxiwNwPiIAzPxcDT+8vHD4e4PWLzLh9e+lMZ4BIvj29Udf1ZPu5vFAt0oO1FlVFVbHWDoZV9WZQF+C9R0QQEbz3V8bfoUl5vwghAFAUxeBMoakeJUhb0lf6BCl4jKIj6KOLyIDgHkUXEEIYRfyrvxiZnaT8c/lMWS7nBzgDx81mlnm9fpy9uNM34NlOqhkX0DoAAAAASUVORK5CYII=",
+    "Name": "CommandLineSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Command Line",
+    "SubMenus": [
+      "Miscellaneous"
+    ],
+    "Position": [
+      4,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CommandLineSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA40lEQVQ4jaWPQWrDMBBFn1P7AFkmixJyARfkI3QjCHMMXalkkTMYREGbnqBY0BN021XIASbgLlIZu3FS7P6NNJr5f57gn8qapmnnmquqyjLn9m3ETDYbIrvdijxiwNwPiIAzPxcDT+8vHD4e4PWLzLh9e+lMZ4BIvj29Udf1ZPu5vFAt0oO1FlVFVbHWDoZV9WZQF+C9R0QQEbz3V8bfoUl5vwghAFAUxeBMoakeJUhb0lf6BCl4jKIj6KOLyIDgHkUXEEIYRfyrvxiZnaT8c/lMWS7nBzgDx81mlnm9fpy9uNM34NlOqhkX0DoAAAAASUVORK5CYII=",
+    "Name": "CommandScriptSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Command Script",
+    "SubMenus": [
+      "Miscellaneous"
+    ],
+    "Position": [
+      4,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CommandScriptSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACBElEQVQokT1SMUtcYRCcew4yyMfxiodYHHLIIZcQQoogJ16RIoVFiJb5HalTS0rrVBZWKayOkCJFEAkSLK+wuOIVVzzkio+wHIssjxR3usWw7OzC7s50Pl9dJamUJIlMkoCUUpmSgESCFCAJgEi6OwAAJQAQgMrSIm4nk19N8/b4+FOv15OyuwBIGy9OToq2bYEWSGkr2vbv9fW38/PvFxf1w8Mfsx/L5bJthykVJCLo7pAQAfffNze3k8l8OsVz3N3N5/Ovo/GoLN9UlQM099Vy903z8/IS7hgMAKjXez8eN2bzZjFM6qeU3UXSI+Au6X7eICVUFST0+xoOT0ejSvIIkdlMFARaAMQi5+b2FsCqG9VOmGczRCQJgEcADhctnEiWs+eMJFQ7KEu4BWERAuAe0tNNXuQIc4eSBn0AmNeo6xUZEc9PtwiP8IgiAxYRZLnTgxnMUNeYTunugex+V9f3TfM8Q3dfACu9AGA2gwTAZrPL6TS7u9nO+N2X0w9r4TqHh49tmyOkzWpvnyyWdY3FAsul/VtGPGJ317ar/W53i3z02OgcHQFAUVgEWHT39sqXr7WV7KFBN2E8fnVw8HEw2O52WRTUZqc4OyOZyASKEJAoicjZzPrD4aAs05M1RRKpTGJJlqTItEap15eYAJIgQWkNIlbVNSeIIJ/dFKucdFHkfyIFATxpRUJRAAAAAElFTkSuQmCC",
+    "Name": "CompositeSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Composite",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CompositeSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC+klEQVQ4jTWTy2udVRTFf/uc78v97iu5SZpEE2yooZZcKjhRB1oLIvhA8FbsIFREdCL9A0ToTEHEoYLFmRKqTsRAwYmI2CoiUkGUC6W2VdObhzZtkvv6Huec7SDJGi82i/XbS9jXeqv5hSonC6hWLW6yZECAALezQBbACBEwQLg8+1X7NOxZWGs1+0GpVKwwngjDXPlkI2fglQcqlmcmIuLYgFfWs0BQMEI+u9IuSae1eFFVnp8rG1KnXOl61nPl7b9Tfr/jIBaW7hnhpamYRiQ8ORmxmyu7TomEb2XjVLNbj6T2+WbBuRtDtnKlHgvziWGrUDpZIAwDRIJEwrn5Eu8slNkplJ7T1L65OPVWHijddYpTuJ4GKlZYzZQ7hfJYI+LkoZhSZOj0PZc2CopYeG46Zuh0GA0d7nDV8NSE8NOOY0Rg2wUSEc4vVliajilZIfXKhc2cs1eHvHttyNPjESfGI2emE+GfNHD85y7vXU9JrDD08MHRMq8eScgDrKcBF+D1+8t8fKwCWeDTjRwRMEkkvNIecHMzZ7Zm2SyUJxoRZ2ZidruerlcAdr3S63rOzMQcnoq5vOPoZYr5s+fxCi8fqzAeCXkeWCgbjBX6Xvc47/PueSW2wkJiueuUTBXjFT48Wmb5kTovHIohV26kAfVK1Qq6f0CBqhWcV64OHPMlw1gsmPFYeKhhubSa8VEno1G3fL/t+GyzYLRuqdm9DHUr1OuW5X8L1rYcp6diokgwXon6uTI1IhyvWrbTgObK2WtDLvyVkhi4NzGULCzfTHnttz73TcS8MVeil6uVtVaz65TazIhgBM53ci7eLvhmqwCFE5MxRxLDH33Pr+s5cdVy5dE6D9YttwYhlbVW82vgWacwaoWxmuHWjmep3eeHbQ+FglcoGV6ciXl/ocxC1dAZBMTw3cGYUqB0UNZotPc4v3Q9nSwQi9CsGh5uRBBgNQ1YIcyttO0BJdZai1+CPA4kQXE1K4yNCAccg1f+yzVykBn4cXalfQrgf0CMYxFqkUhUAAAAAElFTkSuQmCC",
+    "Name": "CoronaDRSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Corona DR",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      9
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CoronaDRSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC+klEQVQ4jTWTy2udVRTFf/uc78v97iu5SZpEE2yooZZcKjhRB1oLIvhA8FbsIFREdCL9A0ToTEHEoYLFmRKqTsRAwYmI2CoiUkGUC6W2VdObhzZtkvv6Huec7SDJGi82i/XbS9jXeqv5hSonC6hWLW6yZECAALezQBbACBEwQLg8+1X7NOxZWGs1+0GpVKwwngjDXPlkI2fglQcqlmcmIuLYgFfWs0BQMEI+u9IuSae1eFFVnp8rG1KnXOl61nPl7b9Tfr/jIBaW7hnhpamYRiQ8ORmxmyu7TomEb2XjVLNbj6T2+WbBuRtDtnKlHgvziWGrUDpZIAwDRIJEwrn5Eu8slNkplJ7T1L65OPVWHijddYpTuJ4GKlZYzZQ7hfJYI+LkoZhSZOj0PZc2CopYeG46Zuh0GA0d7nDV8NSE8NOOY0Rg2wUSEc4vVliajilZIfXKhc2cs1eHvHttyNPjESfGI2emE+GfNHD85y7vXU9JrDD08MHRMq8eScgDrKcBF+D1+8t8fKwCWeDTjRwRMEkkvNIecHMzZ7Zm2SyUJxoRZ2ZidruerlcAdr3S63rOzMQcnoq5vOPoZYr5s+fxCi8fqzAeCXkeWCgbjBX6Xvc47/PueSW2wkJiueuUTBXjFT48Wmb5kTovHIohV26kAfVK1Qq6f0CBqhWcV64OHPMlw1gsmPFYeKhhubSa8VEno1G3fL/t+GyzYLRuqdm9DHUr1OuW5X8L1rYcp6diokgwXon6uTI1IhyvWrbTgObK2WtDLvyVkhi4NzGULCzfTHnttz73TcS8MVeil6uVtVaz65TazIhgBM53ci7eLvhmqwCFE5MxRxLDH33Pr+s5cdVy5dE6D9YttwYhlbVW82vgWacwaoWxmuHWjmep3eeHbQ+FglcoGV6ciXl/ocxC1dAZBMTw3cGYUqB0UNZotPc4v3Q9nSwQi9CsGh5uRBBgNQ1YIcyttO0BJdZai1+CPA4kQXE1K4yNCAccg1f+yzVykBn4cXalfQrgf0CMYxFqkUhUAAAAAElFTkSuQmCC",
+    "Name": "CoronaSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Corona",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      8
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CoronaSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADYUlEQVQ4jV2TXWiVdQDGf+//433POfNsc3OfuO1sbjOwlFDMZFFMCkoMwc4KQhIZRRASlGgXGQcvHBkYQVEwCi9LAwkqAlMvJFMoa1TMse+Ps3O2nZ2d7/Oe9+N0EYb1u3meix/P3WPwPz67+FVnbX34+HqhNFiqeD2u72MKY7quJvijWyx98dorQ/MP+sb9Eo1G5aEXj55ZSudPrdlYq7kCuXwRz/NQvkNrcxMh4dndTbUjNyzj7KWhIe/fgWg0KvcNPvdlwjOPrJU9ZpeWWU2lcdMriNQi+B6vv3WSb+/8QdOmAJGwvDx+q/GlS5eGPAGwZ2Awdi/rH1kquPw1s8hCYpVcPo9bzBLQCgBhwOxyksWNIuPrlRce3rf6HoA4e/589y8zyZMbRpClVJZMsYznV6kaBju39/L80WMEGlswtaZsV0hlcmy4kl9nE6fOXbgQUYmV7HBCNJhWwSZX8RHaQlkehmHQG+ng65t3sUs2gYCFkJqKD3nbIW/UmlNzyWE1Pb94INe6BbvsUBUKZYUwhMLTNvU1IVxDo7XCtCx0KIzUJnZV4PmC+WTygOjtbO9649m91NdYGEIgtYUOhDBDYYKmQgbDaKUxrQBmKIwKhPAxqOQzZPPFiFhNJni0bRPfvPMyZ6JP0dPagJAKqRRKSrQV/Ce1RpkWQplUPY9Kdh2nXERlMtm5Dz/9vDXSuZUd2/v5+NgBxlfyXPzhFtoKYEiFNEBLiSEkUMUrF3AKGUxRnVPNzVuuXR+bfCwwGWfHzDLfX73B/r27Ob6/l77+Piac29yeuoWUAgDfdbA3VvFLebo6mq6pzY11o5Y78XbZqNPjdgBL1/Hb1bv03RmjZZOmu6uTLSGN9F2qjk05vYKdSRGs5JxIx85R+fPNm+nDhw6GJufjA57rYCgT1dDGWnqDTHyen8buYTg2h59+kt+vf4dyy6wn4ww8su39Tz764LIA6GhpfHdPZ8MVL7NGITFLbmECJ73CqydOILbtRkpJ3qlyd2Gd+OwUT/RvvdLT3nwGQADEYjF310Pbos/s6hkJ5JKOvRbHKGVxC1kys38ipcSrlDCLKefxHT3n+iLt0Vgs5v7njfd58/TpnnQqM7ywGB9saWvvujc9R31Qz3V1br3Wsjk8OjIyMv2g/zdchHPPKGC8pQAAAABJRU5ErkJggg==",
+    "Name": "CSiBridgeSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "CSi Bridge",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CSiBridgeSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACjUlEQVQokQXBu44bVRgA4PP/5zoznnW8jrMrpUAoIiLCEcomAlFQkCZFlIqGIo8R8SIUPAsNSFsgUMSKi4RAETgIr7HX9ng81zPnyvfB11+8nCrJKAIQyiiXHCkDpKgSQjkICSptj10/RAKkGlomQnIWhYyEM2SUssjQEp+MZBBUJpBl1NuQMDLilpBfbzrWOtnGE4ecIYNh6IOXz57ee/zBX1d/qJ9+mWrtBHKgwvWZ8CdUs7fb0uxbEVx0QVlT3p6evvtePrjXVYXj7BPjxnUrUq6ZaOuubgNb7orjYMaUpkKMQiyUVlXXefzth++5EvdfPFv8s/rz29fPZ6fidGxHjKk0zURat5XW2obYmYEjJEpmWXazXhXbYqmHq83m/eIwOj/bRsuOg8lFOhlPm8ONH9poRz4GAEIAVJKQGG2rTdP9vl6c1gd9e8IgODv0RCbTyaza6KMxFDDGSJGGEJWSD+6/4z77CN4syl1piooNwW91v7tZ8xC5dXuREIqTW3mSJGmS7ovDk4t53zffFNebxiojWKO7wbh7n358cfEAum6xq8452W73fd+XxxIRR6N0nOdn48kGV0vTMrPfZR8+mn/56vOHdyHYq5/f/Hh5+dXld4f9/uF8johlWa1W/202aztogZwJhlzKaEyzP5DgmmNdtY2UYjqdccaBEKVknudSqhBiCB6vm+2y3pJIACCE6H1IVDI+uSW4BACkSAggIqU0xhC8wzagBQFAEIEQovXQtI3WvbGDd8457713zhFCKOOMcka58hCd99YFQkgkse91XVfeBca5EBwAQgjGGu+c98AGJBBdLNb/ssZau7y+LqtjfjLhTM5md4QSLrrzu+fz+aO2j4u/3/4P4eSAPvJPO+AAAAAASUVORK5CYII=",
+    "Name": "CSiETABSSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "CSi ETABS",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CSiETABSSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABlElEQVQokX2SMYsUQRCF3x4lvIY56AkWbsPNnAvNTE2NPDPF6DLvIhHhODEQzcTIVDPNNBFMREP/Ql824QgudMMO9AsaNOi9cVfFooPm41Fd/VGz87NjAOGif//uHACA23eed1eXFb59c4ICFN29/7pCw/+rSCVDmoCFix5ACP0l0XQPoZeixpQVJzj7mb/s9hOKpCgJilmSBq2TFPOYVKLtpJU2LccoJeWokqCclVCkApiznfQ4xNWQ1n0d4/JBAKCB9I6cHd26Ucf9+vEkrvoUw/GDvuuWFb54lGGO5k+fpgqtygIQVyH96HMaum45QXJw9GwWXZcq3Ju+oDjkcZDittXWL/380M+X/9AaR1/T21r9/Mg1LelD+LDROoRnMfV1GJUIc21zwGbB/ZbNgWNLkkaYg5FGy4pax6woiNa6xrNZ+HbhmgVJWD0ORgIA9jQOUkIRQZBTGjWNTQ4AjADs8cvvAELQqyd0bLnf3rz3adL67fNmI69df/inVmeZjSf9ttapJvhbK+h4pXXGneBf2/wLDEz4J+4bewQAAAAASUVORK5CYII=",
+    "Name": "CSiSAFESubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "CSi SAFE",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CSiSAFESubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABR0lEQVQ4jaWTMU7DQBBFn8MmCl0UWSgIrkCLKCLtligF4gIuDOQck9yIitbmBIgS0dFQcIPg5FPYjp0oSCGs9KXV7OzM/392EUhXA1MSe/ZcSmOv8cAEijQeGkcXMwDCM3x0cz67OZ2C6GkxB9C1MzoOTpeB8+9AXvVavs7QNPbyXpIkQ1ILxu6YJHkvpbGPAGSoLGnAHGa/cJ+1coBoTlRqenDZujoVDCmrsB0X0n03a0y56duaIu1kK9GO1XmTvgG4ssSiodkwhDzflGCt/arYGk1NLas6e99I8L6MZY2R9b3OL3b9bem2ZxtjqvV6X2LbQCFNetYwKFpE5q3KIZTYdbZyLQbpAWNMyzH+/yEpGR3+lJPYO94WgeNaL3Dncr5cjlsRPVaf6aVj0IOTInBWhLUv70VAIF0OTclo/+88jb3GQxPoBxfDTddxp+pTAAAAAElFTkSuQmCC",
+    "Name": "CSiSAP2000Submission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "CSi SAP2000",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_CSiSAP2000Submission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAEnRFWHRfcV9pY29PcmlnRGVwdGgAMzLV4rjsAAAByklEQVQokZWST0hUURTGv3PvnXnTPE0pJa1xZAJbqC000SmpTbSohRC1rFUG0a6NLgrBnbQLYgK3rdrUIgIlQTQIwwEXDRQushkLg0wndP483733uPBPj3GEPMtz+N3zne9+9OcRjlSiSo8B858Ag31QKCJPt0PIqoD696oFucedzpuy5YKK9268uMpeAUQABwE5fBFgULjG6b3r9N3jUr48k1LxLhA5yUF1tt/PTMOCCKB9SQaqtUfFuouvh8ofnofarqh4n2zq1N9mRN0Z2dgSvfFYNiRggzeosPmVMavr0YEx0ZgwvxfLs8/YL6rWpHP5vox10ckKgBlCAaBjJ7yP4zDavZ0KdwyYlc+FVyP+4hTteRBwyWgIUKQ2en0UQkCo4rsnXP4LA5KhSpfYaHXumlvfLJvPl9Iv/eW0eyvl9NxhbxMEWL178u4GAV5b0rk5b3ZcZz9BhiP9D2VTh91cL70dFvU18lQ7rA5sEDCr3/XEUzBsPqcSl3RuXmfntr5MOslBFevWPxd0dh4SAOhAlgjM5Li1D97r5bT5sbCVecOFPPb+4SCwo1TKhja7tmRLHql9/cFoVJQ1ZuUrBChUOTkEAFA9e9gGFDGnoWxcM3cAAAAASUVORK5CYII=",
+    "Name": "DeadlineCommandSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Deadline Command",
+    "SubMenus": [
+      "Miscellaneous"
+    ],
+    "Position": [
+      4,
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_DeadlineCommandSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACbklEQVQokW2Sy08TYRTF7zcPOtNCrBiBNnSIYKGluLBFhMRHESHyiBE2GpdGRIyCxhVG/xF17YumKooJFDAqhUghkRaHV4CmFKltlYb0OUxzXYBNQzibe05yf5t7LkFEAACAcPiPZ84TCoXqaut0umLIUjKVAkSO4wAAEBERf21u3n/wEIAqKzdcaGx68fIV/tfS0nJj0yVDZZXNZkdEgoiJROLps+fBUHB4aNhkMjlGRrVa7aTzG8Mw8Xj8xs3OdZ9PoVBwPG9785oBgFA4POVyuaZnrl+7yrIMRVGBQGDW7baYzdvb2941r6nSKOiKPeI8IYQCAJZlfgeDgLi0vOz3b9A0Pfb5y4mqKgCgaVpTVBSNxQYGP9VbrTzPMwAQi8Yr9PoKvV7a2ZHlNCGkpaV5aNhxsaHh67jzpyiyLKMTSrpvdwEAAwAaTZHFbO57/ESlyq05Vb24uNjW2nyvp7ejo13JKQ7n58953Lb+foqi9gCVStXa1iouLEhSyu/fYFg2FovX1Z4ecTh4lTIajfb1PTIaDbsnpnZHYUFBtfkkIWTw42AqmZwT550TkzpdcU21xWKx9PbczXSyByCiKM77fOuFGq3X600lk4IgyHJ6ZWW1ob4+Ly9vP0AIoVmWZVme4xLxmPX8Wf3xspXVtZycnK1IJLt1KuNKBMFUaVRwnLwjjYyOqdXq9iuXI5GIUslnA0zG0TStVqtLS495fsx8d00HAqFwOJhOpzs7b2UDkPmZ2Vl3V/edI0cLAQifewgAzpyzvh/4IMtpzBJkh3HnRHmFAQCamlvsb9/hQYJ9WZIku93+d2vrwG1E/Ac27GPD25RPBAAAAABJRU5ErkJggg==",
+    "Name": "DJVSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "DJV",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_DJVSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAABJ0AAASdAHeZh94AAAC60lEQVQokSXC229TdRwA8O/vdy49p1vr2rWLJW5sOnaRSli2LI6NSIwzIyFKuAQefODBP8BXTXzgUeMDMRIe9AHCRYOJIIuLBoEIS5w1wsIgROtgBbZ1tD3tzm/n8rv74CcfdPCTa5QJzoXgnDFOmVxvRJwzwRkXnAvumOCHsYW14NTWxOSGGyLNQDDFB7rdXb0pz6c/3F5mjBX7OpiEpfKag1zGuQEaCQP7OB3hNmkmtxfSk8X8vafcjxVF7R8dH0slba3YpycmsG1pkJxTy06YLzkUmdK1zXeK2XM31w6OZb+cffLx8cHPvlvc2KRS8P0T2lZE4TjCiCuFQ7CNhPn+aObsrcqJtwun58qv5lEyAc2AIk3H+lOPysvNraDd1ghJDRJnkuLoeNepn1eOjHfWNiPLEHuL2Vv3KjSoU7J2eKJw+cZ9ULTmb2WTAJqj35Yq31wvL674bRBBTN56o9C/LfP5xfny8/rhfa+vb9QePq5uRbGUPOviMA6NcnJ0KG9NDeWeVRvzD57O31+Zvb3kNVug6Mxoz3BPbmSwGxTfqNWxZiA5Gv7wTBSGkwO5Dte6+OuiZCxpKBJESkqthFai3dbjxb6Rob58Jv3VpZ/MTjPIbHP3DL986tvrmYSwEhKkVIwrJHcN9MxM7a41N1er9a+//8Wx4NC7k2bUWD305t6Tpy+QIMJKhDF1LSOMGSg1/cH0yS/OOAljZ3/Pe/tGrszdzKUcvKfYe+PO77Ffh6gZb3mYEaA+5mRnb+7R3/8oGXued+ePu9u7OpCI1qvruK8rvbCwwFovROBh6iPqU+K5EB+bmbp85SpQAowAC4jfSiBxdXbOeFipuoYOA2IohhU3FMNavNZdyGXSC3+WUo6JNdeSmloN7ugtlUq4+WK1sfE832bo2P8/xP7RA9PnL5xHLEA8dEC8kkvf/avEQh94ZIqQgNJVspnNdggpWy2Sy3aSlhc0GwDgGGlGWWX5X9Aw++M1yzT/A+1/uQT3bKJUAAAAAElFTkSuQmCC",
+    "Name": "DraftSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Draft",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_DraftSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABd0lEQVQ4jX2Tv0vDQBiGn4RoW1DcFFHRrYNCwEEQRYduOre7IAjt5ODk5uzg4OTQxcUfVUS6CE5uOhQzxrH/QKs0zZ1NqUPMNU1OPwgX7r7n+957785AE0KIQXIum80aulxLB9femlw+vyM7bay+ZH93DSHEQFfE1FW9qL9yureFJb8wRYvq3RMAjuOklKUUAJiBz+HZLWbQhX5Pl6LCiGTrFh9eHKo3dQAez49H1qLtWPE9+0IyLtsQSG33jFeB72+wdpQnJqBgM/C18PrqCpkxL4RFFzo15YkFKNiSX2wsL1AuFpianBh2HvOgdRXC0g/H2ZiJuWyG/mcbM+hSLhaYNq7Bawy1R50jOG44wN7mIgQS+r2ws9EYSUrB88X/TyHjVcKfXAlpbicPBwDXdbFt21A3K7ok+Xx+WCAmXS7d47quKmDbtqE8iE8oNRE8cwIflRQ44kEqcqVwlD40j2DuQJv2ZwghBslP9w7g10RdJIGk9Ch+AIZw15cPeooVAAAAAElFTkSuQmCC",
+    "Name": "DraftTileSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Draft Tile",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_DraftTileSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACHElEQVQokWP8//8/AymAiSTVDAwMLFhFXzx8/OX+XRYmJgU7u5cMDJs3H5NRkvHQlmVgYGR5+OrZgmMrGXl4VAWltIxteM7dO9/R9u38SYY7j3k4GVgDPecpWNcdZlUPs7mhLcfAwMC8juP60VfnEi2CFaQV9s2efTooSuL2NXnu//I5eV9FxD5v3CJ+/fhKm0gPez0n4f/MTMwsXnrWUhJSIVrO35++OV830UiWn4WXRyQq6bqt35HtWfEi7GyiojyCnIsP3lw8+25OhBnT9JBqOVaR5/9/Hp4+8f+nD0Kqqj+Z2S6tX/fGwdTtymkeMdEanagPQkrS/BxCSsq6MiIsDIwM8Ra+b////nz/pqgA04c3bznFpUQlxIX9feQsLYv3XF39XNlMgvlkrDUDIxMiWIUZWZl4+X58/PfrzUseTW3DxWsFajoOHT/Xd+E5wzfmGE1phr/Prz25xsDAwPAfBu6fPjuHm2mbAMM+U/V9wd4L1GUWMzAsMHPefuQVRIFOc9CRJxcREadgYuS55wiXme3Xhw8+bNyqy8DI52v1Jkjin/C+hZfXRS6puvLqzG/Gv4yYSePd2dP/f/7gFJX6rap86vfj29fPnLl6/uevrwU+qabCGlg0QMD5hw+/Pnomwc4nwC948tjRq5evK6op+cYFY9fw79+/b9++/f71+8fPHz9//hIWEnzz5u2PHz80tTRx2oALkJxaARp17sbGad7LAAAAAElFTkSuQmCC",
+    "Name": "EnergyPlusSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Energy Plus",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      5
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_EnergyPlusSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACJ0lEQVQokXWRT08TURTFz33vdWY6/QelY9vYugBBBExcsNHoBhcaP4NLv4Efxo1LjV8BEpcKJhoWYERDjSBtIVgJpdOZ6fx518VggYVncVf3l3NODviqfvmjF602/18qjOODKBamIeLYJHrVO131guWT/krB9olYKXLdpp0VQgIAQAPPe/3l64Y03cmykiLR2hQiYM5IMRp6Vmt3xRDPH62QEOcAM0Pr/U5n7dTdvFY1TDNhEOtkMLiztfX41vTM3BwuiTQzAALeRMlHL1AHbcP3RbPRN4xnxdx9JRNAXgIUAwLYGA7XWz+dTtcmYTYaU73fR1KsesXpqlPLKAZoDBAziLpb27e7h8XFper8bJQw4tj99Lm0t9/BYq1xHcygc0QwEcDbRuFtfUY7FbfTPdltqTA4mnJeWhMf/gwAMI0NIATQ67vvvPCG0Or7jrffXijk+eh4gbSTt9eGgesOBcD8DwDwvj8U5UmnkD8sVR7cXWpWyjcr5T0/nC1PuIXSxqkLgMcdAj/oh9ET23Qy+aqknW+tvlT1nD1fqxfDuJYTx95oFIxMy0yrqx/d47P1zWpGxazbmrWQUopeHEtmSVQX1AujdvbeTLOeVldWRg18fxjKdA1iMJiI0gwMcKJty7jYwTIyBOYkIYIeJ01HJWJmKShrmhfAKPAHgzOtmQhX/0GAZraMTBSOgPw5UCrknj5cDqOImcGcNksvEYEoa5lZy0wNAfwFNV4tiqoXjCgAAAAASUVORK5CYII=",
+    "Name": "EpisodeSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Episode",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      5
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_EpisodeSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABGUlEQVQ4jZ3TzyuEURTG8c873tIkhEhZsJGUpY2iRikL5dfCworir6L8B8JOlFnLwoIsLIyFsmCKkpRxLd53mMmYZuZZ3c6533PuOU83MiOYQuRXXzjBZRrNCSbRVnEn4JzYMHr81RAuMS/I1cjDSLlvv2AQa4hRwB5mkUu7HeEJ68jiGTtkSJ+2VAfexw2Wq2EvooxBwRY66sC32EZfBdyOrBBbaQEexSruyOhKF3LQJByhN5k60RwmmoBTZX5OzcBXtQo0CudxWlmg2CR8JrETXolkBZ34aBDexAjesFteR7fQCuxRFFfB7xI7x7H4D/yJQ5SSKSIbgjG1lcexyIJgukb+mlgBA6q/cwkXyKfRBxRVepYs/p5vW2RxG9g3acEAAAAASUVORK5CYII=",
+    "Name": "FFmpegSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "FFmpeg",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      6
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_FFmpegSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABYUlEQVQ4jYWTMWvCQBiG36Q3mIRSFFq6uRdsjeDQybEU/Av+EoeuDqWL/8BCf4BU+gcqBWliB0uRDAUdLI41cfPeDqmJdwn6wQeXL99z9957d0apVLqoVOqPjmO7UtIgJUiCJKRMx6SElMmYUbQaB8FXy2g0bjzLsmr7wLimfpNEGK584Ti2u9lsFLjbfcDZ2Sl2YzL5RLt9tzMxYVm2K2LZ6srF4gmWyyWGwzeQBAAsFj8K/J+GSCXuygam0wC93lNGtp5m3p7jyO5ZT4AQalEmksvlMprN22Si2WwO3/9QYJIQ6eqp2wDguleoVi8TEweDF3jeWIHJRIF6VADQ7z+j07nPlZ3xQD/nuAkHYRIwtRuW/NCbs3BcM/Nu2Db2wVuFZt5RxTD2wtu6SUrqDaPRO4IgOAiTpOG6da9QsGuHDct6E0WhfxSGv6+Oc3wthDgn43eR57ZW43odjefz79YfVxh2mFZeeagAAAAASUVORK5CYII=",
+    "Name": "FusionQuicktimeSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Fusion Quicktime",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      7
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_FusionQuicktimeSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABYUlEQVQ4jYWTMWvCQBiG36Q3mIRSFFq6uRdsjeDQybEU/Av+EoeuDqWL/8BCf4BU+gcqBWliB0uRDAUdLI41cfPeDqmJdwn6wQeXL99z9957d0apVLqoVOqPjmO7UtIgJUiCJKRMx6SElMmYUbQaB8FXy2g0bjzLsmr7wLimfpNEGK584Ti2u9lsFLjbfcDZ2Sl2YzL5RLt9tzMxYVm2K2LZ6srF4gmWyyWGwzeQBAAsFj8K/J+GSCXuygam0wC93lNGtp5m3p7jyO5ZT4AQalEmksvlMprN22Si2WwO3/9QYJIQ6eqp2wDguleoVi8TEweDF3jeWIHJRIF6VADQ7z+j07nPlZ3xQD/nuAkHYRIwtRuW/NCbs3BcM/Nu2Db2wVuFZt5RxTD2wtu6SUrqDaPRO4IgOAiTpOG6da9QsGuHDct6E0WhfxSGv6+Oc3wthDgn43eR57ZW43odjefz79YfVxh2mFZeeagAAAAASUVORK5CYII=",
+    "Name": "FusionSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Fusion",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      5
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_FusionSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "GeniusHoudini",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "GeniusHoudini",
+    "SubMenus": [],
+    "Position": [
+      8
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_GeniusHoudini",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABeElEQVQ4jc2Rv0sCYRzGn7vX89XrfnRZZpBFEYYEOhTRFBVE0NZY/RkN/QdGtNXQGOJWbQYN4mlbs4HU0lBgZNidXZh59dqSYWYXNETP9n2+H57vw/sC/1r5ZDKVWFqKOzEup2WfLI8HLGvo1wEKpVovY51ODP/dIn90dAIAHMBtqOquYwM9FsuEQqFRofPjGC9T2tUYJjye1QNBmAZQb3iXtn22Xi4vEwCIp9PxyPX1lP/qalIUBFnRNMktigQA7nQdXKlEVUJ6VEL8Cs93n9t2es00V94bflY2GDRVn0/tCIchRaMo7O/j5eYGAGAxdj9/e+tr5r8EAIAeCFQ7OI5mHh/BM4ZpRcH966u5WCxqbd+gVSJALyoV5CwLADDgdqOfUqkdS1qNHU1LSBwXSRoGnoAHBtQKtRod83r5YUEg2Wo108x/+cZBl2v22DBQqtdPDwH1AFCKjOVSpokRQhbatfikTVF8ngG2Wv05YG9bkio/Bvy53gAxpnBWwUW5pwAAAABJRU5ErkJggg==",
+    "Name": "GuerillaSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Guerilla",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      10
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_GuerillaSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABoElEQVQ4jaWTuUsDURDGv9l92V1zrLKKxAMRYyCFELQIwQNsRAgeIBI0ggTrIBYWYmFnUKvFo9BCbBRrK2tt/AcERcFGxVh4RJEIccfCEHMQzylnvvnNN294xMyEf4T0VZGG1wIUXg/+CUBEElzVJhyVJhGV1JV2MLo5DqEGIZQAIlvRXwGM8KIOrTyeTWh6nHpm9B8DntSGOcjC/amSq4XbP/cjAPl77WkZ6cJ8WrXHaMj0fe+gdWIX95d7sN6u88mkUHmdWSgXeZrRjRCcNX0wGp14ToQha225dZZsoK6xCj7cfihyQN6QgrIqE2BAaN2QRD3vRFd5J7oKyzqH6hyBUMLwDG6RN6QUrxCITEEWzZlZQFnVEvnH7eQNKbBXLEMo7bCpnbBpAwiOTGYHMzNR/3wtuVtOGOTMW/D1MQZIOlRXPDdNzEm+PPbx/uzNhwPDs1DUzFYSd1dHUByzhQ/HRDrcTXEAIAytdMBoOADnXoSBVHIakNugOiKFgExYuL3opLMzVl9cibxrIAGcnh6k0NxllGgGAKRkeqH/fud3iKts5W5xKA0AAAAASUVORK5CYII=",
+    "Name": "HarmonySubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Harmony",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      6
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_HarmonySubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAEnRFWHRfcV9pY29PcmlnRGVwdGgAMzLV4rjsAAACHklEQVQ4ja2ST2jOcRzHX5/v5/fsGcmfVmNpHJQcSEo4L7Vn29Nsy8NakQOXOTmL0cSBlIuUmtrBlssyZCsHbpIDF38SDpK0gxibPc/38/04eLY8yGU+9T19+r6+3/cfsVZ1FjFhMZf/IyDIS89xJDRbs06ahAkLocE2eo4jkjH5L4BYMTsVDsZB7hH4mLUg3oQyQyW84mbliQjunbntqWJDJNnyBwAgdmqnlLmC01SzVd6GTPplPE54kaWe9JYbLTUSrDMblDluivAk5KUtFGxVWG6byHs/LuU053e8qAflNjPi1k3gdc0j1qpu3eHo3/T5AJm167AVdMZLrAOIRe2yVvX5g3VkFwH8EPVWDAOxXR/Fdn0Y9+j+KqTO2vSDFbNzAO6IFfTbPCCE1XEAwKd0jIqcEmObGDvlO6PexQY5TdkTLyT6TgAR3DN/vuCBDDHtPbldHimgDPsyeqr2zrKEr9Ww69MvnZEkjQsAANPUAJCSXNPNdpc6Px7qpCAjfPQ+1ktih+hP8/wAjRjN84AMQKO+SRhB2S2nuQ/pLCS8xAr7pCMCIeTDFTDS57CvpgfeS7OM8s46sgtEP0bGZc/zQMqyleiHcdaQlzM6Hk94iWVpWl/grF0AxEJ4rJJa5C5fvFtLac5PYrK5KvB9yPl5GU+X3JFU1OtEemt+YK3qBHkW6qVPxipPAfwGdYDKPmarEa/0Kb3qkb2/d+UH8RrrV8FwpP4AAAAASUVORK5CYII=",
+    "Name": "HoudiniKarmaSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Houdini Karma",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      12
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_HoudiniKarmaSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACHklEQVQ4ja2ST2jOcRzHX5/v5/fsGcmfVmNpHJQcSEo4L7Vn29Nsy8NakQOXOTmL0cSBlIuUmtrBlssyZCsHbpIDF38SDpK0gxibPc/38/04eLY8yGU+9T19+r6+3/cfsVZ1FjFhMZf/IyDIS89xJDRbs06ahAkLocE2eo4jkjH5L4BYMTsVDsZB7hH4mLUg3oQyQyW84mbliQjunbntqWJDJNnyBwAgdmqnlLmC01SzVd6GTPplPE54kaWe9JYbLTUSrDMblDluivAk5KUtFGxVWG6byHs/LuU053e8qAflNjPi1k3gdc0j1qpu3eHo3/T5AJm167AVdMZLrAOIRe2yVvX5g3VkFwH8EPVWDAOxXR/Fdn0Y9+j+KqTO2vSDFbNzAO6IFfTbPCCE1XEAwKd0jIqcEmObGDvlO6PexQY5TdkTLyT6TgAR3DN/vuCBDDHtPbldHimgDPsyeqr2zrKEr9Ww69MvnZEkjQsAANPUAJCSXNPNdpc6Px7qpCAjfPQ+1ktih+hP8/wAjRjN84AMQKO+SRhB2S2nuQ/pLCS8xAr7pCMCIeTDFTDS57CvpgfeS7OM8s46sgtEP0bGZc/zQMqyleiHcdaQlzM6Hk94iWVpWl/grF0AxEJ4rJJa5C5fvFtLac5PYrK5KvB9yPl5GU+X3JFU1OtEemt+YK3qBHkW6qVPxipPAfwGdYDKPmarEa/0Kb3qkb2/d+UH8RrrV8FwpP4AAAAASUVORK5CYII=",
+    "Name": "HoudiniSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Houdini",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      11
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_HoudiniSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACHklEQVQ4ja2ST2jOcRzHX5/v5/fsGcmfVmNpHJQcSEo4L7Vn29Nsy8NakQOXOTmL0cSBlIuUmtrBlssyZCsHbpIDF38SDpK0gxibPc/38/04eLY8yGU+9T19+r6+3/cfsVZ1FjFhMZf/IyDIS89xJDRbs06ahAkLocE2eo4jkjH5L4BYMTsVDsZB7hH4mLUg3oQyQyW84mbliQjunbntqWJDJNnyBwAgdmqnlLmC01SzVd6GTPplPE54kaWe9JYbLTUSrDMblDluivAk5KUtFGxVWG6byHs/LuU053e8qAflNjPi1k3gdc0j1qpu3eHo3/T5AJm167AVdMZLrAOIRe2yVvX5g3VkFwH8EPVWDAOxXR/Fdn0Y9+j+KqTO2vSDFbNzAO6IFfTbPCCE1XEAwKd0jIqcEmObGDvlO6PexQY5TdkTLyT6TgAR3DN/vuCBDDHtPbldHimgDPsyeqr2zrKEr9Ww69MvnZEkjQsAANPUAJCSXNPNdpc6Px7qpCAjfPQ+1ktih+hP8/wAjRjN84AMQKO+SRhB2S2nuQ/pLCS8xAr7pCMCIeTDFTDS57CvpgfeS7OM8s46sgtEP0bGZc/zQMqyleiHcdaQlzM6Hk94iWVpWl/grF0AxEJ4rJJa5C5fvFtLac5PYrK5KvB9yPl5GU+X3JFU1OtEemt+YK3qBHkW6qVPxipPAfwGdYDKPmarEa/0Kb3qkb2/d+UH8RrrV8FwpP4AAAAASUVORK5CYII=",
+    "Name": "HServerSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "HServer",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      14
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_HServerSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAEnRFWHRfcV9pY29PcmlnRGVwdGgAMzLV4rjsAAACHklEQVQ4ja2ST2jOcRzHX5/v5/fsGcmfVmNpHJQcSEo4L7Vn29Nsy8NakQOXOTmL0cSBlIuUmtrBlssyZCsHbpIDF38SDpK0gxibPc/38/04eLY8yGU+9T19+r6+3/cfsVZ1FjFhMZf/IyDIS89xJDRbs06ahAkLocE2eo4jkjH5L4BYMTsVDsZB7hH4mLUg3oQyQyW84mbliQjunbntqWJDJNnyBwAgdmqnlLmC01SzVd6GTPplPE54kaWe9JYbLTUSrDMblDluivAk5KUtFGxVWG6byHs/LuU053e8qAflNjPi1k3gdc0j1qpu3eHo3/T5AJm167AVdMZLrAOIRe2yVvX5g3VkFwH8EPVWDAOxXR/Fdn0Y9+j+KqTO2vSDFbNzAO6IFfTbPCCE1XEAwKd0jIqcEmObGDvlO6PexQY5TdkTLyT6TgAR3DN/vuCBDDHtPbldHimgDPsyeqr2zrKEr9Ww69MvnZEkjQsAANPUAJCSXNPNdpc6Px7qpCAjfPQ+1ktih+hP8/wAjRjN84AMQKO+SRhB2S2nuQ/pLCS8xAr7pCMCIeTDFTDS57CvpgfeS7OM8s46sgtEP0bGZc/zQMqyleiHcdaQlzM6Hk94iWVpWl/grF0AxEJ4rJJa5C5fvFtLac5PYrK5KvB9yPl5GU+X3JFU1OtEemt+YK3qBHkW6qVPxipPAfwGdYDKPmarEa/0Kb3qkb2/d+UH8RrrV8FwpP4AAAAASUVORK5CYII=",
+    "Name": "KarmaSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Karma",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      15
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_KarmaSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADMElEQVQ4jW2TbUzVdRzFP7/f/38vFyJg3CACFwQXEIbXmukoWgIS5gOtsdKaufUwTd10xaveRs3abHPrTSup7OFFag5oC3Q+ReVcekWMkkUY3lp6ud24gHB5uPf3+/aizVx63p3t7Jzt7BzFbTB+bkNd2l/hRo1dbByjlTjDMzklx/JrD33/f626mVzv21gl0+GO46HYQ139Sv0SEaxAIB/WBY2sqfWHTHbxy/krD1+4xSDe98SjV38b6t7WkcqZnHVorNY01cDElGFPr+JSRFhSqHl/q05UVj7wXFb9F503kuOnXyr+9ZPFfweqA+IpqBC3oFLcewKSURSQ3dvKJXagSB6pKxO3oEIKy8rlwr7KxPjpjTUAGsCdurin7XOTOxpXCGCVAdEoJbz9tXB+1MPeTSkchOgM7OhIpuv45b0Aeqb/xcLBkcnWIz9ZEBCERVmwLmh5bb0HLZbDIZdgYYqiXMEqIRR26BuIr5o89XTAnY8NrTw6kHQQL45Y2lsNO1Yl8TkWg8sztQ4nBwUlQlqaAmNBKXouimpcFl2rPUYqhqMKqxSvNqd4ZfUcB39wuTblUtvupe0zxWM1c8QSLn9EQQBRiuGoRlJjBRrtKrGCTxl2NSd574SXnfsdRFnuzoLrcw7+O126+9OYN4JSmtJ8jSvgohxXuelXSvM0BTmWOzId3unxULbIw2TC8u6mJL50lze6PBwdBEHj1ULrcsNYHKwvO6KTGWXfNAVdmZ6FP2Mu0RkYjqR4vROK8yyjkSTnryiiM5YVJcKn2y2jY4bVSyyz6dXfKYDJ3gd7W3dPPP58g7DzI2E65aBRbH7Y8NaGBbJ9YEWRSMGbXR5OXBJOteee87eEViiA2JnNVVd/Phva3rGQ4c/y0vujAP8W5vfB8vIUjtKcvQzzxtLd5llYGqyuz6rvPPPflI83PzkyEj6wa7/19v9uscblho0ChXBvLnywxdpl95dvzWk48uEtZxo/2Vpnpkb3ffntRNVXAw5D1zQglOZBS9DwbENGODO7aktm06Fjt30jgMhBJ9b38dqMxFiLOM5SxMxZJy087+b23FXyVJe674W5m/X/AE5bZOrwoexHAAAAAElFTkSuQmCC",
+    "Name": "KatanaSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Katana",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      13
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_KatanaSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAEnRFWHRfcV9pY29PcmlnRGVwdGgAMzLV4rjsAAACyklEQVQokUXSTUgUYRjA8ed9553ddT8cV93WNe0bljDTDlZGFkFQCEJJdO5iQYUXT32IBRGWIR4khCDqEBUE5iGMIqQ0WgrSCmzLorT9GnXX3XWdnZl33nk6KPW//28/gogAAAAWAkMBaCU1jBcBEGrdEHQTIMymEoW1yOpgI1BixJZE5xQdnncA0BIZXBRP1VrdYe53SiA71wYbkQBwXbv8lakGrfMKFOLBHPmckUFmFR48v9HMWmSgwbKZmxJgCEC4dm6S3ZlxgARg0cNBHN5PJ/P0TMRI5xwhJ16ddrgI9jZogrkpBf50Fu9EHcChTBgX67CngeVTs/WLkWgrNvqszIpoKhU3ppzvkraEnIGhD0y7IIsdOwo9TWz5R+R+36NPX2fmM7mTbUdGz3alTToas6EAQ9/l5qDOvizYH+agv3nZ55AMg/fcHJj+NlNZUV7m8zx4MpLK5G9d6+aGAwS8/MXUBo0uFsT1XcXxhPPCe8/KQkxV5xWfj5umruulPu/ExNvvswkuZMjgsZDuooJuL7Oez7qG3zkPBCE3/yeeUm1bGIbBOde0YlXAr7Hyz7/srr3L1SXwLQ10QYOJnxJIYGu8sW7r5k2bEkkVAEyTz8XilYGgoih3D6UNS+6PuKo9goYDpKVChyxA0YwWqvoGBvc11f/+kyAgTrYd6ursWMzb96Z8g89K2tZr1QolKFaGI/n2oaqju41weXE8XvbwRCIenQAlnJK2j0zLjycRTEqZPdahttQpFKm7tZ6cas68icrVXvg4BS23Q0l/u0PZMPhCf/zagjyFFbhyML1nC0XmJoho25hdiF0acQUUuXdM4RoBC8JbePvOIkORzNJtlcXTLby0skaiZA0fIuYyKTWj970qHY16NC4tG8Qt28d3FLqP5moCTuYJMYn817paUSuY2lIizdU8MAohBdb5Zer0l3i9/3j/BWC9cFTCYbvAAAAAAElFTkSuQmCC",
+    "Name": "KeyShotDRSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "KeyShot DR",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      7
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_KeyShotDRSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACyklEQVQokUXSTUgUYRjA8ed9553ddT8cV93WNe0bljDTDlZGFkFQCEJJdO5iQYUXT32IBRGWIR4khCDqEBUE5iGMIqQ0WgrSCmzLorT9GnXX3XWdnZl33nk6KPW//28/gogAAAAWAkMBaCU1jBcBEGrdEHQTIMymEoW1yOpgI1BixJZE5xQdnncA0BIZXBRP1VrdYe53SiA71wYbkQBwXbv8lakGrfMKFOLBHPmckUFmFR48v9HMWmSgwbKZmxJgCEC4dm6S3ZlxgARg0cNBHN5PJ/P0TMRI5xwhJ16ddrgI9jZogrkpBf50Fu9EHcChTBgX67CngeVTs/WLkWgrNvqszIpoKhU3ppzvkraEnIGhD0y7IIsdOwo9TWz5R+R+36NPX2fmM7mTbUdGz3alTToas6EAQ9/l5qDOvizYH+agv3nZ55AMg/fcHJj+NlNZUV7m8zx4MpLK5G9d6+aGAwS8/MXUBo0uFsT1XcXxhPPCe8/KQkxV5xWfj5umruulPu/ExNvvswkuZMjgsZDuooJuL7Oez7qG3zkPBCE3/yeeUm1bGIbBOde0YlXAr7Hyz7/srr3L1SXwLQ10QYOJnxJIYGu8sW7r5k2bEkkVAEyTz8XilYGgoih3D6UNS+6PuKo9goYDpKVChyxA0YwWqvoGBvc11f/+kyAgTrYd6ursWMzb96Z8g89K2tZr1QolKFaGI/n2oaqju41weXE8XvbwRCIenQAlnJK2j0zLjycRTEqZPdahttQpFKm7tZ6cas68icrVXvg4BS23Q0l/u0PZMPhCf/zagjyFFbhyML1nC0XmJoho25hdiF0acQUUuXdM4RoBC8JbePvOIkORzNJtlcXTLby0skaiZA0fIuYyKTWj970qHY16NC4tG8Qt28d3FLqP5moCTuYJMYn817paUSuY2lIizdU8MAohBdb5Zer0l3i9/3j/BWC9cFTCYbvAAAAAAElFTkSuQmCC",
+    "Name": "KeyShotSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "KeyShot",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      6
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_KeyShotSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACOUlEQVQokZWSS0iUYRSG3+/7/xlnxmYadWYSDWO6KYEKKXZZFOSihWAQiJugti1a2qJFBUUGQdCqRUQQBEKUi9xpF6qFjAnOQGEXUMsxreafSzq/833/d06LkWntWb8P73k4B9jmCACj1685m5qIiChI+qK38IiaV+AnYwxRauZDZja1lRbCBtBXzo6rSBU4Y7Jhr2QQ3WQyhubS6cxsqqunr9ZgAzhYcYZV/jnHiiQKxrw3oXZ2OsiESQ22R7t6+qoNVcwGoJTuVKUpDnaQ22DWd7La462vsm+awyBTi2ZmU1srvdIh5flOmNXDJu8yykYwVaY5Mo6GhcXFmsD/hhmr4ZL6vNuUckY2mjIbOIwByg7Qj8ourgkkEvEt4NT8yxb/RsEOhqR4IhLTiGogQN6wt3zU+3MnAmm0ZfRI3gfAAnA3WiwpCmn3itf2VocGK9/71YpS6oGO79WFoHIvm2Sv+nXIK0ysbggAv7sBYFQmJ0XsqZlrgn4jGo9xYUw0P5PNYyb9TkQD4JPsxNOwATDgwDcpYhdouQl6yOrOwR+Dumfmp9BUgn2acwBei0bAsatCa6LOAvfi74II5uAH0M+5x7LlAJcBLCHoCnlD7gMcCcBAxFgRxEfUJ9k9zvkIvA1YLuQILT6UrRMylkXg/6VtcAKqh4v3ZduQWbtJ376I+jzsI1wEcI5+huFdlfv9IACyyhHELfrais3zVmdGhNvYTbL7QsRvy+SSCGRF3Sex4yyvbfe1AeAf6R0mmr98PIcAAAAASUVORK5CYII=",
+    "Name": "LightwaveSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Lightwave",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      16
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_LightwaveSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "LsCameraCaptureSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "LsCameraCaptureSubmission",
+    "SubMenus": [],
+    "Position": [
+      9
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_LsCameraCaptureSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABNElEQVQokZVRMaqDQBDdxBC0iQcIpBIrzyDYCenTWaa2WMgJ7OyCR7DUysK19QBWIljlAiaQTLGCMfuL5a/yNSH/Fcu82fdmZncWlFL0HyynqdPpZNv28/n81nC5XOq67rpu1rCYjvR6vfq+RwgFQQAAruuqqjpc018QQjzPE9T3fS44Ho90hGEkAGiaRtC2bXmQpmmapnme87aIvsH1enVdV9M0UcKyLABAVVWFYTiWOo5jGMb9fqeUZlk2fl6SJEvG2J8P6fu+6zrGGEKInwKMsbcj3W43jLGu60JtmiYADIY4jjHGgnqex3Xb7TaKIkIIAFBKV6KAoiibzUbQ9XrNA9u29/v9p8Uxxvjuzufz4/HAGI8XN2M4HA5FUZRlKcsymmA1Te12u6ZpJEmaXs13+Iwfb7YHHTzm64oAAAAASUVORK5CYII=",
+    "Name": "LuxSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Lux",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      17
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_LuxSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAEXRFWHRfcV9pY29PcmlnRGVwdGgAMBSaKYwAAAJCSURBVDiNfZJLSFRRHMZ/9965j5lxxjtDo84042MaHR3FEoekhF4LiSiIoiKnUBKiTdEDt1K0kHTRphe0ahGtalES7TLCRRhFhSQuzBADQ4QyGJ0Z57S51641+W0O/+87/9c5H/wfsh8SgHuDOyWhAFzyciXX6BK3gvIji1dtbV2XErEMsNev7FDNOAcCWidQBuSBIiD9080BYZ/Tv8Rkk1ZovLuQH367svo5o3KWIsp3mLWaCGeiDNDlYtd4TPp0VOOUk38aVkZFs0d8S7hySUhbmguQZWskDaDTw+50VU1LX4Vx0rpU3AThTr+nDV+0EPZVqL1+TluaZK20FgCUn/e5+js0rdWKTYChSu/gl4QuluqlYjapZ9/HmHteyYc07MEE81o5/XGod4xGn0HPYoNrZSjAHYBaw6h9Ve0eF+0xIVJaXmyPi3dRvspNkBqoDQ0dM9X9VgE3QJepHAqY1drhoOcgYM4sL89MLGWnWM1DqDmHtzwXVdkMIEUgyR/DyAAplW3DQeXFkTLtBKD3qpybrpPnFhOSmI+TX4gjbpuMrvuFNtg6FlXGMio9Tv5ZWHkpUroQ6RrxpsaY7dZ42BsODQIhu4AGMOCXr4r2mBip9o3YQgiq5pO+H2JnY0G0RcQZncuOt1ozlQTggXDG4HqTRovFBwEuBvQbryOIBxXSRy9UWprKX660oQBkDLp/NuiFmwHuWXwd4CuV4IQE6ACPI9oT0bFFTDUEZh2JtvE2hAzQCvvuB5k8rnOh1M42fgNzzpCZWktLmQAAAABJRU5ErkJggg==",
+    "Name": "LuxWorkerSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Lux Worker",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      18
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_LuxWorkerSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACHklEQVQ4ja2ST2jOcRzHX5/v5/fsGcmfVmNpHJQcSEo4L7Vn29Nsy8NakQOXOTmL0cSBlIuUmtrBlssyZCsHbpIDF38SDpK0gxibPc/38/04eLY8yGU+9T19+r6+3/cfsVZ1FjFhMZf/IyDIS89xJDRbs06ahAkLocE2eo4jkjH5L4BYMTsVDsZB7hH4mLUg3oQyQyW84mbliQjunbntqWJDJNnyBwAgdmqnlLmC01SzVd6GTPplPE54kaWe9JYbLTUSrDMblDluivAk5KUtFGxVWG6byHs/LuU053e8qAflNjPi1k3gdc0j1qpu3eHo3/T5AJm167AVdMZLrAOIRe2yVvX5g3VkFwH8EPVWDAOxXR/Fdn0Y9+j+KqTO2vSDFbNzAO6IFfTbPCCE1XEAwKd0jIqcEmObGDvlO6PexQY5TdkTLyT6TgAR3DN/vuCBDDHtPbldHimgDPsyeqr2zrKEr9Ww69MvnZEkjQsAANPUAJCSXNPNdpc6Px7qpCAjfPQ+1ktih+hP8/wAjRjN84AMQKO+SRhB2S2nuQ/pLCS8xAr7pCMCIeTDFTDS57CvpgfeS7OM8s46sgtEP0bGZc/zQMqyleiHcdaQlzM6Hk94iWVpWl/grF0AxEJ4rJJa5C5fvFtLac5PYrK5KvB9yPl5GU+X3JFU1OtEemt+YK3qBHkW6qVPxipPAfwGdYDKPmarEa/0Kb3qkb2/d+UH8RrrV8FwpP4AAAAASUVORK5CYII=",
+    "Name": "MantraSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Mantra",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      19
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_MantraSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACPElEQVQ4jY2TO0trURCFv733SU6Oj8RYScBGo5ZKBFEIClbaa6X2/gebW1tfLFIqgqA2ClrrH1BDrGKhjZ2PoId4HnvPLeQGBM29C6abWcystUYBh5lMZkVrDQACKBARAJRSAERRRBAEtNttstksIkKSJEeqt7dXyuUy1lp+QhRFrK2tsbq6ytXVFdvb26RpysPDA15PTw/9/f1dCTzPY25ujlarxcjICLVajVqtxv39PWp4eFimpqa6ElhrKZVKbG5uYozBWks+n2d3dxc1MTEhMzMz3xI45wDQWpOmKQDr6+uMjo4SxzFvb2+fJxSLxU7DX8RxTKFQAKDVanWEOz4+Znp6mqWlJd7f31HValUWFxdJkuTL8MLCApOTkwDc3NxwcXFBNpsFIEkS8vk8s7OzeM45+vr6UErhnMM5h+/7VCoV2u02AJVKhbu7O6IoQmuN1hprLVtbW58EJycnjI2NUSqVKBQKDAwM4Pt+Rxff9ykWizw9PfH6+srj4yPNZpMgCFBnZ2eys/ObMGyjtUZE+Pj4YGNjg/n5eQAuLy/Z29sjl8uhlEJrjTEGAHV9fS3GGA4ODmg0GuRyuU54BgcHAXh+fsb3/W8tVo1GQ5xzBEHA7e0tp6enGGPQWn+x8Seo8/NzGR8fJ4oiPM8jjmP29/dJkqTzB91ghoaGfoVhSLlcBiAIAsIw5OXlhUwmg+d53QugXq/TbDZZXl5Ga029XkdE/msDVa1WD621KyJCmqaISCcw/1zfmKM/MEcF7cjaW5oAAAAASUVORK5CYII=",
+    "Name": "MaxwellSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Maxwell",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      20
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_MaxwellSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABy0lEQVQokY2SsWobURBFj9eDGcwjTPEwW2yhQgEHUhjjwh+QzgZDcJEiZb4gH+Mqn5BKuFChQoUIKlUIkcII42oLEZbwEFNMkWLXSsoMr5nhzp17effo62SSRURVRSwlFbWkpppEARFU5PAAcfeiqh4o7q5J2677NpsBX+7vR2Ye4REqYqqA9D24kjr3+c/lbDrdrdeozp+ePt/efrq6qlN6hXH87uZGRBB52m6/Pz7+WCz2mw05k9J+s1nudvPt9s3p6fjsjIiIOH57dydVNZ1MFvP57/2etqUURiNEaFsifp2cTFer1cvLx8tLoPKIiHher1GlbWlbzOhLledn2hZYrFYlKIEUdxVhNKJtcUeV83OaBlXMWC4HiqYp4cMFj2A8HojNaBrMUB2G7uRMzuERHlUXUdxxZzweFlTpJ4e2roFCFEK6CO0Vl4IZdT1A+7W6pv8/CA+g2rl3EZQCqNn7i4vBsTvw4fo6mVEKEcW9uFe4R0/pnnI2s3GPKOWqri+aUc65X+68dF6qv3zu1PXO3cxyStmsMdt5qXuRXdcDj04eHuqUEiQRVU2gIkn1ELikav+Gr88pEb0zRBA9GAUCCgSICPAq6b/rD1EY8St2iwfOAAAAAElFTkSuQmCC",
+    "Name": "MayaSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Maya",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      21
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_MayaSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACD0lEQVQ4jY2TXU8TURCGnznbBUM0GD/wI2qCxn9g1Wu9wQBJwXhhTPx3RiO2SLUFNVC8lPIbvNEYA4lpA8RFd+f1Yk9Le+ckZ8/O5Lwz73zZ5+1jCUBCAhGPONF1cnz4pnxfkcTTZ8/3syzPCCacKDIFmUuJI/OcACQ5HggeErP01YuVqYoEWZZnR8fZIXlvEhCV6Ux5b8oqZ/9gniASQeKyBCPBlJCmAUFQGc5B/ulD5+bHja1bFL2JjfXOrPLeBJgXRT8Fi9lJpkFC0UGIThTrsN7u3J6bu/Ot1erMkvdPvW9uXwNJ3k8ZEQmCi5i22eDfBa327vVHc9UfzWbnxsJ8dQ/g7erWpTEHQCiJmIFCISj8pOKtdvfq/MKdn8133RkvDiZrSw/2VBykox6CBBY8gAWPYPeShQvWmruXFxer+43VzSsA9frmBZkZsShBgsLdsCIZAzu4hBCrzZ2LtcXqr3p9a+Zx7W5/ANaAgcwCWFKMRHY0dCSHxlr33HLtXv91Y2caFFBk4IJCJBKJowgswaPT5w4rjS/TT5arhxg27KAAFR4kEvcYUWVUH2NU3i/fdE8jBZCVo4zIUZApWVp+uD/SJQOZIVPsUmmzYOmZgBQEVFxQScNExSYC6XmQRFll/kpgMrBQclBAUTdLJLC19u/BMg6Hg7hxA/tgQ8f0+LFonwXu8/9yBHwHvv4D0/pvQPFoHSIAAAAASUVORK5CYII=",
+    "Name": "MediaEncoderSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Media Encoder",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      8
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_MediaEncoderSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA/0lEQVQokWP8//8/AymAiSTVJGh4f//e+/v3GBgYGIl0UqeYEAMDQ/mrdyxE2mCckgZhEGsDHDAxMDB8f//+6prV39+/Pztn1pHuTohbr65ZfaS7897ePRB1EDUMDAyMT8+eWezhyiEgaJyaxsDAcLS7E84+O3vW+/v30k6e+fH+/SIPVyVnl7gdu1mkjIwljYwZGBhsSssZGBh+vH9/pLsTwhZUVFodGfbj/XslZxclZxeEk5ABh6AgnM2JxEbxA8meJgkwh+pon5sz68vz55yCgpyCggebGj8/f87CySlnbbOnuuL1tWt/fvzgFBQ8OWXSl+fPpYyMyYoH2moAABppacu++oTGAAAAAElFTkSuQmCC",
+    "Name": "MentalRaySubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Mental Ray",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      22
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_MentalRaySubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB+klEQVQokZWSXUiTURjH/zt7LXlnr05tBNUwdYEDI/twlRQxwUi0LhIxwhsvEqKbugzqLsjrKLowCSqTKErUqKygj+VYNT+gUqrBauj86N2Gr07fd+9zujgyN7vyuXr+v3N+POccjoWIsJ6SMsPI17Hx8A9v9WFHsSMNozPT3a8eLy0tX2q7AACUUZWnjyh1Ze6Wmjl1ThBN09wtNcqxsp1NHkFY5oSK7eUAImq0zzcoyJ3+B5FYFIAjv0iQVUHX9Q/fAqIfnhgDwDnv7L8vyOb/hbeffJqeFP3PcAiA74s/NPtHEHt+wVphwD8I4pw4gHDkN4CeN0/TqzbZliUQ0bOh1+aCbpNyAUzGpheTi70fX8hso9iQI0lZwlAwMKOpO4q27XHtAmCAuh7enV9eaPbUAwCHYaSyhD7/SwDHD9aWbHUCYBusHT03qpzu6t37wQEgloivCkTU+/45T9HJ2vqKEpdYmOfJtsYzim2TiKHJsGgkAO8CvqnEbOkW54F9HmvOylmV3LxT3gZxewDjU7/UmFpoL2QAOge6rYx1nLvMGNtbWVWcZwfQfLRRlmVXaXmBrABIkXnzURcAFk/EgxOj189frTvkBSBJUntDK7OwsydaRbzY1C6GBL6PrDzomjIM4/NoMB1N07z95N6VW9f+qioRWdb7vf8Bllz2cI5R/+YAAAAASUVORK5CYII=",
+    "Name": "MetaFuzeSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "MetaFuze",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      9
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_MetaFuzeSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABJ0lEQVQokZWQsaqDQBRER1FQFgJ2NvmWgHUsLJIPSJEgafIXW6W2sErxGsvdVjHptU9lLRgsAouFxb5ig4jy8GWqubOXu4fR7vf7ZrPBTE3TXK/Xuq4nuSalnESmaQLo+x5AFEV5ngNIkgTAfr/X57fHCsPQcZyFHyaqqupyuViW9ZmLoiiKQkppGIZhGGMzPB2PRymllHK32y0gKW232y+QAHDO4zhWXi/LsixLAIMxTVMVNSQAGGOMMQD/QlqtVt8hUUrTNP0MQxXzuobE8zzVku/7y0i320/XdcoLIRaQns/n4XAAYNs2AEKI/n6//9rmnJ/PZ+WzLMuyTAihB0HweDwmq1VVnU4nSqmCUeeVNM/zlFuv167r1nXdtu3r9Ro2xtuEkF+OfbKIXo/riQAAAABJRU5ErkJggg==",
+    "Name": "MetaRenderSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "MetaRender",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      10
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_MetaRenderSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADBElEQVQ4jU2TzWtcZRTGf+973zszdz6TTJ2MJIVYGlOJjmJjGtMmJAsXqUZwo0UitLpzp4voxo2K+AdUcNGFhVK/0EpFAtpWiUZtJcX0QxIbiiltvtqYmTuZmTtz731fF7cLDxzO6jnnPOd5jqDvYAYr+SmYUVQM4mkIm+DVQFogJEKAkTYAMmwy9eKzLC6tLFy6PD+hiGdnMBzEaAgDEAJUAstqMvr8YUygmT3/CybmQL3CW9Nv89LUGIeHJw+BmpEI62nsOCQyYCnwqmSU5tD0h1wdfBWvvoPOFUHajA6UWB0Z4+jUm6xWfYBhhYrXMTpNIgPJNqisM/L4I/x5q0JRXmB+eRucNqxcJ72vTzM7M8eN5XUQEgjrivYugxAAkMpDtkjH8ARmpYJ1+zp+PAfSYrxU5OrKPYJzX0Dog2WD0UZhDHTshvQucLIUUpJ/23eT36xRXloAUSQW1EjsfwVvfY2mtiDVAfVtCH0kjQp4VbDjkGxjqNvB8gKeKGa5vbYFd65xbHKMOu082VNAGAPNGgStSBWyBZAK3LsIv8HkQAm7Xmewby+JmOKp/r08UBol+fvn5LThQO+D0KpHDbSPonoPjIFckYn8DjUrSUH+w+atFl9+fZa/WnDy/Xfo7Okm11WgZ/8Q/HwlwvgahZ2AzC4QkiPPHMDZk2Lh+8vMO51sJhOc++wMN7cgvy+NLV1OnDobSW40BE0UUkJtm26rwsXCazgVj5NXdtB7HoOZZVBdkI3z968X+eC3P3CDZGS4oAk6vE/B3WTo6HtstQzuV6fR8TSU12B9MeIac1htSPCb4JfvT2+B0Ug8V4z0P8RzL/Qxblc4f+FSpPPGElTWoHwH3I3o8o0yH73xMt7caW5++zGAUAVHJjP9g/xw/ATfnJmlmciDexc8NwL5XlSFBN+jt7tAzIJ3j38CkFJSWteWf/qutLFVpqbjYFxoNSKg70XbhD4gwIQMPPowC9cXKVd3AOZE9M7OKYQcx1KgYpEvtIawBTqMEg2G/8ePhI2p/wDDn0detTRvBAAAAABJRU5ErkJggg==",
+    "Name": "MicroStationSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "MicroStation",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      8
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_MicroStationSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACo0lEQVQ4jWWRS0hUURzGf+fcO49r6ejQLR9Tjo8sIoqgoHdKygRSmyyIWllta1PUoohoEW2DSjIkCLMI2hS1ihQLhHJRi0jR0py0dHzlvLv3nhbpbZi+szqc833/7/v+gkUorsi5tdHdPkec1ZXYKxArQKUd+GAJ1ZHUnS5zoGOBPAiA1/X1+tZvtacNIS9JRXn+JwVpC/UoK9IXCocfTP4nkKw61eIV8p6GCPwlKPdZ/BMhK6z2Cds+UzVyP70kIKcqT5R5hDiXxg68YoofZBCLJ4XNa2IMEOc7KTxKOx7QtaZcB7pfevfoyE0jJHnHHJ9YoBGT1Rg8ZYIoKfxo1LKMEEaBoTgIPF80hZRSbgYMG9hIIYcp5y0ztDPKGgwaMbFzQulK1o6FjvjdCMLBk2upEJ0sDlsIUI/pduCWphAhQv8iWJIhFBag/yBDJ1G2EGAHQbdOB+V6sFE/n0ajWddB1sr02qjRIB4S2GyjmB0EXYKJl02qiDVyGRheRwULuo/yxM5do4hXn7xooF1zQNMQS/24+8sUG6pnlZXtdWIM+zJ9Zk348aHm5odNTU3zOqB+ot0uR1V6Ea2gPLlkZ7nPuVv2y7o10udJplJSR+wr+Dq0Mz4/X6OUuqwB3Jztz5wt294tLWtcQCmIIgVSQuZzhS9xY/K9z0wovUIabJMlmFmpDSSma2fis2/0pWErP92OA3e+1x174rf9dVJgLsc331kyu2s6unB1v1bKb6UoFT7S0uZjcqpkemp2g04eKga7YkBs6X6+5aIpBj3OYDKuZXEYI4VyHDSvNx4sLv4i8wXy0djQ0FNdGX75Xv5S/c4cb+wY/d4kdevXvWhtbe37z0E+IpHIZFtb27lAIJAYn5g4IASZcLjq2YFI5Lppmgt/AJOqDLC7FN8nAAAAAElFTkSuQmCC",
+    "Name": "MistikaVRSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Mistika VR",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      11
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_MistikaVRSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADuUlEQVQ4jSXEf0yUdRwH8Pfn+9zdc3cPx+87IKxAUaQZA1JsLWg2WRA2k6G51piztsLS+U+utfonm1jGwq0tM7dWjWltQXNFaamUA0ODsWMsm4TAurzjfnPP3T2/vs+3P3z98aK9eyGtC1UeVdzSVhIYPX4t9C0A/HG8faPskY+RALd1PtDyztVlAFj64sCLTq93N5GYqpoPDDn8S/43vQWOgdLiAliWuf/tHdXxpvInxh3O2CWPp6gWxJDl8TYBbLn9YUcHEYbdLgbGaF9oc0QwIWg7AIDuZwtqK6xeDFimXWsLC8I2wS3+yNihbRV6Jt/KdQ26waHpFizdaGUWx0gmZyEayyCeyiGbs9Y/MzQdTsWzU+lEEulEAolYBjrXak1T+1EN/2dkI2GoqxFoiegoAcCrLf5OEGuXGDYQxOOaw9W8p6lEWJz6wVBj2/Z2YuL3PWfmD996a2szE+giiaZaTty6QriPuupKfa+fPFvOM9HW4JWR10J3gmc8DppjTooMjt+LjfZveYkJNJkCF0jIoZ6z02ECBD27vnyTx83GCjzShs6+N9baevq8hqHz2xO/yFPffAK328lNNfXezmOf/Xpv9N1zPpfdUOovBJOkeUOYnVJdmfd0qc/5VMBfgHX1jbLDVzajppLDhf7Ktp19R5D3VrC25/t2GJJnX2P3warM8hQV+xS4ZCVA3HAw2CBN58hkdFgmx4MP17ZYxI4Mnz4BIobfvhyEr7IGh3o7d6k5/Ts70AhhcwjbgoBgjBMfSOd4JBTNQ9U4gjN/Tj/Z1l6l/j09CADp6CrSsTAuTsye9BUVdQWnJpdS8RgyqcRflilOEQDsqqryai6rvnxjfUM6kXjBTkY/unQ3ev3lA30HozfG7voKPQ0PbG4+PLcYHvp54ua5H/ofLez+dC5FgCAA6Krz9zolamS2GPn+TnS2o7bsKwgoiluak5lY9uSU80rAVIQwrxHRZIHHseIkmnx//N9xerqm9GiZ4vi4vNgNNWdqaxn9sTxHtVNilytKXJBlB9ZU/eLwbGR3/zb/54rsfKW82A3GCGrW2M9siB7ZxaAoLrhlyc2JdTOwFUkiuGUHvF4XCPRcV12dLGxakRjB6XLCKcsQTPQy0+LBpGohFM4gmtKhmXaQpOIl0xLheEpHZFWFmufBnxYWdG7jRk63kExlkUhkoOX4tPSQy3c9J4ySnGEbuiU+uLqcPL+QSPBNJb7LOZP78oZ9U+O8fzGppWfC2cXmCuUfzeBM0+2vizzhU/8D77TZL40E5M0AAAAASUVORK5CYII=",
+    "Name": "MochaSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Mocha",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      7
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_MochaSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADbUlEQVQ4jYWTTUwjBQCF3/x12k6nLaW1BbosLLIgkXVlEyDrBl0lcaOY3WTjajR6MAYPePHgwXgwHDwZo4l68LZ6M240rj+rEje7um4NNSAs09ICpX9Q+gMznenMdKZ0xivx4L7ry3t5h/cB99E773148m58+c5aIlX64ONPr73wyusPHfWp/8lSodAIN/fma188OTX+xAOhkMc0miMsQ17hfB1LibV72wBAPzI2NtPdc3zS5WR9vM/n7fD6fYFgBx8MBDnLtnzDg8eHS3tVsE4nZFkGSVKhV19+8TuP03Pl6tXPf6JP9A9NXX7+8tuJ1eUa63IRvNtluZxOq2WolqY3KUltwnL5UKu3sFmSwdE0vF4v98zM019rpj5DmW3Tmn5q+iLBMNrZc+f5Q2eQqYmKTVtGU1PVVt/DE3ykp4s8tCls74p4sMuHTDYPnueZTj9/hsyk08s26ZDn3piNnhs/zZVlk1vZKgeKOhdWmm06n8sarRZQV1Q0jLa9uJI0ot0RyHIdN375+RoN4ICmiTxF4FiyrGErJaCc3wBIkg2Fh7oKNfVQaWgoVesARRPNNkn+urCw8Gfs7vvxWOw2OTs7ywyfejRQNQFJaWK/uGkYykGbAAGvP0C6O7odud0KxHoDDsaBvQPFjvb0BOKx2O8AQHLD07RNOp2maUOqyyBISuUpvajt77RAkAh0BpHJ70FpqLBsC3ui3G5bOHlmfPwiAJDeumDU9uuS2TpETVJBsB6HJIr11TvfZ27/+JXm9HjBMjYODiQ0Gg1YcDh2dsvahQvPvgQA5Pz8vJVMpTbzFRmKbqBNskyhtGexrKveqgjbf9+8rgeDYZQrZZQr+4DdIjeTt8RoNPqY3+/vowDA0xlx2+7IpWpNhLC6bLsstTrQF7ZHT4214r99qU5NDvJC3qBXE2koO2sq01gpHhuYiLBuTqMAIMSzqXQmGzVVZTSz+M3upbOS0huWUagw0PWmUUjebDQNzjHcH6YHuwKHAyPn/bYNOyGs1Ygj33d89MlnyVsLP+htvaCFoqPuicnH+f6BIV5WNEoUq9J6Mrl1b01YSgnCYj6/vQQgRx8pMDOZrDD31rvPZXNFuamr4vpGZv3b6zfiG+nUX6Vi7h9d14v/Je7oAvT2npjpDEdOb2+k/5CkmgCgdj/c/wXmOa5XFehEkAAAAABJRU5ErkJggg==",
+    "Name": "ModoSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Modo",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      23
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_ModoSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB1UlEQVQ4jZWST08TURTFf2/6WmamfYDU0tCaKBvBBS50gSbG7+FCvwBrlybGjYkrNybGuPIzGBPjRgkLjBIRxT+JERQLlqLAvNKmHTrPxa1iVAw9i7d599xzzr1XTT12FRyG3+B+PgoU/4HC6rhDqR5DaxeSLi+lwFPgHHScNPE1DGTkz+0pGd1OsMcHMaUssa8dhUClCwFk00L+bGFtB77UYfEbJA6GQ2mUOKyq1F1UymIQAwDefo7na/BoBWbXIO+Dr7HKORdttzEv1kXFxvBxG7ZaUGtK4dRJODW81+j+Etx+BfkQq64/c9FyhKk1xV4mBVEbMh6cK8NkEc6X/3bzbhPuvcXqhQ3JW86BbUO1AWdH4NI4HOuX4pc1eFIRdzuxiJwYglCDHvJlIOtNaXRhDC6OC3G6Ag+WJVKrA2Ea0p5s58132YpOKViKYCIPl0/DYB982IKb8zKTQMPhALQnEf+EXrEwOgBXJsFPwfMq3JiTlRzJyQ04/k0G0IUQrp0R8sNPcOe1RDnUJ3ewD+8X1NeGi4oBZmYVrj6FowZy3SM6AKxXDCTrrQWxHB6cDIC30RTlxMlUXQ9kAO/uIqbagJGwN+UujH6/yepoP2a3dzIo7A/RC7RpKOgbAQAAAABJRU5ErkJggg==",
+    "Name": "NaiadSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Naiad",
+    "SubMenus": [
+      "Simulation"
+    ],
+    "Position": [
+      6,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_NaiadSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADJ0lEQVQ4jX2Tz0srdxTF7/yImaCZ9E0EzcKAiIriSluK0EJt0XULIuLGFlryZ2TRRkSyEQR5eVYX1U2ydFl5yTPEOJkZ4yYLV4luFK0khmTGmcn3e7qKPLroWd3F+XDh3nOIPlMymRSTyaRI/6P/eoT+kM1mpbW1NXZzc/NVu91eCofDLmNMZoxxzrkoyzJzHCcwNDT0cWZmxur7hc/hRqMxXqvVTMaYdn9/D0mShEAgAFmWBc/zEI1GBUEQnmZnZ7+cmJi4y2azEhERAVCIiEql0p8nJycgotbY2JgXj8dtRVEcIrIFQfCIqJXL5VAsFt8TEdXrdYVM0wwQEZXL5e+ur697k5OTbiKRAADe6XRQLBYhSRKmpqawsrKChYUFz7IszzTNb/rbA/l8Xq5UKp9SqRTC4bDb7XbBOWedTocD4IlEghMRq1ariEQi7vb2NgzDOHu7Yblc/rVcLkPTNHtvbw8AuOM4AADOOR4fHzEyMoK7uzueyWSgqqpjmiZKpdLP0u3t7TvXdf/a399/Z9u2eHh4KL6+vlIwGBQEQSDP80hVVRJFkQYGBmh1dVU4OjpCq9WSFhcXJ0nX9Z/Ozs6gqqqzs7MDAPzp6QndbhcAwBgDALiui2azCQBIpVI8Eomwi4sLXxwcHPykqmp9Y2NDyWQyjIiEq6sr7O7uEhGR53lERCTLMoVCITDG6Pj4uLe+vi6GQqEbIiI6Pz//zTAMhMNh5+DgAI1Gg0ejUTw8PIBzDgCwbRsAeDqdxvDwsFOpVFAsFn95+4Ku6+dbW1vQNM21LAtExBKJBAfAu90uB8BeXl6gKIqbTqdxeXn5MZlMim850HX9e8uy2Pz8vLu8vIzx8XEuSRIKhQKazSZ838fm5ibm5ua8arXq67r+7VtB6vW6QkRUKBSOcrkciKgliqJPRLaiKE48HrdjsZgvimIrl8uhUCh86HMyEZFhGD4RUSwW+73ZbP54enr6xfPzM4LBoMwYQ6/XE3zfx+joaATAP/F4/I8+99bGfD4vLy0t9Wq12tftdvuHUCjkcs5lAFySJFGSpF6n0wlqmvb39PS00S/gv5L7BbPhbcvqAAAAAElFTkSuQmCC",
+    "Name": "NatronSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Natron",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      8
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_NatronSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADXUlEQVQ4jTXTy2tcZRgH4N/7feecuU/mlqRN4tS0idNUUjEkpFA3RaFCGxDaBiwVQdCVrrvoIs3WgrgQpQtBvCyaikEXpgstBOyumkpr1bSxudg4mUkyEydz5pzzXV5XPv/DQwzQVYBmAcvX77qPvvto6qnfno7IvhIaU2S2EMxV14pbPdn03NjCVwsAMIcLcho3Dc0AYhaw/juXy/eerF2r2nB6w29j/te7WIn2rNCGXh4apRMHBpDWFkXHu56L5a9M/vj5zhwuSLkI8O4bl8tL63/d2BDmdJBJI21s9E9zh+74TbHHoImjo3a0UFL1Wk1aSePM6vl3R1649erKTV/wHMvlrdUP1qFP2GxaPxtpXdbwzg+O0Fv9FYYruC+ZopKQ3uFYQlXb+3ZPRWeafnAVAGh56u1z99v1r/fzOQx1lGnXa9J6HjsQaOoQT6HRncoiqxTQCUgBaj1ou4VEMuxPx06Lqt98fVsAJW1Nq1YXketCWQNfhcgJiXQQ4d7fT9Ds+FBgFmBXGqMiY2Otjp1y2laf+mnjMTIkhYwiMIGV0XCkg8mePoRRhPc3V3CtuxddQYiljTXegqFKtoh0vnjSiawtfPH4AQMAPIegNYMAGGBTEs6WDuDTyjhcEJbbLXxSWwUAedH1MNqVP+qw0TjouojFU5Ri4kgaOJJgLWN+5SEcEF7r6UcmiJBQBpV8CX82ttmACWAIabl2LFWg1aDNHWMQwKKpFCAlkgC+qW9iTYWoWgVii0u5XrzZ/Yw9ns1DAPdFSsgfJoo9gFGWAEgiIgDKWkBIVBwPu1aDARQyWfQMlDFZPkyVRAbEuC1yXvLL4WwOZS8lV3THxKWEJyVZBh10E3i4vwv2fWKlCb29lMoXsWsMNsMOtNFlMXb7xsKhROqz9waPAVaJP4K2ZmYrmBlCAGyR1Za3go79uV61wc42/vVb+KXVQMT2rASAK0cm7jBFY2Pp4pFGGIjfw31uWIWG1QStMZYtcMr1qMGaYkIg6bmmKD2ZFmJTzgDi/OqD9szIi98T2+xQPHN8sqvkDMZSdCieoIF4kobTOXou00VJEqStpQxJ2R+LwwXNEgD8PxIAvh0/dTLQ+lxo7EuaMCxAkIJ+84RY7ISqTxGfiUnRcoTz4fzS4sf/AdXlrMUZJmErAAAAAElFTkSuQmCC",
+    "Name": "NukeFrameServerSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Nuke Frame Server",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      10
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_NukeFrameServerSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACy0lEQVQ4jXWTTUwcZRjHf+87M7vDzLBgd7dbkLUh6YGDsRhbSqoSUZseigoJHFpFrUnb0Goih36kTZt+kNQmQg+19YKNEfRGApo0RV042LQI2ngq2ktNUdga6EKB7LDDzNvDRpou4Tk//9//+chfUFAqVVFDIHY/yPg1/8765QBlpdpkYp0ck4LvxBv/jBZq8sLBhK1Sya6Bjli2pd5S0YhUhi6UoQtVEdfUR7ts1X8ullWpZJcaTNj/6ySAGo47S8roPXZ1rv3WXznz/bdsElENb1nhLStsU/Bxk8Mvd3Lm4e659iVl9KrhuLMCCALz7OmeR43Prdc4v6+EhpdMfuiIUrVRB8ApkrxYGeLzgyWURyUnv55rDALzLIBQw8kt/TeyN0f+zBmfHSjFn/cJAjAswb0pn74bWao26jRsNfFdhRaRtF/KUPe86TXVFW2X3pJ6b+iPJeNQkwNCoVkSw5EgBZWbDGqrQlwbcbmX9tGKJGiCT5uL+fF21vByqlWfzgS1qd9d0g99dPnkqIYm+KTZwZfw5cACAB/stLkysIDnK27f9Zh+GGzT04t+Yvz+Mnf+9lZ95vqoy/cXYvx0MU5YF1wfdflmcBEAIWFq3t8gVQCaXKUF4L9Zn6YT01TGdV7dZlJfHabYEgBoAhQgK0q1dCyyBgGYmvbpvrYIWUXd5jBfHY1ihgXPOJJkqZaWsZgcfeWF8JoAACuUd/UWAlp2WBzZU8yWqhCxdfJXKYXoaXvb9qRYG1Bs5+eVEvAUM7MB+xvsnET0SlE/8dvr1eYXx96NrA0oEhASaI7kXM8jwiFB48vWZfHmxFh+eeGe6viwpP94ayTvUlBhUzJ+32NfZ4bMfMD5vSUDCPfUU01qMGGroWTXz51xt/k1S5VFtZUw1W0Oq7Z3HNV3JuoWhmnV5ipVUQPseTATrMQ5aonJZ+P6mK7zbWGcHwMtjQlgfGcdfQAAAABJRU5ErkJggg==",
+    "Name": "NukeSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Nuke",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      9
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_NukeSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADP0lEQVQ4jY2TUUgbZwDH/9/33WkiO6etSzV0NDMhK20qmw6lxQ7pdKkdwRXMgxAcpXT2Ibi34ct2JN3YYDDGugUiY2UP28OCCJMGWnXGThyt3ktX6ZrUNB099TSNGSP1zsvdt6c9bCjs//jnx+/tB+w9sri46Mzl8xcfq2pfMpkU9+Eg7HXKsswkSQpVDePTGsYetba29gH4838JZFmmg4ODx3TD+MxJyHMQxe8FQTCSyaSoKApaWlo4ADsWi3EAnMiyTLtDIcklii+WSqWHAAQqCN8KlL5dW1u78/yBA1G9UvFatn0IwC4lZI3V1Pxu6vry5OTkuuB2uxnf3v5oAxj0+3xDz0xz58G9e2cppYwx5lRV9RsQAkoIAcAJITZjzGx2u68C+ECYmZmxL1669HDtyZP6XV3/3FlX93OxWHQAsAkhNuccABjnnEqStN7Y2PirIIqbpmXNAQABQBRF8d64efPWrmG8wBizOefE4/EstLW1fVitVnFneTm+pWndh5qb1ddPn35X07RfEomEmUqlLAYAgUCg0njw4OFcNvtasVgUbduuBoPBC4lE4raiKOq5/v7cwsJCRFXVhlK53Hmio2OquLFRnp+f5wIAjI6Omnfu3v0ilUr13V9Z8Un19TwSiQAdHYCiYMc0MT09TXRdZ7Ozs746h+O9rq6u9wEYDADC4TB9JRB41nXy5H1laalna3OzoVKp+C4Eg9mjgcDh8UQiXigUjlBKLcuy6FaxeGRgYGBifHy8LMiyTNvb288sKcqApmkuQogIgKbT6e5MJjNjWRYMw2CiKPKxsbGrU1NTb6zm8/7VQuGtcDj8tQAAD3K5M5MTE8O6roumaVJJkixCCLc5J5RSIooidblclVc7O1N+vz8ty/IPa6rq7+3tpQIAdJ869VWr13t7TVVfLpfLbtu2a5qamja9Xm/+4ytXvtR13Xm2v//GX6XSSgGoxuPxNy3L+iOTyVjkn3gAkJ6eHur3+wkADA0NsXVNu/zdtWufuFyurWg0Gkqn07/FYjH7X9XtV9nc3FzDT9evT28/ffpSZHg4uprNToyMjJj/5dh+Ao/HY58LhR4dO35c2XY4fnzn/Pndvbi/AZ2RdA+GbXV0AAAAAElFTkSuQmCC",
+    "Name": "OctaneSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Octane",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      24
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_OctaneSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACVklEQVQ4jaWSP0hbURjFf/c9E00Q/BOoSaXg0kZ0aXkWRbGIRTCKdlULdurr3NGl7WYXcfYV2kUeStcmkKEYgy1V8iwGpFpIQKgmChKJkj9IcjvkJaZDodCz3e9+93zfOefCf0LofawYMV7oGtKubRgWo7qGNCyErrFoWCzoGt8k5AW4gBzQZlg8EACvJr1yeHhY5vN5gQCHUNhJJPi1vx8BKF8zMjk/K52Xl6IMuFwuTPMjH+IIBeD4OE04HBaBQICp6ScUmptJWvsIGBEwojoF28Gg0MbGCAQCHB4eSiHYA1AAVJWNbDbL+vo6CMHR0RGNTXVCpeT0LIvD4cA0TeLxuHi/x/0agWExChAKRrl2uXg2NUWx+KdZHb42PO3t/Dw4AKDqmaL3sWwfpMsNP7a2aPX5uO1tqz0ulWBuZob45ibps/NqeQNAMWK8NCwEIFQVzLU1KJcZn5ujVKp0em956B0a4uv2NqpqqwJRk1AXIelUhkyxyGBPD/l8pXavu5urXI4v0d2aK3acNQ9E9aaxCUKmSYPTyeDEI3JXMD0/z6fVVdzNN//HsBio32Cx3rBQMMq1283TiQke9vfS2tJCKBi9CQUizzXeAqgAVorPmo9+BHcB1AbweDvw+/2U3G4yySS732Moij0eTt9ZzNQIdI0DRGUlAEWBk0SCx+Pj3PH5WF5aolgsSKhJ7dQ6EdYJEZuTsIRIZbsKTlIZeVEocFEokE5lpK1bqIrdI3lNHSPVNKqG6hrS09WFUFV5nkzurMTkAIDexxsks4aFn39B1ay/4TelUeFEWhfc+QAAAABJRU5ErkJggg==",
+    "Name": "Ply2VrmeshSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Ply2Vrmesh",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      12
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_Ply2VrmeshSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACGUlEQVQokX2S30uTcRTGn/PddD/ccnvNmq5CbZrgoAshKsyLsIhIwvsRlEXmTVIX0k39ARFFPwzWhTdBEMGgGCY0oSQwieFwKKNMy0QSm2Kuve/2fr+ni6ZO+/FcP59znvNwiJmxJmZkM3pezwJWgBWR3WlxOBwArXusKBIRG0YufDv2Y9EEC7KIrt7W6hoHFXk2AQB5NVfoYquhG8vfsy+fJn27KgD+5wYAIFG9uxKM5Oo0s2ACoXjBHwBDFuYRA4LAWwxik5vVh9Tc9Wv96fQyQUgpVV7xfwG6czNimtA0b2Cfz+6kd8MfwfxXgJnNodj7sbHPZ84dTcQnV5Yzbe1Nb6KTqytZQAFyC0CGru7dioY6D3k8Ls6VjA6nmMnj8ww9TzJvFCXW0z95HFPS9G6rCD+MGHm1v7lmIvHlZEdjfGR2bnaRt0RaWEj3h1+dv3RiZmqu+3LHgSOBqjrNX+/eWVMebPYNPosrcyMSK5Z99wfqG6sOtwRL7aqn6xHDzEzFglpU/zba1h6cn/k5kZgBKzALZjme/DTwYqTn6ulyray2zn/3wamltzeAtLJpJa4d7gp7y/HAYCSl53SGJNPUL5zt8/sdvVcOEoucNGwWqzSWcpl5m3sPSstAJA05Hv/aENy7vbbJSoRKzRk6lsu87hYswMJcuy9b6A8MNAD2bCdxIzGbSrGCzkyF59gs+t0oQ1msVth+AYBL+vnqGprpAAAAAElFTkSuQmCC",
+    "Name": "PuppetSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Puppet",
+    "SubMenus": [
+      "Miscellaneous"
+    ],
+    "Position": [
+      4,
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_PuppetSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABd0lEQVQ4jX2Tv0vDQBiGn4RoW1DcFFHRrYNCwEEQRYduOre7IAjt5ODk5uzg4OTQxcUfVUS6CE5uOhQzxrH/QKs0zZ1NqUPMNU1OPwgX7r7n+957785AE0KIQXIum80aulxLB9femlw+vyM7bay+ZH93DSHEQFfE1FW9qL9yureFJb8wRYvq3RMAjuOklKUUAJiBz+HZLWbQhX5Pl6LCiGTrFh9eHKo3dQAez49H1qLtWPE9+0IyLtsQSG33jFeB72+wdpQnJqBgM/C18PrqCpkxL4RFFzo15YkFKNiSX2wsL1AuFpianBh2HvOgdRXC0g/H2ZiJuWyG/mcbM+hSLhaYNq7Bawy1R50jOG44wN7mIgQS+r2ws9EYSUrB88X/TyHjVcKfXAlpbicPBwDXdbFt21A3K7ok+Xx+WCAmXS7d47quKmDbtqE8iE8oNRE8cwIflRQ44kEqcqVwlD40j2DuQJv2ZwghBslP9w7g10RdJIGk9Ch+AIZw15cPeooVAAAAAElFTkSuQmCC",
+    "Name": "PythonSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Python",
+    "SubMenus": [
+      "Miscellaneous"
+    ],
+    "Position": [
+      4,
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_PythonSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADWklEQVQ4jX2TTWwUdRjG3/98z+7sLDud3c5su/1YWIuBVisFNZCStloRxFQ9AQcPeoIYY/RC1EQ99KJHrx48mEhM0AoRIygpBFoslK1ily6trd3d7me3nd2Z7nyPhy0XEniS9/bml+fN+zwATxbanicuPCqGYSQpIEdjPsbPG6a5tVHOZYxadg0AGgDgPQ6AA90elweOvrXr4OirkZ09CdrHsa6lmxurS8uLU1d+y8ycP2dWVxcAwH4UgEGw57nA8PufRobGjjiyQKme5zqO6WIYieEewmJq3SpMXrqe+/Wrz6H8982HELxpWuqEwQ++gJGTY3qIxe3Vu+lw+sqPrdlbl9DK3GqAIrq+fa3Fp8f6uuZKgZiTSc6AqVQeAkhIHD2BRs+c9kk+krt/9dqbKHX2zAsd3x3v67xJKA3L9HYclHp2Cu20iibqne1OMV+Gwp0ZALAxAC4ETx1+iY22sO7Kg9zrgdKXH508dq23t1fNb3H7l/3PnE3HB7o+++aX6ffOpeu4GKSg59AIMKFw83ZOEJEUTwACFFbzs8f277mbzWadmfsb/d+nsfGktPtZMnlh4nk9+UlQ+e+i61geJnV3gz/c2gTgJIv8fp9j2R6HkCJIfCMcDmM3FlYSSVrowJMTF9+OauPvHh+8E/HT665lAWIYCjCGAQAgwNEamKGpFEkgDQ/EFEUP2bZWPxCjJ0uzP5x+cVc0NXxgYLFYs8MKWB0ERSHLUFWwFLXpQNVK7tr8PZzAvDrXuu/yX7UjsryXjQq+3IdvDP/c292WFkWR/P2f6kiRkg7RJA5efj4Fm+XC9hdM0/M8Gu0eGmprE4JaDe3TN9b0jjZR8fMCDoiN/vRnfuxqmfu4IUZkyrJtdPv8hL584zIAWDgAuLBeLHkEscPoG+nnQlxw02IGFwv64blMY3Qq55265won1lvkSFE1gCEwLMr6mdq/s9OWWsk3gwTWlpdZeODqdVzt2puoRuRAJRCRMowYz/CinOU4sloqqLjn2gYfoixeCunzt25bhVSS2I6yC0Z5ybrw9Xh9aWra7B99uRbf8zTB8bzT0DR7ObWgz/0xiehgkH7lnVOqS5OmqqqPayMJADzwvAA4w4LtGlCvVAFAAQAauNZOIHASNtcyAFD5HzepcrgUI39FAAAAAElFTkSuQmCC",
+    "Name": "QuicktimeSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Quicktime",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      13
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_QuicktimeSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACmklEQVQ4jZWSy2uUZxSHn/O+7/dNrpMEE43GDsagNaUZQRQ0ILix0Aqt6EakI5aiQqFCixt3XfoHuCmllKq7UtCFYCsixIhSiwM1WgVJIBrTGGMymUtmvst7uoi3pTlwVud3Hs6BRwYPnjrX0tpSEBFWUqpKrVo/79rb2wprVnWiqisCiAgzZqHgjBGanGFl6yCAMYIzPiUTGNS/M3nPC4xPcQZPJjB4VQRBvVKvN9BXRGMNQRCgCnEUvXnVOYuox4GnOXB4VVBYWqpx+uv9xHGCFWGxWuPyyN+AcnjfpyTeY0SoRxEnz/yMseppCi1NwXKLJgxt7mcg10u5Umb39iFOFj7HSUp+ywDrursgTQmsweJx86UygbG4UPAKUc0BML9QZvSvu3y8ZRMLpUUyzgIwMzvHg8cTjD2eZL5UwWWTaX65eI0PertZ19OB9REA69eu4fvjRwjDgCvXR6lWlwDY1J9jQ66P0eJPVKtVzI0vbjF+6Bon+kZ4cP8ef94sAnDjTpHMwC7+m51jz/AObhf/AeDsr7+xfvgAl66OYsVjGqnFGOGrwWnuH7rFN/nnjI1PM/FkhmxHB7eLY0zPvCBJlfHJKV6WyrS1NmGtkKYJEv/Yp6m+FkDJWM/dKcO3IwP8u9CFJnWElDAIiOKIwAa4TIhRSBVsfjD3w4dddUKneBUSNfS2wbGtc2ztrvC02sxkpfmVEw4VIU48jUTZ1lNBOoc+0dB6Ch/N8932WfqyCUkqy3QBZz0vao47z1p5VnNYUXLZiJ1rl2hpTpDV+T2qCrGHxAufbSxzdKjE3o01nFmW6638CgKliuWPiVZ+f5RFVg0Onzfw5etcqkKcgrWQ72nQ3xnTHioNLzyvWB7OhTxZdDijOOHC/zvVIDRS/xVlAAAAAElFTkSuQmCC",
+    "Name": "RealFlowSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "RealFlow",
+    "SubMenus": [
+      "Simulation"
+    ],
+    "Position": [
+      6,
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_RealFlowSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC6ElEQVQ4jX2Tv08bdwDFP3ffL8YxxgfGrXD5IVFVitiIqkRISAxtycA/kIEtG5IHuvEXdGCo2p0tApS1IUMGI5QKCUIHGFqE4thGtoPvfPjH+X75fPZ1i5SW9o1P7z294T2Fe3BxcXHguu7jbrc7LqX0p6amrpeWlp7ep1X+SZydnZ0bhvGoXC6LRqPB6Ogoq6urBEHQ7/V6v6+vr3//nwFHR0edTqeTEkIghCCbzdLr9fA8j3a7Ta1Wi6SU+ubmZvZfAVdXV23DMLThcMgX6TQJRUHxffrdLiEQahodzyOfz5PJZD7mcrkZAAFwcnJyXiwWv06lUszOzDBst1E/fEB5947bFy+4evmSQSxGYn6e5MQE1Wo1uba29m0+nz8Qp6enB6Zp/qBpmjKdyUC7zVQySSIWQ/o+wyCgWSzyx5s3WPE4YTKJZdtKGIZzx8fHP6lCiMe6rquqqpKIIpzzc8J6nUa1SsNocNfu4MViDKOIP1+9wjVNRkZGaDabDwBkOp0ez2azpFIpIs9DvH9Pv9/HtyzuqlUsvU7gOIwpCoZpYrVaBIkEjuMo29vbv8pkMukvLy9Tr9fxdZ2b01O+vLvDcl1arRaerjOwbXwhCITAsm0UIVhcXOT29nYoC4XCdalUmtc0jfl4nKJtUzo5YXxkhCAI6LkuQRjiqiru5CRuGILjYJpmtLu7+6O6srLyVNf1vuM4MDFB9tkz/jJNrioVyqZJJQgoKQpVKUk8fMhQSprNJoZhWAAqwMLCwttKpRJVdJ3JJ0/45vlzatPTlITgRkpqmQzx5WWSc3P0+n10XY+klK8/G9Le3t7HcrmcnZ2dxbVtuqaJ3Wrh+T7eYACxGI7rYllW1Ov1rg8PDxc/NQDY2Nj4SlXV2uXlZVQ3DAIh8GMx+vE4oRA8SCTQNC0aGxv7ZL73TDs7O78NBoPvbm5uEoVCQUmn08Tj8cj3fUtK+Xp/f3/jvlfei62trV9yudzP/6f5GxbDfetMuEtXAAAAAElFTkSuQmCC",
+    "Name": "REDLineSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "REDLine",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      14
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_REDLineSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACqklEQVQ4jW2Tz2tcVRzFP+e+92bee5nEmOaXpFVjJSBUBTcu3LjQLKwuBBcqFFrERUVcCf4NhUj8A3QnuOjChaDQRVWI1oWIUnQhBKxm0qQdwySTmXlv3rv36yJJG1LP+tzPPdx7jjghM9PG6upZans3zZKLrYfTX4V93Jwqv9crH5Qn/Tp+cHtl5fGAe9PQBWApSeNofCoF2MHsa8x9lp4a3jgOkplpe3V1sQ68LeMC8CTgAJI05hBwcAl0ZXyD06dpGf+oS5eK6L12+5mAvqCZvoVz04DQQbCoKq2RN6QoOoqbIp72e73X++t/+itrP63FYTA4pfatJ+jtymYfMbJc7PdM67ewO1tUj05bvHQWNz8r856qfduqjc0JhsUSQAxACKbuDq7TgcIH63RFfyiajvB3wej2lrnWRPCNBC8TTkjYIaBGwwp3Zwe31UGDwlmSmM/HTI0cygprd6h31x3OoZlJs4VZeGiMA0BRELU75jbvQghCQnWtqLdno6ow815xWQsBdUCb/0rDEba4cJggbVEvNhXlGW5j2zQsVDmsjKD0lTOPZZEsC4ZLItnclNlj81KW6f4bxDH+9Byj8Zzqn83ge/vCTBh4SfsSgzQJ6cKM5WfmpDgCM+4BQggUZUERKsL8lIvGM4t3do1BKYucjVpjjFq5dk3K73ZtcrJFs5EcAMqq+qso+jequnoZiAB8K1NIG7A3sKFF+Gaiw9+i3y9UFNXGxET23b0q//zqi9MNn7wjeB84fdS82htlUR+vfmHGVzJdeX7t218Edn8LoJvnl59TsI+A14C0rgNl6Y9W87sFVvKscfXZa9f6D4zpSL8tL49FjjdM9mFdh3Nl6bsGn4fYffLC9evrJ/0PAI508/xLT/kqXB4W4YfxzsyX5/64Ovo/338p0FA668EhZgAAAABJRU5ErkJggg==",
+    "Name": "RedshiftSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Redshift",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      25
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_RedshiftSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAEnRFWHRfcV9pY29PcmlnRGVwdGgAMzLV4rjsAAABJElEQVQ4jcWQsUoDURBFz7x1s4lYKEEEIxZiJVhYCwG/I5WRWIpgaeUX2IlKFATxL7RRsBcbxcLCpJHYrZts9u1YxIVdNXErne7Ou+/MnYH/LkmL8plW4i4OgLgogFHspE/naUt6vwLMsbZiZfYHU98INwWH3WBDbjN/8sRUcK2yFkRcjTd1JRdA4MURro3hHhmsAxR7ynY+gHBhN6UaN2TZgctUnPm0b2xEgkqpqauxUA4tS6mn51wAq9QCSy0L1feiyL6fZ4VviYS3kpGq35C7dH8owDGcO8JBolWZimDuq2/4EZW2ddkx8JC0+srRxKlO5wIAsC5dz6UO2M8UM4HlMDMoLbymLqodHDZ06VCXVwDvRBc0opD4wjaP7Ek8cvif1QdbNVyFcdEGVQAAAABJRU5ErkJggg==",
+    "Name": "RendermanDenoiserSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "RendermanDenoiserSubmission",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_RendermanDenoiserSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACFUlEQVQ4jZWTT2gTQRTGv92khqYmUImpiI0o2ypF1LjiH6JC1It4qKh4UZBaD/XQk8XixSKIsQfxoigFDyK2euihgghqhFghFMQKVbHEFoytSXRDTTd/3J3ZWQ9OYNykgu8y82bm+733PRiARyAQ8Ckd+8L4z5CrG03T9GDr2v3iZYd6MBQbGrk6PPbi+sCVO9vrAVxisi16tE1pb2tKvX/7VVHCKw/130hmgjsjy9UNW/ccCJ9pV3Ysi4+NJJYEFHPZucixrv6JZ6OPO3svD8xifTQTH5+WqducYe7m5P3hVNe57sjmLbvWTbyOv6vrqWfwUQKAt3somdp0ePAJL+IJKXuPX3z4auaWxoqjJUZ7L8ROAoDboZdS05+mop2nz5bl1lXZN/fO8zmx9OfxOPGvCT1P2EYTKZH0x0Kz04IEALbhadl9pKdvPmP4p57G+oRhEytbIP7Gjerkg5uJyZfXLgEwRbEEQPb5VkdO3f5mqSfufgDQAiAIYAUAH4BGAA0cKNWz4NL1fGZhLi3pudl5AB4AFIANwOKrLQpkYS/9sWRU3JXCr5L2JS8UoAAIhzARUjNEAC6zkPtBit91fs8AGNyvKLadgGp7srGY/2kZi4Sfm7wDy/H2LwsiVaaVhTK1ytXc4IAasXMGqHqkZpHYlMjcN3G2/S8AA2AyalBmEwpAF6rXiJeKBq/XqwJQ4Pgr9eI36bjX/7wvhAwAAAAASUVORK5CYII=",
+    "Name": "RenderManSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "RenderMan",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      26
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_RenderManSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACSElEQVQ4jY2Rv0sjYRCGn4WFFW6JpSm0CTGLPwolnYWFhaBss1YSxOLALdJaiLZC8F8IgqWNYqHBVrENohJBZAmI32HMFmrWDWQXZK7IZTF43PnCB8MMzzvzzWgA5XJZHMfBMAy+oyAIODk5oVgsalq5XJbl5WUAoij6lkFPh4eHaEop6XWOoogwDGk2mzw8/OLp6ZFWq9UHDQ4OMj8/z9DQEHEcQ6vVEt/3RSklpVJJMpmM6Lr+37exsSFKKeEz/C/ANE0ZGxvry/UZDA8PJ4VMJiOlUklM0xTXdUUpJUop8X1fjo+PRdd1mZubk3q9LjpAGIbkcjlyuRzZbJapqSmur6/pdDoUCgUA4jhme3ubvb09AFZXfwKg+b4v7+/v3YX8ked5LC0tMTs7SzabpVarUa1Wk7rjOOzs7BDHcfcKcRwTxzGe57G7u8vZ2RmdTicB0uk009PTjI+Ps7CwwMjISNJQ743neR6FQiEBBwYG2NrawnEcTNPEMAyiKKLXrN1ud79Qr9fl9fWVMAxZWVnh+fm57+7pdJrFxUVs22ZiYiKBwzDsGtzd3Umz2QTAtm0syyKfz3N6evpXs2KxyMzMDEEQkEql0M7PzwVgc3OTWq3G/v4+o6OjAFxcXFCpVL7s5OjoKIn1IAhoNBpUq1XW19dJpVL0JrIsC8uyWFtbo1KpcHl5yc3NDY1GA4CPjw8013XFtm1ub2+ZnJxMnF9egiSOonYCvL29Jfn7+3s0ANd1JZ/PYxg/vgA9fQYBrq6uODg40H4D4IdlXLohX0gAAAAASUVORK5CYII=",
+    "Name": "RenditionSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Rendition",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      27
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_RenditionSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAu0lEQVQokc1SyxXDIAyTmwzCJmiTdBPMZmKTMEl78Av59eVcHUIwkiU+BkASgJwzADPDI17HSa31mQ3AwiFMSimtNZIPgglASgkAyd57ztnMQv8LPsd47FpKOVHcxw9JO5YuYSRd2CTnMf8AdVsexRBEo/jup2SbFclINbpKGuZTMKIKOImUUu99WZbY/bq+3fczeI09SJKI7R5ba3GV55hbpHAf1kODG+4PwaWIF1EF+I1zQwj8kuZf8QWAi2VilkAqKgAAAABJRU5ErkJggg==",
+    "Name": "RhinoSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Rhino",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      28
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_RhinoSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACFUlEQVQ4jZWTT2gTQRTGv92khqYmUImpiI0o2ypF1LjiH6JC1It4qKh4UZBaD/XQk8XixSKIsQfxoigFDyK2euihgghqhFghFMQKVbHEFoytSXRDTTd/3J3ZWQ9OYNykgu8y82bm+733PRiARyAQ8Ckd+8L4z5CrG03T9GDr2v3iZYd6MBQbGrk6PPbi+sCVO9vrAVxisi16tE1pb2tKvX/7VVHCKw/130hmgjsjy9UNW/ccCJ9pV3Ysi4+NJJYEFHPZucixrv6JZ6OPO3svD8xifTQTH5+WqducYe7m5P3hVNe57sjmLbvWTbyOv6vrqWfwUQKAt3somdp0ePAJL+IJKXuPX3z4auaWxoqjJUZ7L8ROAoDboZdS05+mop2nz5bl1lXZN/fO8zmx9OfxOPGvCT1P2EYTKZH0x0Kz04IEALbhadl9pKdvPmP4p57G+oRhEytbIP7Gjerkg5uJyZfXLgEwRbEEQPb5VkdO3f5mqSfufgDQAiAIYAUAH4BGAA0cKNWz4NL1fGZhLi3pudl5AB4AFIANwOKrLQpkYS/9sWRU3JXCr5L2JS8UoAAIhzARUjNEAC6zkPtBit91fs8AGNyvKLadgGp7srGY/2kZi4Sfm7wDy/H2LwsiVaaVhTK1ytXc4IAasXMGqHqkZpHYlMjcN3G2/S8AA2AyalBmEwpAF6rXiJeKBq/XqwJQ4Pgr9eI36bjX/7wvhAwAAAAASUVORK5CYII=",
+    "Name": "RibSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Rib",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      29
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_RibSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADF0lEQVQ4jaWTT0xbdQDHP++9X1taxt9SQmmREmAQZ8YU2JZptmReMHJYdIHMnXRLdjHq0UQ96EG9mKnz4gFjsiUzG1GD/xZGyKIJyRIM2+RfBZoCpS2lvNLH6/r6XvueNxOnO/k9fvPN5/T9SDwm747Femyl3BVudNsdrlJ2aOjgrCRJzqM76dFi9IO5i5pefKezokbevHgUqzlAOuewnDR1ZyO1UPl9euKNyxc+/Bdg9JOlgz5Rd+2P5eSgVbJ4+aVneO9F99/gdWApC9pDiMeYT9+5eery+yOqAnDhq4ev7xUbf97OWyEtFcVM3GJnc4ntjMq95TSpbJYffpnkgFSgtdFh8HB98+J+uOG36x//KC59o/ft5bhSU+dCuOuI3fic+kCQ4eHXODvcQ7NX4tMvb/HZF7exje8o6RpCEZx+/uQIcEl0iPW35kwfDa0RalWVYFcPTx45Tqi1EVlI2EDQLwiE2lCEjFmB7vYAz/U21+87bzfIHlc53BDw0t+iU2vGsMplcByEy4OQwQQ8vio8HhlJVrArJc6e7iaxncbJq0eEvLXY0iHHaS11kamksa0SQrZxCZl6BRQg0h7CL6VQ6toopNfY3+1lsP8Q2Z3MCyK5cr+gGg67m8usRh+wuXCXYnqBvdgsfx4/weHOIONjVxkYOEYmqzJ49DwnjnUyPjGFsTrfrnT39g1sJhMDXm8VS/P3UHczKHKFvX0dB5s7k1OoW3FaQk1UCxOf18Ey8qytRNG9VWeErmnrAoOFB7Po8Ti6nqdcsdCKDk+0hTk3OkRiK4lWKCNLHoqFItGVHNh2YuLa2Ko8/u3Vj1bXYjcdScYTasIyTUzTwq5Y1Fa7EZ4aHAcMo8Ta5jpur4JaBJfbPQMgAFaiCyPqTlp/tv/pareritVYDI9b4pWRM4Q7+/j+9gxq0aJK1LCd2Uvpuex1Tc1f+ceVvdX102VDPxXpiGw1NfvbDtQ08Or5c9yPa0QX5/JaLn+jbBlf/zr908x/yuT3+0OGrh8qlEqTwWDwpGGYTymKq9rn881tbMSmHmft/85fGxFiw8prTmQAAAAASUVORK5CYII=",
+    "Name": "RVIOSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "RVIO",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      15
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_RVIOSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACDElEQVQokXVSP+hxYRR+iQgpZbiL8me1YJIYyciAzd9uBmVyU+gO0k2SjNIdDDcDRRlkoBShTAZshP0aXLput/cbrn7f/eX7numc5z3Pec57OhIIIRCB5/ler8dxXCQSkcvl5/OZJEm5XI6iKIIgAACJWLDZbAaDQSAQUCgUFEVptVqdTpdMJjmOa7VaarU6kUgACCGE8Ha7lUqlbrfL87zAeDye0WgERSBJMhKJSBiGIUmSZdl0Oq3RaASr7Xbb6/VsNtvhcEBR9Pl8djodp9N5OBwAiqIEQXAc99PpdDr5/f5isQghfDweGIZVq9XX6wUhrNVqUpPJ5PV6C4XCarUS2huNxn6/r9frG40GAMDtdvt8PqVSKbxKAQB2u50giOv1iuP49XoFAKhUqnA4fD6fm83mz0r2+z1N07KPTioNhUIMw7TbbYlEIpPJGIYpl8uZTMZisdA0XS6XEQTBcRwQBAF/YzqdDodDIc5ms/F43Gw2x2IxgZGCL6jVaq1WK8Sn08lgMCyXS6vVKjCyb4EYGIa5XC4xI308Hq/X638CoZplWZqmPw6pVKpSqdjt9mAw+E/NeDxeLBbRaPSTC1+Zz+cYhu12Owjher2ezWYQwuPxmM/nJ5OJeCV/j4/jOIqiLpeLw+F4v9/H41Gn08XjcYVCITb8da0AgPv9Xq/X3+93LpfT6/XfE/4BB6hCcJZHXg4AAAAASUVORK5CYII=",
+    "Name": "SaltSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Salt",
+    "SubMenus": [
+      "Miscellaneous"
+    ],
+    "Position": [
+      4,
+      5
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_SaltSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACiUlEQVQokX2Sz04TURyFf3funT8dpnUKtNAZO6NNAAUtBF2w8zXEjdGNCU/gxvgiJiZG9sS4QhM3EkUjEqEE0RYsUEppSzulM3Pnzp1xATFu9KxOcvItTvIhz/Pg3wmCoNls/qpWjVzOtm0AIH/PnPNWu1U/qler+4eHx41jp+fETicYzXPLMh8+uA8AyPM8x3GWl9/s79c7pyjwxDhSiaCJRMVYASAsCFe/PUvq4eKL55IkEQDwfVrZ3Ws2WBLfURIYII4h4jz2Ax5QFnJk29fNy+H29vdi8SYBgGw2c3TUaLc9orsiT0QQhTwKWOTT0PUjkZBGW3777qVtX7kAAGBm+saPn+V65UQUDadH+17k0djzwae9ZErKjhj35u8eHhwCANnc3CyVSu9XPpT3DlSUJfEki0MQECJIUqDR6p92e4aZWVr6NDRMFxYe4ampqY2NEsaSntIdBynKLOMx4wLjKIrFMGSiSBUF5S10a9bChAiWZVUqZR7yz2tfXb/GeBBBGKMOEnYRXtVSK6L8GoRXY2Ni4Wrh2sQ4yefzhULBdYOZ6dv9s6jVWtQ0pGl4QFUUJcmCSycn0fiY8fTJY0EQAICYprmzsyPLA4Y5MZLJzM4MYiyGYUwp833XA14uVzqd02p137YthBBRVbVYLNZqtVRSG1BVSs9o4LHA933Ppy6lvmFaCUXa2tq2rDxCiMiy3O121tfXE+qQ6/Zdr98/6/V6Xdfr8ZBLItG0VG40l0gkGGOyLBMAmJycbDbba18+KkpCEkU9nbYt0zCMXC43NDyo65cG03p6UL/4AABzc3MBZfPz89lsNp1OJ5OaoigYC4IgYIwxxuflHEB/9I7jGCH0H9XP8xv7BTxpNAYyRAAAAABJRU5ErkJggg==",
+    "Name": "ShakeSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Shake",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      11
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_ShakeSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACT0lEQVQokZXSP2gTURwH8Pfe3b17ucvlemmatBqH2iRIEVpdJBGtgppBLa5KBx0cXOpVROokCE4dSjIKbiE4VJwkg4KbVmspWhok1LY0f5rauybN38vl/jgkGOuk3+33fr8P78fjwVgsBv4nNABgenr6H6fj8Tj915GmtRZev8luZW6M50Xjo2dw2BqaAp4oxhgh1L2hE8uyEELrG5u5bHZy8jrFMHX73nbm7Yj6jPO+rwWe8jzfA8lkMpVKjY2NuyQPwzBLy994lxQaHhKOX3n3CV1ozhnGMDhxx7Zt1AGyLEej0VAo2CeKyt6uKDgq+z8/LK4sflkFpP/ALZPd56VSyTTNLohEIvPz8wMDXp/Xy7LY7z96/lwYIWptbS0QDFK+yzxHtVotwzC6IJFIhMPhmRm5WCxSFM1xnCAIAAKeF5rNptA3wDq9EMLeSgsLr0YCQU3TyuWSYZgQwh8b25WyKrq4ldWMZVlG2zz0Sjs7hXQ6PTv7WHL3i6ILY6yo6rWrUUXZLxRyVvlzLt+wB+0ekGVZVVVN0wghDMMwDHNx4qyu6x6PJxTwu7duL7E3+00TQtgFLFXzKk/qvgfYNYQZGkIAgO1gAdK/Wt/nltZHXacuEUJomu6C2vJDfJCoZBV29BG398LQ6zSyG41qIX9Ql6bcpycIIZIkURTVBab//l5xc4O9Nag5FfauZrWMdouVnI5jbgcAHMdJksTzfG8l3neyeeblkWrV6XQKgtBut3VdhxAihDDGhJBDfykejwMATNPs4E7jdyCEf5a/ABAI5WX195HuAAAAAElFTkSuQmCC",
+    "Name": "SilhouetteSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Silhouette",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      12
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_SilhouetteSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACKklEQVQ4jaWSXUtUURSGn/OZH5igYyoe9Bw0YsRIKSLCEvqAKIgggrrNsu69qwgxTYfuki7MLP9GXYxEUpEhBYVgqaiMjhxHZ2ScZnLmrC5sBtQJAl/YsFms9fC+ey/Yo5R8xdXOzoC4EcdLbNRKJl3ruSvVqmlMHggGG3f26gDrgcBgfGSko/DceVTLQrdtdMdBq65CsywA4oPP/aHZyUzN7JKW18rK9RsiIpJxXUm9/yDxVyMSab8l6339ktXmj58SPnFS4gMDj3cBQk61hJxKWbALZc5GZuu2zkwdEnvYlYOkvnyVeVuXaODJs1wEAL3S9n6Hv6m6WYdWX4/R0IDRfIRMOEx06B6psTG8aJTMWhgA1TCMbQ7CzUenY13dkk+xR70ybyOLjiNLh/yyYJdKdk7NXozDTVPJ0SAbwy9xL15i9XZHDl507SpGaQvgISKoSsH2XwAwT7dNxXtvXkj1vEUQmATviosXiZAOzaAWlaEU7UcSGyhmGbAM7NiDBbtEDJ8fo6UZ3XGIDz3dsllYDqoCAl5iDb3C8io/fdS2OdiiqZT291Fw9gwAmxMTJD+/AcUHf1MLSZQK3/KuCAD7Wi+Prd9/0Jp8fYpUcBRJJtEKrCwd0h5pWcHU1dwj7lrlORvRKEFVKlCKi5HELzzPRUigKj40n7VYNT5e80/AUmOTpBPTQBow0UsOinn82Lvy4RdtO3vzKnLn7vdQY1Ms2t0z/F8De9Ufq6AIAvZeFGYAAAAASUVORK5CYII=",
+    "Name": "SketchUpSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "SketchUp",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      30
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_SketchUpSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACB0lEQVQokT2SsUscYRTEJ+cgD/mQLTayhCVcsYWFhYWIpDohBolWqSxSWgT/AuvUKS0sUlik8A+4MlimSmEhIiLhCEtYwnJ8yMflcUyWFHvxMcXA48e8B/Ps49WVkVkIwczIYBbMAmlkIAMJwEiXekMHALg7AJjRHUCCHIzujdSmdNM0+2XxYXPLJXpKCCECmTsAAWeXl5OmbvMc5RAA6kllYX806kOYJDwxEMCmbWMb4Q4aYpslPz89zkNwd5oNXHLAU3LJkwMo8hwA6gbjMevm9OioKso2JQFyp0twhxld0WBQZqa7OwCIsVpff72x0aZIEkAgBy65JCnJ5XKhIBEjYkSW3U0evozHoElyKUmDJD0xImJKTZ8JoCzgOr+4+H53A6BnBg446YBLN237+fr6a9vCDNUQAgCP8dPZWR2jA5KWnh8cLHfd9PHx2/397c8fs5kDQIpYXUU77d+b3t76YPBqe1sAkzvMkJLqGk0DAEYAmNSIsb9tczTa2tlpYzTj0p/dXUjLKytlVRk5bRvMZug6NL8RYz4cvjs5efv+aDVf02ymDkt/9/bmXTfourkU1taK4oXHR69/wX3z8PDN8fHLqvK5OJ+DJMkshIzs20YglGVelunhociLcr1alM/MQjCSZgwhGNmLC9LK4dBIA0iamZHohUXMwhkAs36xmP/FXoz0D6UPNeeHRa9qAAAAAElFTkSuQmCC",
+    "Name": "SoftimageSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Softimage",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      31
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_SoftimageSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACJ0lEQVQokYWRzWsTURTF78y8mcykmclYtRGDSUVaKxUsCDaxohR0YVHpzqj/gqDQheBSFKq7uLGLuHFRNwpSUFEqxC8sVCSiBU3VampSm6T5Tt6bN+/NuKi0INZcfpsL5xzu4UpLhdLWwPbpZ0mQZBDbgzpN/4FItGffwfkvGUWRod0gSYBdO8Mjp0bjE/dkvaON3HUQAAQDW44OH3o8u7i4VFUQ+r9FymsDI0N9hmG4svbmc0P1mUqHKXv9GyG9FQ/HhnvCXbph6FWmpgvMq5tIMzZC2HtxOl9p5hInAGAmXYo/TM9+rfpU5d8VOBWiV1O2hQnlqWvRVU/i1fKHTMtDf7lG6C+DbWHRq8l+0wh0bRoc/5jOk0hv59hof7h4V/w24ZOoaepeTV7F8Cl+0xBid7JrAfkaORMNZR9deZ1eKGKrVS/tjyUcaf08lxHh/FR+bRc9euPJjUojV8fNIraahOBaZWz8abaGMWUAAIyhHZs9f+SqXnlwnVpZ5jjEFRzX4ZwT7t68dGzmxcv1Twf9MgAoupaZjDu1bN1FmOEGIdii1LYBIFPIDwweSUw9LxUxAIjdJtod0sr3b9nFH3VBwowTxhzXWc3juKUiNbcwd/nc8aF+rdtEYm9Q/jl521n+XhdQi3HmcIsxi9qYEIIxF0SBUUX1ppLJC6fPRrZJ0sm+PSvzn1ZEqczsMrXrlDYIYZzbjCGXM0q5KwC1kCzOvXtPcOs3tlYSBNCh2bAAAAAASUVORK5CYII=",
+    "Name": "TerragenSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Terragen",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      32
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_TerragenSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAChklEQVQ4jZVS20tTcQD+zvmdy852dHNnN6fTaaPc8AYpUpYYRgp2oV5iZFDgQ70VPfUkQS8VUdA/EEREQgRB9qRvRi+DShLtps1wU9PdztnZdm49ZGC+5L7378L3fUB1IGDZK6Dp+1Xy/kDwBOPOfR0lmrOlgAkaAOg9syMR3iLkJigKtc0HCpio1p5hBjyd/Xlna7ss+BrzIORsNQkEsSEyDFgUzXAmYXmGoqgxAALZk7noOkIT8oAVXYaplylNzrGmXglbum6nbe7guCPYOs1LgTtiIOAFQAHgd/BpvZg/rRUy9uyXDyJhuLLgDZZolgeAj8RiSIiw3Kjg9o+CcJc5l9+qZHOrgFEEYACwEUGkpI7DJz3tfXlfz1C+uL7C60VZ0BTlMbEqpUVNzj01tHKEszm6NSU3RBFcNHWjAMucA1ASpGC8LX4tIkV71JWZSckZjqrqZtrO1UmrfzuomGX1jUWTEW/HoZralqgRHrkQtSwjoawu5TrHb/WZerl78dnDgLfraN4d61XUtZ+cnPxcv7NEzTC0dxSoSzWh/Yam5ITQ4Lmh7NJ8yCgXI1sLiVh4ZGyrlFmjTa1Cw7LY/PK89u8KhrGhKflYdiHRL6eWeb0oM4Tlu1Jvp3obBs5sNgycKji8zXpyZrKWd0q0kv7xfveMvGXoW5ZpnpCivWg6fj6rZjbgO3hsXU0nwdf5LE3OECnWpySnn3t5yX9vtwADIAagUf2V4t2xHpsYbNHV9IpQWP36KDX72p77NhcoJBd509RfDLZcvUvtEiDbHzAB+BnRNdsWv846Ak360tST2+uJmU8AigCGAbwEMP+/E94ARb2yeeq/O+rDw9viEgAHABsA/AZ1qf98fEEmZQAAAABJRU5ErkJggg==",
+    "Name": "TVPaintSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "TVPaint",
+    "SubMenus": [
+      "2D/Compositing"
+    ],
+    "Position": [
+      0,
+      13
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_TVPaintSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAABJ0AAASdAHeZh94AAAAEnRFWHRfcV9pY29PcmlnRGVwdGgAMjQlmiyYAAACs0lEQVQokV2ST0yScRjHn9/LK686E03dOjSB8k/ecnIQal0sM9qkqKC56tIGTT3UamrLdcpVNv9OmxdnzlhtZpZ/QpvOi4lOT8zAIYKWoiF/lCEJ7/vydMDI9T09+z7f7+V5PgQR4ZDC4bBzxb6zGwCARKEwJz8/JSXlcICOT5FIZHRo6MuwkeP2s7KOAcDaz7XkREapUpWrVAzDHOQQEREDgUDNg4cVmpvjY2M+ny9mut3ur8axOxUVT2rqAoFAzAREZFn2fnV1pU7v9XoRcdG8aDab8a82Nzcrdbr62lqWZQ8KHe3tZ2SybbcbEft63pSVlFitVo7jlm22V89fNL1sdG1s3ChXjY+OIiKEw2GFTPa2pxcR21taL5+/UK5UOhyOnu7u2xrtObnCZDIhoqG3r1Kn53mecq6shIL7JWWl7wyG9wZDcG8vEo58N5tzc/O33V5R2tHi4mIAkJ+V/3K5Vp2rlN+/m5uX43ZtdnV2PnpcV1BQEOV5QohIlAoCoATAcRwAHEkV0YxwZ8dPJSclM0mJC/MLd/X3rqrVPCIAEIrEbhhlWZqmAYBhmIQEBhFpJpHxbntOFxUWFhUBAE1RAEAoQYRlAYAQenZ2lotEsrOzf4eCGZmZVN6pPGnOydnpb4SQJYvF5/FQAoFxeKStuYnnuFAo+Kz+6QmpdGpySiyRSiQSihByXasxGo12m02Unp6anrbr81ktlmXbMgJF6IT2rtdRQj4NDqivqQ8+zXFcY0ODRnXFtrSEiDPT0x/7++12u8fj2dra+rG2ekurbWtuiUajiEhi8IVCoY6W1vm5uYvKS6VlZekZGTzH+/3emWnT6MhnuVyhr6oSCoUAQOK0IuLkxMTghwHX+jpF0wJCKEKOi7PVGo1CoYgz+q8Ql9Ph9Pt9iJiZlSUWi//b/gFbJHlhB06I/AAAAABJRU5ErkJggg==",
+    "Name": "UnrealEngine5Submission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Unreal Engine 5",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      35
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_UnrealEngine5Submission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVQokV2ST0yScRjHn9/LK686E03dOjSB8k/ecnIQal0sM9qkqKC56tIGTT3UamrLdcpVNv9OmxdnzlhtZpZ/QpvOi4lOT8zAIYKWoiF/lCEJ7/vydMDI9T09+z7f7+V5PgQR4ZDC4bBzxb6zGwCARKEwJz8/JSXlcICOT5FIZHRo6MuwkeP2s7KOAcDaz7XkREapUpWrVAzDHOQQEREDgUDNg4cVmpvjY2M+ny9mut3ur8axOxUVT2rqAoFAzAREZFn2fnV1pU7v9XoRcdG8aDab8a82Nzcrdbr62lqWZQ8KHe3tZ2SybbcbEft63pSVlFitVo7jlm22V89fNL1sdG1s3ChXjY+OIiKEw2GFTPa2pxcR21taL5+/UK5UOhyOnu7u2xrtObnCZDIhoqG3r1Kn53mecq6shIL7JWWl7wyG9wZDcG8vEo58N5tzc/O33V5R2tHi4mIAkJ+V/3K5Vp2rlN+/m5uX43ZtdnV2PnpcV1BQEOV5QohIlAoCoATAcRwAHEkV0YxwZ8dPJSclM0mJC/MLd/X3rqrVPCIAEIrEbhhlWZqmAYBhmIQEBhFpJpHxbntOFxUWFhUBAE1RAEAoQYRlAYAQenZ2lotEsrOzf4eCGZmZVN6pPGnOydnpb4SQJYvF5/FQAoFxeKStuYnnuFAo+Kz+6QmpdGpySiyRSiQSihByXasxGo12m02Unp6anrbr81ktlmXbMgJF6IT2rtdRQj4NDqivqQ8+zXFcY0ODRnXFtrSEiDPT0x/7++12u8fj2dra+rG2ekurbWtuiUajiEhi8IVCoY6W1vm5uYvKS6VlZekZGTzH+/3emWnT6MhnuVyhr6oSCoUAQOK0IuLkxMTghwHX+jpF0wJCKEKOi7PVGo1CoYgz+q8Ql9Ph9Pt9iJiZlSUWi//b/gFbJHlhB06I/AAAAABJRU5ErkJggg==",
+    "Name": "UnrealEngineSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Unreal Engine",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      34
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_UnrealEngineSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACs0lEQVQokV2ST0yScRjHn9/LK686E03dOjSB8k/ecnIQal0sM9qkqKC56tIGTT3UamrLdcpVNv9OmxdnzlhtZpZ/QpvOi4lOT8zAIYKWoiF/lCEJ7/vydMDI9T09+z7f7+V5PgQR4ZDC4bBzxb6zGwCARKEwJz8/JSXlcICOT5FIZHRo6MuwkeP2s7KOAcDaz7XkREapUpWrVAzDHOQQEREDgUDNg4cVmpvjY2M+ny9mut3ur8axOxUVT2rqAoFAzAREZFn2fnV1pU7v9XoRcdG8aDab8a82Nzcrdbr62lqWZQ8KHe3tZ2SybbcbEft63pSVlFitVo7jlm22V89fNL1sdG1s3ChXjY+OIiKEw2GFTPa2pxcR21taL5+/UK5UOhyOnu7u2xrtObnCZDIhoqG3r1Kn53mecq6shIL7JWWl7wyG9wZDcG8vEo58N5tzc/O33V5R2tHi4mIAkJ+V/3K5Vp2rlN+/m5uX43ZtdnV2PnpcV1BQEOV5QohIlAoCoATAcRwAHEkV0YxwZ8dPJSclM0mJC/MLd/X3rqrVPCIAEIrEbhhlWZqmAYBhmIQEBhFpJpHxbntOFxUWFhUBAE1RAEAoQYRlAYAQenZ2lotEsrOzf4eCGZmZVN6pPGnOydnpb4SQJYvF5/FQAoFxeKStuYnnuFAo+Kz+6QmpdGpySiyRSiQSihByXasxGo12m02Unp6anrbr81ktlmXbMgJF6IT2rtdRQj4NDqivqQ8+zXFcY0ODRnXFtrSEiDPT0x/7++12u8fj2dra+rG2ekurbWtuiUajiEhi8IVCoY6W1vm5uYvKS6VlZekZGTzH+/3emWnT6MhnuVyhr6oSCoUAQOK0IuLkxMTghwHX+jpF0wJCKEKOi7PVGo1CoYgz+q8Ql9Ph9Pt9iJiZlSUWi//b/gFbJHlhB06I/AAAAABJRU5ErkJggg==",
+    "Name": "UnrealSwarmSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Unreal Swarm",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      33
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_UnrealSwarmSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnUlEQVQokWPUCF/PQApgIkk1AwMDCxrfz1Y23ktZSZr3/3+GGw8/rj/4aN3+h3///ceuQVmGtyPLmJERyjVUE5IW5Xr74ce+sy/QNXCwMXNxsChI8MBVMzAwHDj3omjiaUZGRj5u1k9ff6P4IdpdyVBN6OuPP3DV7z79LJt61kJH9PAMj4PTPcy1RVA0+FjLSIlwPXj+Ba5h1oZbDAwMLemGXBwsHGzM0e5KKBqUpHn1VAVfvP3+8MUXBgaGX7//bTz8OMheToiPHe49hAZGRob/DP8djCQ42Jg3HnrMwMCw8+TTD59/hTgpwC38948BoeH/f4bbjz/zcLIE2sst3Hb35bsfS3feN9USUYGZysDAcPfpZxQnrT/wiIGBITdMk42Vyatoz8Xb75J9VZBDfPORxyga1u5/ePXeB0Fetqkl5nLi3HlhmvaGEnDVRy6+2nfmOYTNCE9LEsKcU4rNtZUEGFDB6WtvsrpPfPkODXFmEZ0ICOvL9z8bDj16+/GnAC8bFwfLj59/r9z9MGXNjc7FV37+/gfXz0jz1AoAkTeVL8US1I8AAAAASUVORK5CYII=",
+    "Name": "VDenoiseSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "VDenoise",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      16
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_VDenoiseSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnUlEQVQokWPUCF/PQApgIkk1AwMDCxrfz1Y23ktZSZr3/3+GGw8/rj/4aN3+h3///ceuQVmGtyPLmJERyjVUE5IW5Xr74ce+sy/QNXCwMXNxsChI8MBVMzAwHDj3omjiaUZGRj5u1k9ff6P4IdpdyVBN6OuPP3DV7z79LJt61kJH9PAMj4PTPcy1RVA0+FjLSIlwPXj+Ba5h1oZbDAwMLemGXBwsHGzM0e5KKBqUpHn1VAVfvP3+8MUXBgaGX7//bTz8OMheToiPHe49hAZGRob/DP8djCQ42Jg3HnrMwMCw8+TTD59/hTgpwC38948BoeH/f4bbjz/zcLIE2sst3Hb35bsfS3feN9USUYGZysDAcPfpZxQnrT/wiIGBITdMk42Vyatoz8Xb75J9VZBDfPORxyga1u5/ePXeB0Fetqkl5nLi3HlhmvaGEnDVRy6+2nfmOYTNCE9LEsKcU4rNtZUEGFDB6WtvsrpPfPkODXFmEZ0ICOvL9z8bDj16+/GnAC8bFwfLj59/r9z9MGXNjc7FV37+/gfXz0jz1AoAkTeVL8US1I8AAAAASUVORK5CYII=",
+    "Name": "VrayBenchmarkSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "V-Ray Benchmark",
+    "SubMenus": [
+      "Benchmark"
+    ],
+    "Position": [
+      3,
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_VrayBenchmarkSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnUlEQVQokWPUCF/PQApgIkk1AwMDCxrfz1Y23ktZSZr3/3+GGw8/rj/4aN3+h3///ceuQVmGtyPLmJERyjVUE5IW5Xr74ce+sy/QNXCwMXNxsChI8MBVMzAwHDj3omjiaUZGRj5u1k9ff6P4IdpdyVBN6OuPP3DV7z79LJt61kJH9PAMj4PTPcy1RVA0+FjLSIlwPXj+Ba5h1oZbDAwMLemGXBwsHGzM0e5KKBqUpHn1VAVfvP3+8MUXBgaGX7//bTz8OMheToiPHe49hAZGRob/DP8djCQ42Jg3HnrMwMCw8+TTD59/hTgpwC38948BoeH/f4bbjz/zcLIE2sst3Hb35bsfS3feN9USUYGZysDAcPfpZxQnrT/wiIGBITdMk42Vyatoz8Xb75J9VZBDfPORxyga1u5/ePXeB0Fetqkl5nLi3HlhmvaGEnDVRy6+2nfmOYTNCE9LEsKcU4rNtZUEGFDB6WtvsrpPfPkODXFmEZ0ICOvL9z8bDj16+/GnAC8bFwfLj59/r9z9MGXNjc7FV37+/gfXz0jz1AoAkTeVL8US1I8AAAAASUVORK5CYII=",
+    "Name": "VraySpawnerSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "V-Ray Spawner",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      36
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_VraySpawnerSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnUlEQVQokWPUCF/PQApgIkk1AwMDCxrfz1Y23ktZSZr3/3+GGw8/rj/4aN3+h3///ceuQVmGtyPLmJERyjVUE5IW5Xr74ce+sy/QNXCwMXNxsChI8MBVMzAwHDj3omjiaUZGRj5u1k9ff6P4IdpdyVBN6OuPP3DV7z79LJt61kJH9PAMj4PTPcy1RVA0+FjLSIlwPXj+Ba5h1oZbDAwMLemGXBwsHGzM0e5KKBqUpHn1VAVfvP3+8MUXBgaGX7//bTz8OMheToiPHe49hAZGRob/DP8djCQ42Jg3HnrMwMCw8+TTD59/hTgpwC38948BoeH/f4bbjz/zcLIE2sst3Hb35bsfS3feN9USUYGZysDAcPfpZxQnrT/wiIGBITdMk42Vyatoz8Xb75J9VZBDfPORxyga1u5/ePXeB0Fetqkl5nLi3HlhmvaGEnDVRy6+2nfmOYTNCE9LEsKcU4rNtZUEGFDB6WtvsrpPfPkODXFmEZ0ICOvL9z8bDj16+/GnAC8bFwfLj59/r9z9MGXNjc7FV37+/gfXz0jz1AoAkTeVL8US1I8AAAAASUVORK5CYII=",
+    "Name": "VraySubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "V-Ray",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      37
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_VraySubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnUlEQVQokWPUCF/PQApgIkk1AwMDCxrfz1Y23ktZSZr3/3+GGw8/rj/4aN3+h3///ceuQVmGtyPLmJERyjVUE5IW5Xr74ce+sy/QNXCwMXNxsChI8MBVMzAwHDj3omjiaUZGRj5u1k9ff6P4IdpdyVBN6OuPP3DV7z79LJt61kJH9PAMj4PTPcy1RVA0+FjLSIlwPXj+Ba5h1oZbDAwMLemGXBwsHGzM0e5KKBqUpHn1VAVfvP3+8MUXBgaGX7//bTz8OMheToiPHe49hAZGRob/DP8djCQ42Jg3HnrMwMCw8+TTD59/hTgpwC38948BoeH/f4bbjz/zcLIE2sst3Hb35bsfS3feN9USUYGZysDAcPfpZxQnrT/wiIGBITdMk42Vyatoz8Xb75J9VZBDfPORxyga1u5/ePXeB0Fetqkl5nLi3HlhmvaGEnDVRy6+2nfmOYTNCE9LEsKcU4rNtZUEGFDB6WtvsrpPfPkODXFmEZ0ICOvL9z8bDj16+/GnAC8bFwfLj59/r9z9MGXNjc7FV37+/gfXz0jz1AoAkTeVL8US1I8AAAAASUVORK5CYII=",
+    "Name": "VraySwarmSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "V-Ray Swarm",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      38
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_VraySwarmSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACi0lEQVQokS3PP4hcVRQH4N8599z3ZubNzO5ksouJbIiGNaRYAiYgwd0IipDCKEYMBiKbxtT2KWNnoYjVkspoiBAbK8FO7MRFRCQJKomijOv+n50377777jkW2n/NR48e/yXinHhuF8wsqWECM7NzTARm8gBgNQAFwN4558Qzim+/6H12kwkswswEwDGqMqy9l777hlkBwIDRaOvv0dY/N1bjxSP2yly6/f7ErJw2ZZUqs8nHN7bOzz5amX/47ttlGapaOUzGWdHdzg+vPy7vH7S2P/kQX91Dy3HO5d1bv699dH+Ufljf2Hc938pgRr/8+FOrP+t2Nn5+59VqMvGOZnrFMxcuhmlYv/1pVdUCUKf7/NffdxcXNSZxsLi/Q4O57Mzy5pef5/1+s3fw4N6dvc3dg0jipRnHhcuX+icXm6BkxM7UwRDruQtvmM/rEOsm7UJoOIT3yZQLv3D1emo0hSpWJTPUwRDKwdKzw+fOx+k0NhpCJJHeoFtXaXb5heLUUrW900xLrWtmMzZ1qkxYeO0tFqeqITahji738PTk5VUmIk0MEIHZlM0Ihqo8fPbcYOmM1qHdyaWdTSYH/aXT88svalWSgQAy4/80m0FVWu3jr18ZzrY7RZ4IMdRPvbmaFT2oEgwwApiZmIhgpE3a3x2ePWfzx6fjiYa6OHbiyMpLzXgPqYEZASBIGO+nUGlqzAxE0ps5tPLyb2sfsNDTl66Zl+nOJos4ydh7Ei97f/zaGBpQVIuKONqonzjmF0/FUP85OBofPhj0ZzpFJ8uSSw1LFEdg5zxxDlJiI06dVrx6nYhbRxfa3W6WiRARlFShKv+nmcgJOWHxWgcdHiLxPhOfZ3BMMNJkRJTsX06nRysNgL99AAAAAElFTkSuQmCC",
+    "Name": "VREDClusterSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "VRED Cluster",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      10
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_VREDClusterSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACi0lEQVQokS3PP4hcVRQH4N8599z3ZubNzO5ksouJbIiGNaRYAiYgwd0IipDCKEYMBiKbxtT2KWNnoYjVkspoiBAbK8FO7MRFRCQJKomijOv+n50377777jkW2n/NR48e/yXinHhuF8wsqWECM7NzTARm8gBgNQAFwN4558Qzim+/6H12kwkswswEwDGqMqy9l777hlkBwIDRaOvv0dY/N1bjxSP2yly6/f7ErJw2ZZUqs8nHN7bOzz5amX/47ttlGapaOUzGWdHdzg+vPy7vH7S2P/kQX91Dy3HO5d1bv699dH+Ufljf2Hc938pgRr/8+FOrP+t2Nn5+59VqMvGOZnrFMxcuhmlYv/1pVdUCUKf7/NffdxcXNSZxsLi/Q4O57Mzy5pef5/1+s3fw4N6dvc3dg0jipRnHhcuX+icXm6BkxM7UwRDruQtvmM/rEOsm7UJoOIT3yZQLv3D1emo0hSpWJTPUwRDKwdKzw+fOx+k0NhpCJJHeoFtXaXb5heLUUrW900xLrWtmMzZ1qkxYeO0tFqeqITahji738PTk5VUmIk0MEIHZlM0Ihqo8fPbcYOmM1qHdyaWdTSYH/aXT88svalWSgQAy4/80m0FVWu3jr18ZzrY7RZ4IMdRPvbmaFT2oEgwwApiZmIhgpE3a3x2ePWfzx6fjiYa6OHbiyMpLzXgPqYEZASBIGO+nUGlqzAxE0ps5tPLyb2sfsNDTl66Zl+nOJos4ydh7Ei97f/zaGBpQVIuKONqonzjmF0/FUP85OBofPhj0ZzpFJ8uSSw1LFEdg5zxxDlJiI06dVrx6nYhbRxfa3W6WiRARlFShKv+nmcgJOWHxWgcdHiLxPhOfZ3BMMNJkRJTsX06nRysNgL99AAAAAElFTkSuQmCC",
+    "Name": "VREDSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "VRED",
+    "SubMenus": [
+      "AEC"
+    ],
+    "Position": [
+      2,
+      9
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_VREDSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnUlEQVQokWPUCF/PQApgIkk1AwMDCxrfz1Y23ktZSZr3/3+GGw8/rj/4aN3+h3///ceuQVmGtyPLmJERyjVUE5IW5Xr74ce+sy/QNXCwMXNxsChI8MBVMzAwHDj3omjiaUZGRj5u1k9ff6P4IdpdyVBN6OuPP3DV7z79LJt61kJH9PAMj4PTPcy1RVA0+FjLSIlwPXj+Ba5h1oZbDAwMLemGXBwsHGzM0e5KKBqUpHn1VAVfvP3+8MUXBgaGX7//bTz8OMheToiPHe49hAZGRob/DP8djCQ42Jg3HnrMwMCw8+TTD59/hTgpwC38948BoeH/f4bbjz/zcLIE2sst3Hb35bsfS3feN9USUYGZysDAcPfpZxQnrT/wiIGBITdMk42Vyatoz8Xb75J9VZBDfPORxyga1u5/ePXeB0Fetqkl5nLi3HlhmvaGEnDVRy6+2nfmOYTNCE9LEsKcU4rNtZUEGFDB6WtvsrpPfPkODXFmEZ0ICOvL9z8bDj16+/GnAC8bFwfLj59/r9z9MGXNjc7FV37+/gfXz0jz1AoAkTeVL8US1I8AAAAASUVORK5CYII=",
+    "Name": "Vrimg2ExrSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Vrimg2Exr",
+    "SubMenus": [
+      "Processing"
+    ],
+    "Position": [
+      5,
+      17
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_Vrimg2ExrSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADKUlEQVQ4jW2TT0ybdRjHP7/f25WN0pYBLSQrYwUkrjORRXADhomDA3PchiYzkbntMKOCB47zpG7euCwgaJTDin92XoJGG0hMo0a5yLYiWSeEurXQ0Ze2QH/vW97XQ3VO3Td5kufw/T5/8jxfwRPQ23vyWkdHZ1cw2FjvdDq1paUlPRr9/ttIZPbSk/iPEAo9PREOXzcTq6u2ruv25uamreu6reu6nUgk7HA4bIZCoYnHNeLvpK6u9rvLl9/taW19lnw+j2VZ2AC2QAjQpKTCXcHCrwu8/8F7kfv3k70ADgCv1z3pq/H1PEyniUQiYAOiVFsIEH/1EVKgSY1DDYd6CgVjcmNj45IAqK3175bvK5eNTY1UuCqwsRFClmQChChNIYWGYSgSiT/Y3t6yFn9b0hxer2es1l8nr1y9wujoKLFYjLKyslJnAQiJQCCEQErB9vY2QghcLpf0+/1j0jDMrjNnBujv76etrY30wzRKFVBKoZSBoQwMQ6GUIpfPUX+wgebmpygWi7jKy7tksDEYuHDxAgDDw8M8336Mra0tpKaVQopHKxTNXYaGhnjzrbdRykTTHAF5bvAcgcABAAKBAOMfjXPkyDPkcrl/TgQUCgXa29uJx+/x4EGS1qNHMQwDaZpmAkDXNzFNk2AwyPXpaU71nSKbzWJZFqZp0tLSwonuF5iammJmZoa+vpco7hYTcm5uLgowPj7G4OBr5PN50uvrXLn6IUPD72BZFvurqujo7ObGja9QShGLxbBtG39dXVQAzM/P7yaTSfnywACvnz/P2bOv8uUXn3O6/zQej5fbt2NMTn5MJrOBx+PFsixcFS7rxx+imgawuLh4YGRk5LmaGh9TU5+RyWRoampmOjzNnTuLHGxooLPzBKlkirW1FA7HHpZ/v/vJzs7OTQ1gZWXl5uzsbPex48cbKyv3s7y8ghQalVVVxOP3+HrmG5RSvHiyh+qaGn7+5afI+traK//yAoDb7Z44fDh0ce/efQ6320Ogvp71tTTx+N3SA0lRdO7RPr11a+GN/5npcfh81dccjrIup7OsvrraRzabXc3lMtFUKjX0X+6fQ0RQPZhKRP0AAAAASUVORK5CYII=",
+    "Name": "VueSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Vue",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      39
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_VueSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAj0lEQVQ4je2SzQ3DMAiFP6IM4lE8SkbLKIzCJumhfsihSdtrpeKLkZ7fDxj+ZZ8AjXY0GgCOm/p4Hlu+IKCPo8fjDsAK0OkHkKxzX8lqLQLOKlIIIiMKc0dgQaTdkfcElJvqImews5sAjp/UVY7fE2xsmVtRKkGdSRLMq5H1q7xXrmyA325h3nv9By8qv1cPSf5KEq9WWiQAAAAASUVORK5CYII=",
+    "Name": "xNormalSubmission",
+    "ScriptType": 1,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "xNormal",
+    "SubMenus": [
+      "3D"
+    ],
+    "Position": [
+      1,
+      40
+    ],
+    "Visible": true,
+    "MultiSelect": false,
+    "_id": "Submission_xNormalSubmission",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithAppleRemoteDesktop",
+    "ScriptType": 5,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+P",
+    "DisplayName": "Connect With Apple Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      0
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Task_ConnectWithAppleRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRadmin",
+    "ScriptType": 5,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+R",
+    "DisplayName": "Connect With Radmin",
+    "SubMenus": [],
+    "Position": [
+      1
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Task_ConnectWithRadmin",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithRemoteDesktop",
+    "ScriptType": 5,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+D",
+    "DisplayName": "Connect With Remote Desktop",
+    "SubMenus": [],
+    "Position": [
+      2
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Task_ConnectWithRemoteDesktop",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "ConnectWithVNC",
+    "ScriptType": 5,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "Ctrl+Shift+V",
+    "DisplayName": "Connect With VNC",
+    "SubMenus": [],
+    "Position": [
+      3
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Task_ConnectWithVNC",
+    "ExtraElements": null
+  },
+  {
+    "ItemType": 0,
+    "IconData": "",
+    "Name": "SendPopUpMessage",
+    "ScriptType": 5,
+    "OverridePlugins": false,
+    "SupportedPlugins": [],
+    "OverrideStates": false,
+    "SupportedStates": [],
+    "Shortcut": "",
+    "DisplayName": "Send Pop Up Message",
+    "SubMenus": [],
+    "Position": [
+      4
+    ],
+    "Visible": true,
+    "MultiSelect": true,
+    "_id": "Task_SendPopUpMessage",
+    "ExtraElements": null
+  }
+]

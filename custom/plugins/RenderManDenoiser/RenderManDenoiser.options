@@ -1,0 +1,276 @@
+[BeautyFile]
+Type=filename
+Label=Beauty EXRs Sequence
+Category=Input Files
+CategoryOrder=-1
+Index=0
+Description=The EXRs sequence containing necessary AOVs for denoising (Ci, a, albedo, albedo_mse, diffuse, diffuse_mse, mse, normal, normal_mse, specular, specular_mse, sampleCount).
+Required=true
+DisableIfBlank=false
+
+[LpeFile]
+Type=filename
+Label=LPE EXRs Sequence
+Category=Input Files
+CategoryOrder=-1
+Index=1
+Description=The EXRs sequence containing LPE passes for denoising using the master. Optional.
+Required=false
+DisableIfBlank=true
+
+[LgtFile]
+Type=filename
+Label=LGT EXRs Sequence
+Category=Input Files
+CategoryOrder=-1
+Index=2
+Description=The EXRs sequence containing LGT passes for denoising using the master. Optional.
+Required=false
+DisableIfBlank=true
+
+[OutputDirectory]
+Type=folder
+Label=Output Directory
+Category=Denoising Options
+CategoryOrder=0
+Index=0
+Description=The output directory for the denoised images. The JSON config file(s) will also be written to this directory. If not specified, images are written into a subdirectory called "denoised" from the image path.
+Required=false
+DisableIfBlank=true
+
+[Asymmetry]
+Type=float
+Minimum=0.0
+Maximum=1.0
+DecimalPlaces=2
+Label=Asymmetry
+Category=Denoising Options
+CategoryOrder=0
+Index=1
+Description=Controls the asymmetry value. 0 is best quality, higher values encourage the denoiser to avoid overblurring, leading to weaker denoising.
+Required=false
+DisableIfBlank=true
+
+[CrossFrame]
+Type=boolean
+Label=Cross-Frame Denoising
+Category=Denoising Options
+CategoryOrder=0
+Index=2
+Description=Enable cross-frame denoising. Uses temporal information from neighboring frames to improve denoising quality.
+Required=false
+DisableIfBlank=true
+DefaultValue=false
+
+[Flow]
+Type=boolean
+Label=Compute Optical Flow
+Category=Denoising Options
+CategoryOrder=0
+Index=3
+Description=Whether to compute optical flow. Used in conjunction with cross-frame denoising.
+Required=false
+DisableIfBlank=true
+DefaultValue=false
+
+[CleanAlpha]
+Type=boolean
+Label=Clean Alpha
+Category=Denoising Options
+CategoryOrder=0
+Index=4
+Description=Rounds alpha values less than 0.00001 and greater than 0.999. Helps reduce artifacts.
+Required=false
+DisableIfBlank=true
+DefaultValue=false
+
+[Json]
+Type=boolean
+Label=Use JSON Config
+Category=Denoising Options
+CategoryOrder=0
+Index=5
+Description=If enabled, use the first input file as the configuration JSON file. All other files and options are ignored, except for: --frame-include, --frame-exclude, --tiles, --progress.
+Required=false
+DisableIfBlank=true
+DefaultValue=false
+
+[DryRun]
+Type=boolean
+Label=Dry Run
+Category=Denoising Options
+CategoryOrder=0
+Index=6
+Description=Write the configuration JSON file, but don't run the denoiser. Useful for inspecting and modifying the configuration file before passing it back with the JSON flag.
+Required=false
+DisableIfBlank=true
+DefaultValue=false
+
+[Progress]
+Type=boolean
+Label=Emit Progress
+Category=Denoising Options
+CategoryOrder=0
+Index=7
+Description=Emit a progress percentage. Compatible with LocalQueue and Tractor.
+Required=false
+DisableIfBlank=true
+DefaultValue=true
+
+[FrameInclude]
+Type=string
+Label=Frame Include
+Category=Frame Options
+CategoryOrder=1
+Index=0
+Description=Include only specific frames in the denoising job. Comma-separated list of frame numbers or ranges. Ex: 1001-1008,1012,1013-
+Required=false
+DisableIfBlank=true
+
+[FrameExclude]
+Type=string
+Label=Frame Exclude
+Category=Frame Options
+CategoryOrder=1
+Index=1
+Description=Exclude specific frames from the denoising job. Comma-separated list of frame numbers or ranges. Ex: -1002,1015
+Required=false
+DisableIfBlank=true
+
+[Specular]
+Type=string
+Label=Specular Channels
+Category=Channel Mapping
+CategoryOrder=2
+Index=0
+Description=Comma-separated list of channels to consider as specular outputs. Channels named 'transmissiveSingleScatterLobe' and 'transmissiveGlassLobe' are assumed specular by default. Ex: glass,my_glass_aov
+Required=false
+DisableIfBlank=true
+
+[Diffuse]
+Type=string
+Label=Diffuse Channels
+Category=Channel Mapping
+CategoryOrder=2
+Index=1
+Description=Comma-separated list of channels to consider as diffuse outputs. Channels named 'subsurface' and 'subsurfaceLobe' are assumed diffuse by default. Ex: subsurf,my_sss_aov
+Required=false
+DisableIfBlank=true
+
+[Albedo]
+Type=string
+Label=Albedo Channels
+Category=Channel Mapping
+CategoryOrder=2
+Index=2
+Description=Comma-separated list of channels to consider as albedo outputs. Ex: my_constant,my_emissive
+Required=false
+DisableIfBlank=true
+
+[Irradiance]
+Type=string
+Label=Irradiance Channels
+Category=Channel Mapping
+CategoryOrder=2
+Index=3
+Description=Comma-separated list of channels to consider as irradiance outputs. Ex: irr,my_irr
+Required=false
+DisableIfBlank=true
+
+[Alpha]
+Type=string
+Label=Alpha Channels
+Category=Channel Mapping
+CategoryOrder=2
+Index=4
+Description=Comma-separated list of channels to consider as alpha outputs. Unknown channels of length 1 are automatically mapped to alpha. Ex: my_a,my_alpha
+Required=false
+DisableIfBlank=true
+
+[Color]
+Type=string
+Label=Color Channels
+Category=Channel Mapping
+CategoryOrder=2
+Index=5
+Description=Comma-separated list of channels to consider as color outputs. Unknown channels of length 3 are automatically mapped to color. Ex: my_aov,my_output
+Required=false
+DisableIfBlank=true
+
+[TilesX]
+Type=integer
+Minimum=1
+Maximum=64
+Label=Tiles X
+Category=Performance
+CategoryOrder=3
+Index=0
+Description=Number of horizontal tiles. Denoising in tiles can reduce memory usage for large images, but may increase processing time.
+Required=false
+DisableIfBlank=true
+
+[TilesY]
+Type=integer
+Minimum=1
+Maximum=64
+Label=Tiles Y
+Category=Performance
+CategoryOrder=3
+Index=1
+Description=Number of vertical tiles. Denoising in tiles can reduce memory usage for large images, but may increase processing time.
+Required=false
+DisableIfBlank=true
+
+[Debug]
+Type=boolean
+Label=Debug AOVs
+Category=Debug
+CategoryOrder=4
+Index=0
+Description=If enabled, include debug AOVs in the output image for debugging.
+Required=false
+DisableIfBlank=true
+DefaultValue=false
+
+[DebugOutput]
+Type=string
+Label=Debug Output Filename
+Category=Debug
+CategoryOrder=4
+Index=1
+Description=If the Debug flag is enabled, this specifies the filename the debug AOVs should be written to in the output directory. If not specified, defaults to writing to the denoised variance file.
+Required=false
+DisableIfBlank=true
+
+[Verbose]
+Type=boolean
+Label=Verbose Output
+Category=Debug
+CategoryOrder=4
+Index=2
+Description=Verbose output for debugging.
+Required=false
+DisableIfBlank=true
+DefaultValue=false
+
+[Terse]
+Type=boolean
+Label=Terse Output
+Category=Debug
+CategoryOrder=4
+Index=3
+Description=Only print warnings and errors.
+Required=false
+DisableIfBlank=true
+DefaultValue=false
+
+[CommandLineOptions]
+Type=string
+Label=Additional Arguments
+Category=Command Line Options
+CategoryOrder=5
+Index=0
+Description=Additional command line arguments that are sent to the denoise_batch executable.
+Required=false
+DisableIfBlank=false
+DefaultValue=

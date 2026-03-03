@@ -1,0 +1,31 @@
+{
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${env:PYTHONPATH};${env:PATH};${workspaceFolder}/python"
+    },
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${env:PYTHONPATH}:${env:PATH}:${workspaceFolder}/python"
+    },
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${env:PYTHONPATH}:${env:PATH}:${workspaceFolder}/python"
+    },
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment.line.shebang.python",
+                    "meta.shebang.python"
+                ],
+                "settings": {
+                    "foreground": "#FFA500",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    }
+
+}

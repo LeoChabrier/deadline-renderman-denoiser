@@ -1,0 +1,42 @@
+[About]
+Type=label
+Label=About
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=RenderMan Denoiser for Deadline
+Description=Not configurable
+
+[ConcurrentTasks]
+Type=label
+Label=ConcurrentTasks
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=True
+Description=Not configurable
+
+
+[RenderMan_27.0_DenoiseBatch]
+Type=multilinemultifilename
+Label=RenderMan 27.2 DenoiseBatch Executable
+Category=Render DenoiseBatch Executables
+CategoryOrder=0
+Default=C:\Program Files\Pixar\RenderManProServer-27.0\bin\denoise_batch.exe;/opt/pixar/RenderManProServer/bin/prman
+Description=The path to the RenderMan executable used for rendering. Leave blank to ignore.
+
+[RenderMan_27.1_DenoiseBatch]
+Type=multilinemultifilename
+Label=RenderMan 27.2 DenoiseBatch Executable
+Category=Render DenoiseBatch Executables
+CategoryOrder=0
+Default=C:\Program Files\Pixar\RenderManProServer-27.1\bin\denoise_batch.exe;/opt/pixar/RenderManProServer/bin/prman
+Description=The path to the RenderMan executable used for rendering. Leave blank to ignore.
+
+[RenderMan_27.2_DenoiseBatch]
+Type=multilinemultifilename
+Label=RenderMan 27.2 DenoiseBatch Executable
+Category=Render DenoiseBatch Executables
+CategoryOrder=0
+Default=C:\Program Files\Pixar\RenderManProServer-27.2\bin\denoise_batch.exe;/opt/pixar/RenderManProServer/bin/prman
+Description=The path to the RenderMan executable used for rendering. Leave blank to ignore.
