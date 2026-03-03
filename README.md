@@ -26,7 +26,7 @@ All parameters exposed.
 
 1. **Clone the repository** :
    ```bash
-   git clone https://github.com/LeoChabrier/deadline-renderman-denoise.git
+   git clone https://github.com/LeoChabrier/deadline-renderman-denoiser.git
    ```
 
 2. **Copy to Deadline repository** :
@@ -47,8 +47,10 @@ All parameters exposed.
 </p>
 
 ## Automatic Installation
-
-**Download The MSI installer from the release page and run it.**
+   ```bash
+   cd deadline-renderman-denoiser
+   ./.scripts/Push-To-Repository.ps1
+   ```
 
 ## Warning
    When specifying the Frame List, you have to specify the _real frame range_ of your EXRs sequence.
