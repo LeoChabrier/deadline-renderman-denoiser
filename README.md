@@ -1,5 +1,5 @@
 # Deadline & RenderMan Denoiser
-Deadline submitter and plug-in to denoise an EXRs sequence using RenderMan's denoise tool.
+Production Ready deadline submitter and plug-in to denoise an EXR sequence using RenderMan's denoise tool.
 All parameters exposed.
 
 ![Deadline](https://img.shields.io/badge/Deadline-10.x-blue)
