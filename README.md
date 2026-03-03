@@ -53,8 +53,9 @@ All parameters exposed.
    ```
 
 ## Warning
-   When specifying the Frame List, you have to specify the _real frame range_ of your EXRs sequence.
-   Example : seq001_sh0010_rendering_main_v001.[1001-1010].exr will lead to 1001-1010 in _Frame List_ parameter.
+   - When specifying the Frame List, you have to specify the _real frame range_ of your EXRs sequence. Example : seq001_sh0010_rendering_main_v001.[1001-1010].exr will lead to 1001-1010 in _Frame List_ parameter.
+
+   - Ensure to respect industry standard frame pattern expected by denoise_batch.exe (.####.exr)
 
 <p align="center">
   <img width="460" height="300" src="images/image-1.png">
@@ -62,4 +63,3 @@ All parameters exposed.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-

@@ -6,6 +6,7 @@
 
 # Built-in
 from __future__ import absolute_import
+import re
 
 # Third-Party
 from Deadline.Scripting import ClientUtils, FrameUtils, PathUtils, RepositoryUtils
@@ -299,7 +300,28 @@ class RenderManDenoiserSubmissionDialog(DeadlineScriptDialog):
 
         return job_info_filename
 
-    def create_plugin_info_file(self, output_dir: str) -> str:
+    def check_frame_pattern(self, path: str) -> bool:
+        """Checks if the given path uses a .####.exr hash frame pattern."""
+        return bool(re.search(r'\.#+\.exr$', path, re.IGNORECASE))
+
+    def has_frame_number(self, path: str) -> bool:
+        """Checks if the path contains a numeric frame pattern like .0001.exr."""
+        return bool(re.search(r'\.\d+\.exr$', path, re.IGNORECASE))
+
+    def convert_to_frame_pattern(self, path: str) -> str:
+        """Converts a frame number in a path to a hash pattern.
+
+        E.g., 'image.0001.exr' -> 'image.####.exr'
+        Returns the path unchanged if no frame number pattern is found.
+        """
+        return re.sub(
+            r'\.(\d+)\.exr$',
+            lambda m: '.' + '#' * len(m.group(1)) + '.exr',
+            path,
+            flags=re.IGNORECASE
+        )
+
+    def create_plugin_info_file(self, output_dir: str, beauty_file: str, lpe_file: str, lgt_file: str) -> str:
         """Creates the plugin info file for the RenderMan Denoiser submission."""
         plugin_info_filename = Path.Combine(ClientUtils.GetDeadlineTempPath(), "renderman_denoiser_plugin_info.job")
         writer = StreamWriter(plugin_info_filename, False, Encoding.Unicode)
@@ -309,16 +331,22 @@ class RenderManDenoiserSubmissionDialog(DeadlineScriptDialog):
         writer.WriteLine(f"RenderManVersion={version}")
 
         # RenderMan Denoiser Input Files
-        beauty_file = self.GetValue("BeautyBox").strip()
         writer.WriteLine(f"BeautyFile={beauty_file}")
+        beauty_dir = Path.GetDirectoryName(beauty_file)
 
-        lpe_file = self.GetValue("LpeBox").strip()
-        if len(lpe_file) > 0:
-            writer.WriteLine(f"LpeFile={lpe_file}")
-
-        lgt_file = self.GetValue("LgtBox").strip()
-        if len(lgt_file) > 0:
-            writer.WriteLine(f"LgtFile={lgt_file}")
+        files_to_check = [
+            (lpe_file, "LpeFile",
+            "The Lpe EXRs sequence must be in the same directory as the Beauty EXRs sequence. The Lpe EXRs will be ignored."),
+            (lgt_file, "LgtFile",
+            "The Lgt EXRs sequence must be in the same directory as the Beauty EXRs sequence. The Lgt EXRs will be ignored."),
+        ]
+        for file_path, output_key, warning_msg in files_to_check:
+            if not file_path:
+                continue
+            if Path.GetDirectoryName(file_path) == beauty_dir:
+                writer.WriteLine(f"{output_key}={file_path}")
+            else:
+                self.ShowMessageBox(warning_msg, "Warning")
 
         if len(output_dir) > 0:
             writer.WriteLine(f"OutputDirectory={output_dir}")
@@ -382,10 +410,6 @@ class RenderManDenoiserSubmissionDialog(DeadlineScriptDialog):
             self.ShowMessageBox("Please specify the Beauty EXRs sequence.", "Error")
             return
 
-        # if not File.Exists(beauty_file):
-        #     self.ShowMessageBox(f"Beauty file {beauty_file} does not exist.", "Error")
-        #     return
-
         if PathUtils.IsPathLocal(beauty_file):
             result = self.ShowMessageBox(
                 f"The Beauty file {beauty_file} is local, are you sure you want to continue ?",
@@ -394,10 +418,12 @@ class RenderManDenoiserSubmissionDialog(DeadlineScriptDialog):
             )
             if result == "No":
                 return
+
         frames = self.GetValue("FramesBox").strip()
         if len(frames) == 0 or not FrameUtils.FrameRangeValid(frames):
             self.ShowMessageBox(f"Frame range '{frames}' is not valid", "Error")
             return
+
         output_dir = self.GetValue("OutputBox").strip()
         if len(output_dir) > 0 and PathUtils.IsPathLocal(output_dir):
             result = self.ShowMessageBox(
@@ -408,11 +434,39 @@ class RenderManDenoiserSubmissionDialog(DeadlineScriptDialog):
             if result == "No":
                 return
 
+        # Validate and convert frame patterns for multi-frame jobs
+        lpe_file = self.GetValue("LpeBox").strip()
+        lgt_file = self.GetValue("LgtBox").strip()
+
+        is_single_frame = len(FrameUtils.Parse(frames)) == 1
+
+        if not is_single_frame:
+            paths_to_validate = [("Beauty", beauty_file)]
+            if lpe_file:
+                paths_to_validate.append(("Lpe", lpe_file))
+            if lgt_file:
+                paths_to_validate.append(("Lgt", lgt_file))
+
+            for label, file_path in paths_to_validate:
+                if not self.check_frame_pattern(file_path) and not self.has_frame_number(file_path):
+                    self.ShowMessageBox(
+                        f"The {label} EXRs sequence must match a .####.exr or .0001.exr frame pattern.",
+                        "Error"
+                    )
+                    return
+
+            # Convert any numeric frame patterns (e.g. .0001.exr) to hash patterns (.####.exr)
+            beauty_file = self.convert_to_frame_pattern(beauty_file)
+            if lpe_file:
+                lpe_file = self.convert_to_frame_pattern(lpe_file)
+            if lgt_file:
+                lgt_file = self.convert_to_frame_pattern(lgt_file)
+
         # Create job info file
         job_info_filename = self.create_job_info_file(frames, output_dir)
 
         # Create plugin info file
-        plugin_info_filename = self.create_plugin_info_file(output_dir)
+        plugin_info_filename = self.create_plugin_info_file(output_dir, beauty_file, lpe_file, lgt_file)
 
         # Setup the command line arguments.
         arguments = StringCollection()
