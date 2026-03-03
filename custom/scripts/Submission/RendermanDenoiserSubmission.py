@@ -6,7 +6,6 @@
 
 # Built-in
 from __future__ import absolute_import
-import sys
 
 # Third-Party
 from Deadline.Scripting import ClientUtils, FrameUtils, PathUtils, RepositoryUtils
